@@ -1,0 +1,94 @@
+@prefix ex: <http://example.org/ecommerce#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:User a owl:Class ;
+    rdfs:label "Utilisateur"@fr ;
+    rdfs:comment "Un client du système e-commerce"@fr .
+
+ex:Product a owl:Class ;
+    rdfs:label "Produit"@fr ;
+    rdfs:comment "Un article disponible à la vente"@fr .
+
+ex:Category a owl:Class ;
+    rdfs:label "Catégorie"@fr ;
+    rdfs:comment "Classification des produits"@fr .
+
+ex:Review a owl:Class ;
+    rdfs:label "Avis"@fr ;
+    rdfs:comment "Évaluation d'un produit par un utilisateur"@fr .
+
+ex:Order a owl:Class ;
+    rdfs:label "Commande"@fr ;
+    rdfs:comment "Transaction d'achat"@fr .
+
+ex:Preference a owl:Class ;
+    rdfs:label "Préférence"@fr ;
+    rdfs:comment "Préférence d'un utilisateur"@fr .
+
+# Propriétés objet
+ex:hasPreference a owl:ObjectProperty ;
+    rdfs:domain ex:User ;
+    rdfs:range ex:Preference ;
+    rdfs:label "a pour préférence"@fr .
+
+ex:preferredCategory a owl:ObjectProperty ;
+    rdfs:domain ex:Preference ;
+    rdfs:range ex:Category ;
+    rdfs:label "préfère la catégorie"@fr .
+
+ex:hasOrder a owl:ObjectProperty ;
+    rdfs:domain ex:User ;
+    rdfs:range ex:Order ;
+    rdfs:label "a passé la commande"@fr .
+
+ex:containsProduct a owl:ObjectProperty ;
+    rdfs:domain ex:Order ;
+    rdfs:range ex:Product ;
+    rdfs:label "contient le produit"@fr .
+
+ex:belongsToCategory a owl:ObjectProperty ;
+    rdfs:domain ex:Product ;
+    rdfs:range ex:Category ;
+    rdfs:label "appartient à la catégorie"@fr .
+
+ex:hasReview a owl:ObjectProperty ;
+    rdfs:domain ex:User ;
+    rdfs:range ex:Review ;
+    rdfs:label "a donné l'avis"@fr .
+
+ex:reviewedProduct a owl:ObjectProperty ;
+    rdfs:domain ex:Review ;
+    rdfs:range ex:Product ;
+    rdfs:label "évalue le produit"@fr .
+
+# Propriétés de données
+ex:rating a owl:DatatypeProperty ;
+    rdfs:domain ex:Review ;
+    rdfs:range xsd:integer ;
+    rdfs:label "note"@fr .
+
+ex:reviewText a owl:DatatypeProperty ;
+    rdfs:domain ex:Review ;
+    rdfs:range xsd:string ;
+    rdfs:label "texte de l'avis"@fr .
+
+ex:productName a owl:DatatypeProperty ;
+    rdfs:domain ex:Product ;
+    rdfs:range xsd:string ;
+    rdfs:label "nom du produit"@fr .
+
+ex:price a owl:DatatypeProperty ;
+    rdfs:domain ex:Product ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "prix"@fr .
+
+# Règles supplémentaires
+ex:HighRatedProduct a owl:Class ;
+    owl:equivalentClass [
+        a owl:Restriction ;
+        owl:onProperty ex:rating ;
+        owl:hasValue 4
+    ] .
