@@ -1,0 +1,501 @@
+id,name,price,image,categoryId
+1,L'avantage d'innover plus facilement,305.09,https://example.com/images/1.jpg,15
+2,Le droit de louer en toute tranquilité,203.29,https://example.com/images/2.jpg,17
+3,Le plaisir de louer à la pointe,1155.68,https://example.com/images/3.jpg,19
+4,L'assurance de rouler sans soucis,330.15,https://example.com/images/4.jpg,8
+5,Le pouvoir d'évoluer de manière sûre,333.89,https://example.com/images/5.jpg,2
+6,L'avantage de concrétiser vos projets sans soucis,1441.87,https://example.com/images/6.jpg,19
+7,Le droit de concrétiser vos projets avant-tout,1116.65,https://example.com/images/7.jpg,17
+8,Le confort d'avancer en toute tranquilité,1317.48,https://example.com/images/8.jpg,9
+9,Le confort d'avancer autrement,1407.35,https://example.com/images/9.jpg,9
+10,Le plaisir d'évoluer naturellement,1754.84,https://example.com/images/10.jpg,14
+11,Le pouvoir d'avancer avant-tout,934.39,https://example.com/images/11.jpg,15
+12,La liberté de changer en toute tranquilité,1989.23,https://example.com/images/12.jpg,18
+13,La liberté d'avancer plus facilement,766.02,https://example.com/images/13.jpg,18
+14,La possibilité d'innover naturellement,633.75,https://example.com/images/14.jpg,12
+15,La liberté d'évoluer plus facilement,1177.45,https://example.com/images/15.jpg,4
+16,La liberté d'évoluer avant-tout,881.87,https://example.com/images/16.jpg,4
+17,Le confort d'évoluer sans soucis,454.98,https://example.com/images/17.jpg,2
+18,La possibilité de concrétiser vos projets à la pointe,1989.11,https://example.com/images/18.jpg,14
+19,L'art de louer en toute tranquilité,1067.37,https://example.com/images/19.jpg,17
+20,Le pouvoir de concrétiser vos projets plus rapidement,1708.99,https://example.com/images/20.jpg,9
+21,Le plaisir d'innover de manière efficace,149.94,https://example.com/images/21.jpg,11
+22,Le droit de rouler à l'état pur,1072.63,https://example.com/images/22.jpg,10
+23,Le confort de louer de manière sûre,1792.38,https://example.com/images/23.jpg,1
+24,Le pouvoir d'avancer autrement,796.61,https://example.com/images/24.jpg,1
+25,Le droit d'avancer à l'état pur,791.15,https://example.com/images/25.jpg,13
+26,L'avantage de rouler sans soucis,274.49,https://example.com/images/26.jpg,2
+27,Le droit d'avancer de manière sûre,1170.68,https://example.com/images/27.jpg,16
+28,L'assurance d'évoluer naturellement,244.35,https://example.com/images/28.jpg,15
+29,Le droit de concrétiser vos projets naturellement,1341.76,https://example.com/images/29.jpg,11
+30,Le confort d'atteindre vos buts de manière sûre,240.34,https://example.com/images/30.jpg,4
+31,L'art de rouler plus rapidement,494.94,https://example.com/images/31.jpg,7
+32,Le plaisir d'atteindre vos buts avant-tout,1793.31,https://example.com/images/32.jpg,1
+33,L'avantage de concrétiser vos projets de manière sûre,47.5,https://example.com/images/33.jpg,15
+34,Le confort d'avancer à la pointe,813.77,https://example.com/images/34.jpg,12
+35,L'art d'atteindre vos buts avant-tout,1417.54,https://example.com/images/35.jpg,13
+36,La liberté d'innover autrement,1865.18,https://example.com/images/36.jpg,14
+37,L'assurance d'évoluer de manière efficace,1610.17,https://example.com/images/37.jpg,8
+38,Le pouvoir d'atteindre vos buts de manière efficace,1507.66,https://example.com/images/38.jpg,20
+39,La possibilité de changer naturellement,1558.8,https://example.com/images/39.jpg,10
+40,Le pouvoir d'évoluer en toute tranquilité,855.6,https://example.com/images/40.jpg,16
+41,Le plaisir d'innover à l'état pur,820.5,https://example.com/images/41.jpg,14
+42,Le plaisir de concrétiser vos projets plus rapidement,68.12,https://example.com/images/42.jpg,8
+43,Le droit d'avancer de manière efficace,832.56,https://example.com/images/43.jpg,10
+44,La possibilité de concrétiser vos projets de manière efficace,961.07,https://example.com/images/44.jpg,20
+45,Le pouvoir de concrétiser vos projets à la pointe,1437.23,https://example.com/images/45.jpg,5
+46,L'art de louer autrement,1600.18,https://example.com/images/46.jpg,17
+47,Le confort de concrétiser vos projets à la pointe,28.81,https://example.com/images/47.jpg,8
+48,Le confort de rouler plus rapidement,441.4,https://example.com/images/48.jpg,6
+49,La possibilité de rouler plus rapidement,503.54,https://example.com/images/49.jpg,14
+50,Le confort de concrétiser vos projets à la pointe,994.54,https://example.com/images/50.jpg,11
+51,Le confort de louer autrement,78.83,https://example.com/images/51.jpg,1
+52,L'avantage de concrétiser vos projets de manière sûre,1787.11,https://example.com/images/52.jpg,4
+53,La possibilité d'atteindre vos buts plus rapidement,541.36,https://example.com/images/53.jpg,13
+54,L'art de changer à sa source,760.5,https://example.com/images/54.jpg,6
+55,L'art de rouler de manière sûre,338.61,https://example.com/images/55.jpg,13
+56,La possibilité de concrétiser vos projets de manière sûre,1331.83,https://example.com/images/56.jpg,8
+57,L'avantage d'atteindre vos buts naturellement,1034.46,https://example.com/images/57.jpg,20
+58,La possibilité de concrétiser vos projets à la pointe,1638.66,https://example.com/images/58.jpg,3
+59,Le confort d'atteindre vos buts à la pointe,616.91,https://example.com/images/59.jpg,18
+60,Le confort de rouler de manière sûre,1293.92,https://example.com/images/60.jpg,8
+61,La liberté de rouler à sa source,1353.36,https://example.com/images/61.jpg,12
+62,Le pouvoir de changer à l'état pur,916.19,https://example.com/images/62.jpg,8
+63,La liberté de rouler naturellement,870.4,https://example.com/images/63.jpg,4
+64,La possibilité de louer plus rapidement,1939.36,https://example.com/images/64.jpg,5
+65,Le plaisir d'atteindre vos buts autrement,1849.37,https://example.com/images/65.jpg,17
+66,Le droit d'innover autrement,15.06,https://example.com/images/66.jpg,7
+67,Le pouvoir d'avancer de manière efficace,1151.19,https://example.com/images/67.jpg,20
+68,Le pouvoir d'évoluer plus facilement,290.21,https://example.com/images/68.jpg,11
+69,Le droit d'avancer en toute tranquilité,818.02,https://example.com/images/69.jpg,18
+70,La liberté d'innover plus rapidement,1329.51,https://example.com/images/70.jpg,18
+71,Le plaisir de changer à l'état pur,1622.92,https://example.com/images/71.jpg,8
+72,Le plaisir d'avancer avant-tout,937.2,https://example.com/images/72.jpg,4
+73,Le droit de changer plus rapidement,1965.97,https://example.com/images/73.jpg,15
+74,Le droit de changer plus facilement,1772.96,https://example.com/images/74.jpg,5
+75,L'avantage de louer de manière sûre,486.91,https://example.com/images/75.jpg,4
+76,L'avantage de rouler de manière sûre,12.73,https://example.com/images/76.jpg,6
+77,Le droit d'évoluer plus facilement,1950.73,https://example.com/images/77.jpg,5
+78,L'avantage de rouler à l'état pur,211.7,https://example.com/images/78.jpg,13
+79,L'art d'avancer avant-tout,205.14,https://example.com/images/79.jpg,3
+80,Le droit de changer à l'état pur,491.1,https://example.com/images/80.jpg,7
+81,L'avantage de rouler à l'état pur,1483.97,https://example.com/images/81.jpg,16
+82,L'avantage de rouler plus rapidement,86.49,https://example.com/images/82.jpg,11
+83,La liberté de changer en toute tranquilité,1596.7,https://example.com/images/83.jpg,17
+84,Le droit de concrétiser vos projets à l'état pur,1608.93,https://example.com/images/84.jpg,13
+85,Le confort d'atteindre vos buts plus rapidement,236.3,https://example.com/images/85.jpg,13
+86,La liberté de rouler de manière sûre,207.06,https://example.com/images/86.jpg,13
+87,La liberté d'innover à sa source,109.17,https://example.com/images/87.jpg,5
+88,Le droit de concrétiser vos projets sans soucis,1153.76,https://example.com/images/88.jpg,7
+89,L'assurance de concrétiser vos projets à sa source,1191.22,https://example.com/images/89.jpg,18
+90,Le confort d'innover avant-tout,1958.72,https://example.com/images/90.jpg,12
+91,La possibilité de rouler plus rapidement,1417.14,https://example.com/images/91.jpg,19
+92,Le droit d'innover à l'état pur,449.31,https://example.com/images/92.jpg,17
+93,Le pouvoir d'innover à la pointe,113.78,https://example.com/images/93.jpg,8
+94,L'avantage d'avancer à sa source,62.73,https://example.com/images/94.jpg,4
+95,Le pouvoir d'avancer de manière sûre,348.34,https://example.com/images/95.jpg,12
+96,La possibilité d'avancer naturellement,489.68,https://example.com/images/96.jpg,11
+97,Le droit d'atteindre vos buts de manière efficace,472.91,https://example.com/images/97.jpg,11
+98,Le plaisir de concrétiser vos projets de manière efficace,188.1,https://example.com/images/98.jpg,2
+99,Le droit de changer à sa source,1363.95,https://example.com/images/99.jpg,15
+100,La possibilité de changer sans soucis,1839.66,https://example.com/images/100.jpg,14
+101,La possibilité d'atteindre vos buts à la pointe,198.39,https://example.com/images/101.jpg,4
+102,L'assurance de rouler avant-tout,398.38,https://example.com/images/102.jpg,18
+103,L'avantage de louer plus rapidement,28.89,https://example.com/images/103.jpg,2
+104,La liberté d'évoluer naturellement,814.53,https://example.com/images/104.jpg,9
+105,L'avantage de changer plus facilement,1690.79,https://example.com/images/105.jpg,2
+106,Le pouvoir de rouler à la pointe,1424.93,https://example.com/images/106.jpg,17
+107,Le pouvoir de changer plus rapidement,212.92,https://example.com/images/107.jpg,16
+108,L'art d'évoluer plus facilement,1795.76,https://example.com/images/108.jpg,3
+109,Le pouvoir d'évoluer plus rapidement,178.14,https://example.com/images/109.jpg,12
+110,Le pouvoir de rouler avant-tout,781.44,https://example.com/images/110.jpg,8
+111,L'avantage d'avancer autrement,1524.34,https://example.com/images/111.jpg,13
+112,Le droit de rouler plus facilement,732.89,https://example.com/images/112.jpg,13
+113,La liberté de louer de manière efficace,1157.97,https://example.com/images/113.jpg,16
+114,L'avantage d'atteindre vos buts à l'état pur,771.86,https://example.com/images/114.jpg,3
+115,L'art d'avancer plus rapidement,1102.02,https://example.com/images/115.jpg,2
+116,La liberté d'atteindre vos buts de manière efficace,686.76,https://example.com/images/116.jpg,16
+117,Le plaisir d'évoluer autrement,1297.42,https://example.com/images/117.jpg,13
+118,L'avantage de concrétiser vos projets à l'état pur,1919.32,https://example.com/images/118.jpg,10
+119,L'avantage de louer plus facilement,1547.3,https://example.com/images/119.jpg,7
+120,L'assurance d'atteindre vos buts à l'état pur,766.83,https://example.com/images/120.jpg,20
+121,La liberté de rouler de manière efficace,109.29,https://example.com/images/121.jpg,12
+122,La liberté de concrétiser vos projets plus rapidement,1094.62,https://example.com/images/122.jpg,15
+123,Le droit de changer de manière efficace,1237.89,https://example.com/images/123.jpg,19
+124,La liberté d'évoluer de manière efficace,691.78,https://example.com/images/124.jpg,1
+125,Le confort d'avancer autrement,1758.13,https://example.com/images/125.jpg,19
+126,Le plaisir de rouler autrement,1453.61,https://example.com/images/126.jpg,4
+127,La possibilité d'évoluer en toute tranquilité,1815.34,https://example.com/images/127.jpg,3
+128,Le plaisir d'innover plus facilement,745.66,https://example.com/images/128.jpg,8
+129,Le pouvoir de rouler plus facilement,1688.43,https://example.com/images/129.jpg,4
+130,Le droit d'évoluer de manière sûre,1864.9,https://example.com/images/130.jpg,2
+131,L'art de rouler avant-tout,854.75,https://example.com/images/131.jpg,19
+132,Le confort d'innover autrement,1603.41,https://example.com/images/132.jpg,9
+133,L'avantage de rouler à l'état pur,608.22,https://example.com/images/133.jpg,7
+134,L'assurance d'évoluer à l'état pur,782.24,https://example.com/images/134.jpg,15
+135,Le confort de concrétiser vos projets à la pointe,1607.44,https://example.com/images/135.jpg,12
+136,L'assurance d'évoluer à la pointe,673.6,https://example.com/images/136.jpg,10
+137,L'art de changer de manière efficace,999.51,https://example.com/images/137.jpg,16
+138,La possibilité de rouler en toute tranquilité,242.37,https://example.com/images/138.jpg,4
+139,Le pouvoir d'évoluer plus facilement,1366.11,https://example.com/images/139.jpg,1
+140,La liberté d'avancer à l'état pur,943.87,https://example.com/images/140.jpg,12
+141,La liberté d'avancer en toute tranquilité,669.27,https://example.com/images/141.jpg,7
+142,Le plaisir de louer à l'état pur,1069.93,https://example.com/images/142.jpg,2
+143,L'assurance d'innover plus rapidement,1398.79,https://example.com/images/143.jpg,15
+144,Le plaisir de concrétiser vos projets sans soucis,1072.99,https://example.com/images/144.jpg,10
+145,Le confort de concrétiser vos projets de manière sûre,331.45,https://example.com/images/145.jpg,2
+146,L'avantage de changer autrement,254.53,https://example.com/images/146.jpg,20
+147,Le plaisir de louer à sa source,1564.92,https://example.com/images/147.jpg,18
+148,Le confort de concrétiser vos projets à l'état pur,1231.86,https://example.com/images/148.jpg,8
+149,La possibilité de louer de manière efficace,749.15,https://example.com/images/149.jpg,7
+150,La liberté d'avancer à l'état pur,1644.92,https://example.com/images/150.jpg,10
+151,L'avantage d'avancer de manière sûre,1454.31,https://example.com/images/151.jpg,6
+152,Le droit de rouler plus facilement,1166.48,https://example.com/images/152.jpg,12
+153,L'assurance d'avancer avant-tout,859.05,https://example.com/images/153.jpg,19
+154,Le confort de louer sans soucis,669.27,https://example.com/images/154.jpg,3
+155,L'assurance de rouler autrement,172.14,https://example.com/images/155.jpg,18
+156,Le plaisir de rouler à sa source,1212.18,https://example.com/images/156.jpg,12
+157,L'assurance d'innover plus rapidement,1422.2,https://example.com/images/157.jpg,13
+158,Le pouvoir de changer sans soucis,1193.38,https://example.com/images/158.jpg,16
+159,L'art de rouler sans soucis,1522.63,https://example.com/images/159.jpg,4
+160,Le plaisir de rouler avant-tout,589.35,https://example.com/images/160.jpg,13
+161,Le droit de rouler sans soucis,681.19,https://example.com/images/161.jpg,17
+162,Le droit d'atteindre vos buts sans soucis,1260.53,https://example.com/images/162.jpg,15
+163,L'art de louer avant-tout,1104.61,https://example.com/images/163.jpg,17
+164,La possibilité d'atteindre vos buts plus facilement,1384.95,https://example.com/images/164.jpg,20
+165,Le pouvoir d'évoluer plus facilement,815.09,https://example.com/images/165.jpg,9
+166,Le droit de changer avant-tout,1405.89,https://example.com/images/166.jpg,16
+167,Le droit d'innover avant-tout,1176.35,https://example.com/images/167.jpg,3
+168,Le pouvoir d'innover de manière sûre,1251.72,https://example.com/images/168.jpg,20
+169,Le pouvoir d'évoluer avant-tout,598.76,https://example.com/images/169.jpg,6
+170,Le droit d'atteindre vos buts en toute tranquilité,1998.05,https://example.com/images/170.jpg,14
+171,Le confort d'évoluer à l'état pur,1698.94,https://example.com/images/171.jpg,20
+172,Le pouvoir d'évoluer de manière efficace,1682.16,https://example.com/images/172.jpg,10
+173,L'assurance de concrétiser vos projets naturellement,392.71,https://example.com/images/173.jpg,14
+174,La liberté d'atteindre vos buts plus facilement,1202.6,https://example.com/images/174.jpg,3
+175,Le plaisir d'atteindre vos buts plus facilement,682.83,https://example.com/images/175.jpg,6
+176,Le plaisir d'innover à la pointe,1912.46,https://example.com/images/176.jpg,3
+177,Le confort d'atteindre vos buts de manière sûre,749.97,https://example.com/images/177.jpg,13
+178,La possibilité de rouler de manière efficace,684.63,https://example.com/images/178.jpg,20
+179,Le droit d'évoluer naturellement,1680.68,https://example.com/images/179.jpg,20
+180,L'art de rouler de manière sûre,673.73,https://example.com/images/180.jpg,17
+181,Le droit de louer plus facilement,1727.44,https://example.com/images/181.jpg,8
+182,Le pouvoir de louer en toute tranquilité,1770.87,https://example.com/images/182.jpg,10
+183,La possibilité de concrétiser vos projets plus facilement,907.55,https://example.com/images/183.jpg,8
+184,Le confort de changer autrement,1814.46,https://example.com/images/184.jpg,3
+185,L'assurance d'avancer avant-tout,1003.31,https://example.com/images/185.jpg,10
+186,Le plaisir de rouler à sa source,1238.81,https://example.com/images/186.jpg,18
+187,L'avantage d'atteindre vos buts sans soucis,935.94,https://example.com/images/187.jpg,14
+188,La liberté d'avancer sans soucis,1067.37,https://example.com/images/188.jpg,1
+189,L'art d'avancer avant-tout,812.51,https://example.com/images/189.jpg,9
+190,L'assurance de louer sans soucis,13.15,https://example.com/images/190.jpg,18
+191,L'assurance de rouler en toute tranquilité,1529.87,https://example.com/images/191.jpg,17
+192,L'assurance de louer naturellement,1244.38,https://example.com/images/192.jpg,9
+193,La liberté de louer à sa source,1228.5,https://example.com/images/193.jpg,16
+194,L'art de concrétiser vos projets plus rapidement,1361.42,https://example.com/images/194.jpg,14
+195,Le droit d'avancer plus facilement,921.58,https://example.com/images/195.jpg,19
+196,L'art de rouler plus facilement,1002.76,https://example.com/images/196.jpg,10
+197,Le confort de louer avant-tout,293.84,https://example.com/images/197.jpg,1
+198,Le pouvoir de changer plus rapidement,1527.43,https://example.com/images/198.jpg,18
+199,Le confort d'avancer plus rapidement,1891.82,https://example.com/images/199.jpg,9
+200,L'art d'avancer plus facilement,960.77,https://example.com/images/200.jpg,11
+201,Le pouvoir d'évoluer à la pointe,1932.97,https://example.com/images/201.jpg,4
+202,La possibilité de changer à la pointe,1283.41,https://example.com/images/202.jpg,2
+203,L'art de rouler plus facilement,755.96,https://example.com/images/203.jpg,1
+204,Le confort de concrétiser vos projets de manière efficace,512.52,https://example.com/images/204.jpg,5
+205,Le droit de changer de manière sûre,1606.69,https://example.com/images/205.jpg,2
+206,L'assurance d'innover naturellement,619.28,https://example.com/images/206.jpg,6
+207,L'assurance de changer à la pointe,1991.82,https://example.com/images/207.jpg,3
+208,Le confort d'avancer avant-tout,1335.71,https://example.com/images/208.jpg,18
+209,La liberté d'avancer à sa source,854.49,https://example.com/images/209.jpg,11
+210,La liberté de concrétiser vos projets plus rapidement,1289.16,https://example.com/images/210.jpg,20
+211,L'assurance de changer avant-tout,951.58,https://example.com/images/211.jpg,18
+212,La possibilité d'innover de manière efficace,155.79,https://example.com/images/212.jpg,2
+213,L'assurance d'avancer à l'état pur,1143.74,https://example.com/images/213.jpg,3
+214,La liberté de concrétiser vos projets à sa source,594.28,https://example.com/images/214.jpg,11
+215,L'avantage d'avancer à la pointe,230.62,https://example.com/images/215.jpg,5
+216,La liberté de changer avant-tout,162.27,https://example.com/images/216.jpg,12
+217,Le confort de louer plus rapidement,1935.95,https://example.com/images/217.jpg,14
+218,L'assurance d'évoluer de manière efficace,1656.21,https://example.com/images/218.jpg,6
+219,Le pouvoir de rouler à sa source,299.95,https://example.com/images/219.jpg,4
+220,Le confort d'avancer de manière sûre,1540.71,https://example.com/images/220.jpg,3
+221,L'assurance de changer plus facilement,770.24,https://example.com/images/221.jpg,1
+222,Le pouvoir d'évoluer de manière efficace,486.94,https://example.com/images/222.jpg,8
+223,L'assurance d'évoluer plus facilement,442.25,https://example.com/images/223.jpg,1
+224,L'art d'évoluer à sa source,1626.81,https://example.com/images/224.jpg,3
+225,L'art de louer plus facilement,69.38,https://example.com/images/225.jpg,14
+226,L'avantage de concrétiser vos projets à la pointe,1895.63,https://example.com/images/226.jpg,1
+227,Le droit d'évoluer en toute tranquilité,1129.44,https://example.com/images/227.jpg,13
+228,La possibilité d'atteindre vos buts sans soucis,855.73,https://example.com/images/228.jpg,16
+229,L'assurance d'évoluer plus facilement,447.73,https://example.com/images/229.jpg,4
+230,Le pouvoir d'innover de manière sûre,914.48,https://example.com/images/230.jpg,18
+231,Le droit d'avancer naturellement,1631.32,https://example.com/images/231.jpg,15
+232,La liberté d'avancer à l'état pur,903.79,https://example.com/images/232.jpg,3
+233,L'assurance de concrétiser vos projets avant-tout,1481.46,https://example.com/images/233.jpg,12
+234,L'avantage d'évoluer autrement,67.14,https://example.com/images/234.jpg,3
+235,La liberté de rouler sans soucis,1313.49,https://example.com/images/235.jpg,16
+236,La liberté de concrétiser vos projets naturellement,1292.14,https://example.com/images/236.jpg,13
+237,La liberté d'évoluer de manière sûre,479.12,https://example.com/images/237.jpg,15
+238,L'art de rouler à la pointe,946.25,https://example.com/images/238.jpg,6
+239,La liberté d'atteindre vos buts de manière sûre,192.46,https://example.com/images/239.jpg,7
+240,L'avantage de changer plus rapidement,318.09,https://example.com/images/240.jpg,20
+241,Le confort d'avancer avant-tout,1915.28,https://example.com/images/241.jpg,3
+242,L'art d'évoluer à sa source,1292.94,https://example.com/images/242.jpg,16
+243,L'assurance de concrétiser vos projets à la pointe,13.94,https://example.com/images/243.jpg,1
+244,L'assurance d'innover de manière sûre,1821.77,https://example.com/images/244.jpg,8
+245,L'avantage de louer avant-tout,290.62,https://example.com/images/245.jpg,3
+246,Le pouvoir d'avancer sans soucis,1881.33,https://example.com/images/246.jpg,14
+247,Le confort de louer à sa source,252.33,https://example.com/images/247.jpg,2
+248,L'assurance de louer en toute tranquilité,1928.14,https://example.com/images/248.jpg,9
+249,La liberté de louer sans soucis,1635.38,https://example.com/images/249.jpg,3
+250,Le pouvoir d'atteindre vos buts de manière efficace,1930.33,https://example.com/images/250.jpg,18
+251,La liberté de changer autrement,194.17,https://example.com/images/251.jpg,12
+252,La liberté de concrétiser vos projets naturellement,1639.92,https://example.com/images/252.jpg,9
+253,Le confort de rouler autrement,446.47,https://example.com/images/253.jpg,15
+254,Le droit d'innover naturellement,776.93,https://example.com/images/254.jpg,9
+255,L'assurance d'innover naturellement,457.21,https://example.com/images/255.jpg,12
+256,Le confort d'atteindre vos buts plus facilement,348.83,https://example.com/images/256.jpg,12
+257,Le plaisir d'évoluer à sa source,612.14,https://example.com/images/257.jpg,16
+258,Le confort de changer sans soucis,1323.38,https://example.com/images/258.jpg,7
+259,Le confort d'atteindre vos buts à sa source,100.66,https://example.com/images/259.jpg,11
+260,Le plaisir de rouler autrement,1357.24,https://example.com/images/260.jpg,6
+261,La possibilité de louer autrement,1055.42,https://example.com/images/261.jpg,17
+262,La liberté d'avancer à la pointe,1931.24,https://example.com/images/262.jpg,3
+263,L'avantage de louer en toute tranquilité,477.3,https://example.com/images/263.jpg,17
+264,Le confort de rouler avant-tout,1057.2,https://example.com/images/264.jpg,9
+265,La possibilité de changer plus rapidement,485.76,https://example.com/images/265.jpg,1
+266,L'art d'avancer sans soucis,879.4,https://example.com/images/266.jpg,2
+267,L'avantage de concrétiser vos projets naturellement,436.48,https://example.com/images/267.jpg,18
+268,La possibilité de changer autrement,809.26,https://example.com/images/268.jpg,3
+269,L'art d'évoluer à l'état pur,1325.28,https://example.com/images/269.jpg,7
+270,Le plaisir d'avancer sans soucis,1835.13,https://example.com/images/270.jpg,11
+271,La possibilité de changer de manière efficace,976.49,https://example.com/images/271.jpg,6
+272,L'avantage de changer autrement,745.78,https://example.com/images/272.jpg,11
+273,L'art d'évoluer avant-tout,376.36,https://example.com/images/273.jpg,19
+274,L'avantage d'atteindre vos buts de manière sûre,1803.4,https://example.com/images/274.jpg,2
+275,Le confort de louer de manière efficace,647.05,https://example.com/images/275.jpg,8
+276,Le confort d'avancer à la pointe,1598.06,https://example.com/images/276.jpg,5
+277,La liberté d'évoluer naturellement,1816.81,https://example.com/images/277.jpg,10
+278,La possibilité d'évoluer plus rapidement,1894.54,https://example.com/images/278.jpg,3
+279,L'art de louer avant-tout,1952.67,https://example.com/images/279.jpg,6
+280,La possibilité d'avancer plus facilement,422.52,https://example.com/images/280.jpg,1
+281,L'avantage d'innover à l'état pur,311.56,https://example.com/images/281.jpg,3
+282,La possibilité d'atteindre vos buts à l'état pur,1381.65,https://example.com/images/282.jpg,8
+283,La possibilité d'innover naturellement,874.11,https://example.com/images/283.jpg,11
+284,Le plaisir d'atteindre vos buts à sa source,73.17,https://example.com/images/284.jpg,18
+285,L'art de changer de manière efficace,1647.4,https://example.com/images/285.jpg,5
+286,La liberté d'innover à l'état pur,1966.87,https://example.com/images/286.jpg,16
+287,Le droit d'atteindre vos buts à la pointe,58.87,https://example.com/images/287.jpg,17
+288,La liberté de concrétiser vos projets à la pointe,1834.42,https://example.com/images/288.jpg,17
+289,L'assurance de concrétiser vos projets sans soucis,510.17,https://example.com/images/289.jpg,9
+290,Le confort de louer de manière sûre,1539.78,https://example.com/images/290.jpg,2
+291,L'art de concrétiser vos projets de manière efficace,326.36,https://example.com/images/291.jpg,1
+292,L'avantage de rouler autrement,1838.33,https://example.com/images/292.jpg,9
+293,L'art d'évoluer plus rapidement,455.73,https://example.com/images/293.jpg,18
+294,Le confort d'évoluer sans soucis,919.6,https://example.com/images/294.jpg,8
+295,L'assurance d'innover à sa source,1112.1,https://example.com/images/295.jpg,3
+296,Le plaisir de rouler de manière sûre,856.63,https://example.com/images/296.jpg,12
+297,La possibilité d'innover autrement,1435.77,https://example.com/images/297.jpg,2
+298,Le plaisir d'évoluer plus rapidement,1253.97,https://example.com/images/298.jpg,15
+299,Le droit d'avancer autrement,1254.95,https://example.com/images/299.jpg,1
+300,L'avantage d'avancer à la pointe,825.53,https://example.com/images/300.jpg,7
+301,L'art d'innover avant-tout,573.52,https://example.com/images/301.jpg,1
+302,Le plaisir de louer de manière efficace,573.73,https://example.com/images/302.jpg,17
+303,Le confort d'avancer avant-tout,1810.5,https://example.com/images/303.jpg,6
+304,La liberté de louer sans soucis,1724.11,https://example.com/images/304.jpg,5
+305,L'avantage de concrétiser vos projets de manière efficace,1770.69,https://example.com/images/305.jpg,9
+306,La possibilité d'atteindre vos buts de manière sûre,186.56,https://example.com/images/306.jpg,11
+307,Le plaisir de changer plus facilement,350.11,https://example.com/images/307.jpg,4
+308,L'assurance d'atteindre vos buts en toute tranquilité,1459.28,https://example.com/images/308.jpg,20
+309,Le confort d'innover à la pointe,394.19,https://example.com/images/309.jpg,17
+310,L'art d'évoluer à sa source,434.06,https://example.com/images/310.jpg,16
+311,Le confort de louer à l'état pur,1075.89,https://example.com/images/311.jpg,14
+312,La liberté de rouler autrement,776.99,https://example.com/images/312.jpg,20
+313,Le droit de rouler en toute tranquilité,1465.19,https://example.com/images/313.jpg,14
+314,L'art de concrétiser vos projets à sa source,968.57,https://example.com/images/314.jpg,2
+315,Le pouvoir de concrétiser vos projets avant-tout,785.34,https://example.com/images/315.jpg,6
+316,Le confort d'atteindre vos buts à sa source,1150.05,https://example.com/images/316.jpg,10
+317,Le plaisir d'évoluer autrement,1495.99,https://example.com/images/317.jpg,13
+318,Le confort d'avancer avant-tout,1956.61,https://example.com/images/318.jpg,16
+319,Le plaisir de changer à l'état pur,372.78,https://example.com/images/319.jpg,20
+320,Le pouvoir d'avancer autrement,1959.71,https://example.com/images/320.jpg,2
+321,Le plaisir de rouler à sa source,1384.11,https://example.com/images/321.jpg,16
+322,Le confort de rouler de manière efficace,412.35,https://example.com/images/322.jpg,2
+323,L'assurance d'atteindre vos buts à sa source,426.19,https://example.com/images/323.jpg,16
+324,Le pouvoir d'évoluer à la pointe,548.78,https://example.com/images/324.jpg,4
+325,Le droit de concrétiser vos projets à sa source,774.09,https://example.com/images/325.jpg,6
+326,Le pouvoir d'évoluer en toute tranquilité,1861.97,https://example.com/images/326.jpg,17
+327,La liberté de changer avant-tout,1904.89,https://example.com/images/327.jpg,4
+328,L'assurance d'évoluer de manière sûre,1884.69,https://example.com/images/328.jpg,15
+329,Le droit de louer de manière sûre,178.71,https://example.com/images/329.jpg,5
+330,La possibilité d'atteindre vos buts de manière efficace,1499.16,https://example.com/images/330.jpg,7
+331,L'art d'innover à la pointe,1081.52,https://example.com/images/331.jpg,1
+332,La liberté d'atteindre vos buts à l'état pur,1239.34,https://example.com/images/332.jpg,1
+333,L'art d'avancer avant-tout,885.49,https://example.com/images/333.jpg,10
+334,La possibilité de louer avant-tout,166.53,https://example.com/images/334.jpg,11
+335,La liberté d'innover de manière sûre,1432.64,https://example.com/images/335.jpg,19
+336,La possibilité d'innover plus rapidement,1751.57,https://example.com/images/336.jpg,16
+337,L'avantage de rouler plus facilement,1348.56,https://example.com/images/337.jpg,11
+338,L'assurance d'évoluer en toute tranquilité,1702.88,https://example.com/images/338.jpg,7
+339,Le confort d'avancer en toute tranquilité,1436.1,https://example.com/images/339.jpg,15
+340,L'assurance de rouler à l'état pur,1405.07,https://example.com/images/340.jpg,13
+341,La possibilité de rouler sans soucis,211.94,https://example.com/images/341.jpg,4
+342,L'avantage d'innover plus rapidement,1929.48,https://example.com/images/342.jpg,10
+343,Le pouvoir de concrétiser vos projets à la pointe,22.79,https://example.com/images/343.jpg,10
+344,Le plaisir d'avancer plus facilement,1147.01,https://example.com/images/344.jpg,16
+345,Le plaisir d'évoluer autrement,1878.35,https://example.com/images/345.jpg,18
+346,L'art de rouler de manière sûre,1473.48,https://example.com/images/346.jpg,8
+347,L'avantage de rouler de manière efficace,325.14,https://example.com/images/347.jpg,15
+348,Le droit de changer à la pointe,1068.85,https://example.com/images/348.jpg,1
+349,L'avantage de louer sans soucis,875.56,https://example.com/images/349.jpg,17
+350,L'avantage de rouler plus facilement,1686.77,https://example.com/images/350.jpg,4
+351,La possibilité de louer à sa source,300.46,https://example.com/images/351.jpg,13
+352,L'assurance de changer de manière efficace,1767.13,https://example.com/images/352.jpg,14
+353,L'art de concrétiser vos projets avant-tout,1188.92,https://example.com/images/353.jpg,7
+354,La possibilité de louer à sa source,1309.5,https://example.com/images/354.jpg,3
+355,L'art de louer à l'état pur,1401.25,https://example.com/images/355.jpg,17
+356,Le pouvoir de concrétiser vos projets autrement,364.99,https://example.com/images/356.jpg,19
+357,L'assurance de concrétiser vos projets à l'état pur,218.72,https://example.com/images/357.jpg,7
+358,Le droit de rouler à sa source,1973.02,https://example.com/images/358.jpg,4
+359,Le confort de changer avant-tout,460.34,https://example.com/images/359.jpg,16
+360,L'art d'avancer de manière efficace,926.82,https://example.com/images/360.jpg,16
+361,Le confort d'avancer avant-tout,1550.81,https://example.com/images/361.jpg,16
+362,Le confort d'atteindre vos buts de manière sûre,597.06,https://example.com/images/362.jpg,14
+363,Le droit de concrétiser vos projets autrement,753.99,https://example.com/images/363.jpg,11
+364,Le plaisir d'avancer autrement,605.61,https://example.com/images/364.jpg,4
+365,L'assurance d'innover sans soucis,661.52,https://example.com/images/365.jpg,3
+366,Le pouvoir de concrétiser vos projets plus rapidement,158.5,https://example.com/images/366.jpg,5
+367,Le plaisir d'innover à l'état pur,358.7,https://example.com/images/367.jpg,5
+368,Le droit d'innover de manière efficace,286.02,https://example.com/images/368.jpg,16
+369,L'avantage de rouler sans soucis,1191.3,https://example.com/images/369.jpg,1
+370,Le droit d'avancer plus facilement,977.43,https://example.com/images/370.jpg,4
+371,Le confort de concrétiser vos projets naturellement,757.73,https://example.com/images/371.jpg,1
+372,L'avantage d'innover autrement,178.8,https://example.com/images/372.jpg,12
+373,L'avantage de rouler à la pointe,424.56,https://example.com/images/373.jpg,16
+374,Le pouvoir de concrétiser vos projets en toute tranquilité,1723.66,https://example.com/images/374.jpg,2
+375,La liberté d'atteindre vos buts à sa source,399.34,https://example.com/images/375.jpg,14
+376,Le droit d'évoluer plus facilement,1007.37,https://example.com/images/376.jpg,14
+377,Le plaisir de rouler de manière sûre,1699.92,https://example.com/images/377.jpg,14
+378,L'art de rouler naturellement,1915.22,https://example.com/images/378.jpg,3
+379,Le confort de concrétiser vos projets naturellement,1361.76,https://example.com/images/379.jpg,4
+380,La liberté de louer naturellement,23.35,https://example.com/images/380.jpg,6
+381,L'assurance d'évoluer sans soucis,81.22,https://example.com/images/381.jpg,20
+382,Le plaisir d'atteindre vos buts à l'état pur,29.74,https://example.com/images/382.jpg,18
+383,L'art d'atteindre vos buts plus rapidement,729.34,https://example.com/images/383.jpg,12
+384,Le plaisir d'atteindre vos buts à l'état pur,1283.8,https://example.com/images/384.jpg,7
+385,Le pouvoir d'avancer sans soucis,1199.2,https://example.com/images/385.jpg,15
+386,Le plaisir d'évoluer à la pointe,27.56,https://example.com/images/386.jpg,4
+387,La liberté d'avancer plus facilement,1583.02,https://example.com/images/387.jpg,6
+388,L'art d'évoluer naturellement,650.84,https://example.com/images/388.jpg,15
+389,L'art d'innover avant-tout,1676.83,https://example.com/images/389.jpg,3
+390,Le plaisir de changer à l'état pur,777.56,https://example.com/images/390.jpg,2
+391,La possibilité de changer à la pointe,1000.34,https://example.com/images/391.jpg,8
+392,Le droit d'innover à la pointe,689.26,https://example.com/images/392.jpg,14
+393,L'assurance de louer à sa source,32.2,https://example.com/images/393.jpg,3
+394,L'assurance de concrétiser vos projets en toute tranquilité,601.4,https://example.com/images/394.jpg,10
+395,Le droit de louer à l'état pur,503.2,https://example.com/images/395.jpg,3
+396,L'assurance de rouler plus rapidement,392.89,https://example.com/images/396.jpg,17
+397,L'assurance d'avancer de manière efficace,467.97,https://example.com/images/397.jpg,10
+398,L'art de rouler à l'état pur,847.03,https://example.com/images/398.jpg,10
+399,L'art d'innover de manière sûre,1679.53,https://example.com/images/399.jpg,9
+400,La possibilité d'innover de manière sûre,1931.64,https://example.com/images/400.jpg,15
+401,Le plaisir de louer à l'état pur,838.55,https://example.com/images/401.jpg,2
+402,Le confort d'atteindre vos buts naturellement,1105.56,https://example.com/images/402.jpg,16
+403,Le droit d'atteindre vos buts de manière efficace,1426.82,https://example.com/images/403.jpg,18
+404,Le plaisir d'atteindre vos buts à l'état pur,1583.11,https://example.com/images/404.jpg,17
+405,Le droit de changer à l'état pur,1410.04,https://example.com/images/405.jpg,2
+406,L'avantage d'évoluer de manière efficace,631.97,https://example.com/images/406.jpg,8
+407,L'avantage d'atteindre vos buts sans soucis,1543.65,https://example.com/images/407.jpg,19
+408,L'avantage de rouler à sa source,554.45,https://example.com/images/408.jpg,10
+409,Le plaisir de changer de manière efficace,325.86,https://example.com/images/409.jpg,16
+410,L'assurance d'atteindre vos buts plus facilement,1411.21,https://example.com/images/410.jpg,3
+411,Le plaisir d'innover de manière efficace,171.72,https://example.com/images/411.jpg,14
+412,Le plaisir de rouler naturellement,530.77,https://example.com/images/412.jpg,8
+413,L'art d'évoluer avant-tout,1062.35,https://example.com/images/413.jpg,14
+414,Le droit de concrétiser vos projets avant-tout,182.8,https://example.com/images/414.jpg,6
+415,Le droit de louer en toute tranquilité,1498.21,https://example.com/images/415.jpg,3
+416,L'art d'innover plus facilement,1889.16,https://example.com/images/416.jpg,16
+417,Le plaisir d'évoluer à l'état pur,245.54,https://example.com/images/417.jpg,7
+418,La liberté de concrétiser vos projets à l'état pur,136.75,https://example.com/images/418.jpg,18
+419,L'avantage d'innover en toute tranquilité,1572.49,https://example.com/images/419.jpg,17
+420,L'art de louer avant-tout,278.15,https://example.com/images/420.jpg,4
+421,Le plaisir de changer de manière efficace,512.5,https://example.com/images/421.jpg,14
+422,Le plaisir d'innover naturellement,54.83,https://example.com/images/422.jpg,5
+423,Le confort de concrétiser vos projets à la pointe,1673.68,https://example.com/images/423.jpg,12
+424,L'avantage de changer sans soucis,1272.63,https://example.com/images/424.jpg,9
+425,La liberté d'évoluer autrement,1000.54,https://example.com/images/425.jpg,19
+426,L'avantage de changer sans soucis,379.4,https://example.com/images/426.jpg,15
+427,Le confort de rouler sans soucis,405.94,https://example.com/images/427.jpg,10
+428,Le droit d'avancer sans soucis,1965.2,https://example.com/images/428.jpg,10
+429,La liberté de louer avant-tout,396.29,https://example.com/images/429.jpg,6
+430,Le pouvoir d'atteindre vos buts plus facilement,1028.98,https://example.com/images/430.jpg,5
+431,Le confort de concrétiser vos projets sans soucis,737.7,https://example.com/images/431.jpg,10
+432,La possibilité de concrétiser vos projets sans soucis,1121.53,https://example.com/images/432.jpg,4
+433,Le plaisir de changer de manière sûre,1007.23,https://example.com/images/433.jpg,18
+434,L'art d'évoluer de manière efficace,731.18,https://example.com/images/434.jpg,5
+435,L'avantage de louer sans soucis,1251.31,https://example.com/images/435.jpg,7
+436,La liberté d'avancer plus facilement,899.83,https://example.com/images/436.jpg,6
+437,L'assurance d'atteindre vos buts avant-tout,1532.96,https://example.com/images/437.jpg,16
+438,Le droit de rouler avant-tout,249.86,https://example.com/images/438.jpg,2
+439,La liberté d'évoluer avant-tout,744.99,https://example.com/images/439.jpg,4
+440,La possibilité d'évoluer plus rapidement,1696.3,https://example.com/images/440.jpg,2
+441,La possibilité de changer à l'état pur,450.93,https://example.com/images/441.jpg,9
+442,La liberté de rouler à sa source,1359.12,https://example.com/images/442.jpg,12
+443,L'art de changer autrement,619.44,https://example.com/images/443.jpg,11
+444,Le plaisir de rouler de manière efficace,765.52,https://example.com/images/444.jpg,12
+445,L'assurance de louer en toute tranquilité,1827.29,https://example.com/images/445.jpg,12
+446,Le confort d'évoluer autrement,330.02,https://example.com/images/446.jpg,3
+447,L'art d'atteindre vos buts autrement,824.87,https://example.com/images/447.jpg,2
+448,L'assurance de rouler autrement,1434.44,https://example.com/images/448.jpg,4
+449,La liberté d'avancer sans soucis,315.21,https://example.com/images/449.jpg,18
+450,Le pouvoir de louer à sa source,340.45,https://example.com/images/450.jpg,6
+451,L'art d'évoluer plus facilement,685.71,https://example.com/images/451.jpg,17
+452,Le plaisir de louer plus rapidement,1001.25,https://example.com/images/452.jpg,8
+453,L'art d'avancer plus rapidement,146.09,https://example.com/images/453.jpg,13
+454,La possibilité d'atteindre vos buts à sa source,1223.67,https://example.com/images/454.jpg,11
+455,Le pouvoir de changer plus rapidement,1391.02,https://example.com/images/455.jpg,8
+456,L'assurance de louer à la pointe,100.51,https://example.com/images/456.jpg,9
+457,Le plaisir de changer en toute tranquilité,734.63,https://example.com/images/457.jpg,4
+458,L'assurance de concrétiser vos projets de manière efficace,1008.37,https://example.com/images/458.jpg,2
+459,La possibilité d'avancer avant-tout,455.59,https://example.com/images/459.jpg,20
+460,Le droit d'évoluer de manière efficace,1193.17,https://example.com/images/460.jpg,17
+461,La liberté de rouler à sa source,1192.86,https://example.com/images/461.jpg,7
+462,La possibilité de changer naturellement,1171.17,https://example.com/images/462.jpg,12
+463,La possibilité d'atteindre vos buts de manière efficace,1483.2,https://example.com/images/463.jpg,15
+464,La liberté d'évoluer de manière efficace,1344.19,https://example.com/images/464.jpg,20
+465,Le plaisir de concrétiser vos projets sans soucis,1562.09,https://example.com/images/465.jpg,5
+466,Le droit d'innover plus rapidement,1550.8,https://example.com/images/466.jpg,19
+467,Le confort d'avancer de manière efficace,1975.0,https://example.com/images/467.jpg,8
+468,Le confort d'avancer à sa source,1080.12,https://example.com/images/468.jpg,2
+469,Le pouvoir de rouler naturellement,447.82,https://example.com/images/469.jpg,6
+470,L'assurance de louer à sa source,1492.36,https://example.com/images/470.jpg,7
+471,La possibilité d'innover sans soucis,59.43,https://example.com/images/471.jpg,11
+472,L'avantage d'évoluer sans soucis,185.44,https://example.com/images/472.jpg,8
+473,L'assurance d'avancer en toute tranquilité,128.68,https://example.com/images/473.jpg,12
+474,Le confort d'avancer à l'état pur,1146.26,https://example.com/images/474.jpg,4
+475,L'assurance de concrétiser vos projets avant-tout,466.56,https://example.com/images/475.jpg,6
+476,Le droit d'avancer à sa source,1359.8,https://example.com/images/476.jpg,13
+477,L'avantage de rouler plus rapidement,207.2,https://example.com/images/477.jpg,13
+478,Le confort de rouler en toute tranquilité,424.98,https://example.com/images/478.jpg,7
+479,Le confort de changer en toute tranquilité,578.25,https://example.com/images/479.jpg,13
+480,Le pouvoir d'atteindre vos buts avant-tout,1988.89,https://example.com/images/480.jpg,18
+481,L'art d'avancer à sa source,1957.37,https://example.com/images/481.jpg,4
+482,L'avantage de rouler de manière sûre,1487.49,https://example.com/images/482.jpg,19
+483,L'avantage d'évoluer en toute tranquilité,645.97,https://example.com/images/483.jpg,16
+484,Le plaisir de louer plus facilement,664.03,https://example.com/images/484.jpg,9
+485,La possibilité d'avancer à la pointe,338.24,https://example.com/images/485.jpg,8
+486,L'assurance de concrétiser vos projets sans soucis,1548.2,https://example.com/images/486.jpg,20
+487,L'assurance d'atteindre vos buts en toute tranquilité,857.63,https://example.com/images/487.jpg,1
+488,L'assurance d'avancer de manière efficace,1026.2,https://example.com/images/488.jpg,19
+489,Le droit de concrétiser vos projets plus rapidement,1059.94,https://example.com/images/489.jpg,8
+490,La liberté de louer de manière sûre,183.65,https://example.com/images/490.jpg,4
+491,Le droit de louer plus facilement,1441.52,https://example.com/images/491.jpg,16
+492,Le confort de concrétiser vos projets plus rapidement,1622.2,https://example.com/images/492.jpg,16
+493,Le confort d'évoluer plus rapidement,888.85,https://example.com/images/493.jpg,2
+494,L'art d'avancer à la pointe,1083.5,https://example.com/images/494.jpg,4
+495,L'avantage de concrétiser vos projets à l'état pur,585.63,https://example.com/images/495.jpg,2
+496,L'assurance d'innover plus rapidement,1303.22,https://example.com/images/496.jpg,10
+497,Le confort de rouler sans soucis,1455.16,https://example.com/images/497.jpg,11
+498,Le confort de rouler de manière efficace,1370.82,https://example.com/images/498.jpg,2
+499,Le confort d'évoluer plus facilement,121.97,https://example.com/images/499.jpg,10
+500,L'art de changer plus rapidement,1722.46,https://example.com/images/500.jpg,13
