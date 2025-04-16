@@ -58,6 +58,20 @@ const getRecommendedProducts = async (req, res) => {
     }
 };
 
+const getRecommendedProductsScorePondere = async (req, res) => {
+    const { userId } = req.params;
+
+    try {
+        const hybridResults = await recommenderService.getHybridRecommendations(userId);
+
+        res.json(hybridResults);
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ message: "Erreur lors de la récupération des recommandations hybrides" });
+    }
+};
+
+
 const updateProductRating = async (req, res) => {
     const { userId, productId } = req.params;
     const { rating, reviewText } = req.body;
@@ -88,4 +102,4 @@ const updateProductRating = async (req, res) => {
     }
 };
 
-module.exports = { getProductById, getRecommendedProducts, updateProductRating };
+module.exports = { getProductById, getRecommendedProducts, getRecommendedProductsScorePondere, updateProductRating };

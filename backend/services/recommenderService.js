@@ -93,6 +93,51 @@ class RecommenderService {
         
         await sparqlService.updateQuery(query);
     }
+
+    //tu obtiens une liste triée par score pondéré, issue de deux sources,
+    async getHybridRecommendations(userId, limit = 10) {
+        const prefWeight = 0.6;
+        const histWeight = 0.4;
+
+        const prefBased = await this.getPreferenceBasedRecommendations(userId, limit * 2);
+        const histBased = await this.getHistoryBasedRecommendations(userId, limit * 2);
+
+        const productMap = new Map();
+
+        const processList = (list, weight) => {
+            for (const product of list) {
+                const id = product.product?.value || product.recommendedProduct?.value;
+                const rating = parseFloat(product.avgRating?.value || 0);
+                const name = product.name?.value;
+                const price = product.price?.value;
+                const image = product.image?.value;
+
+                if (!productMap.has(id)) {
+                    productMap.set(id, {
+                        id,
+                        name,
+                        price,
+                        image,
+                        score: 0
+                    });
+                }
+
+                const current = productMap.get(id);
+                current.score += rating * weight;
+            }
+        };
+
+        processList(prefBased, prefWeight);
+        processList(histBased, histWeight);
+
+        // Convertir en tableau, trier et couper
+        const sortedProducts = [...productMap.values()]
+            .sort((a, b) => b.score - a.score)
+            .slice(0, limit);
+
+        return sortedProducts;
+    }
+
 }
 
 module.exports = new RecommenderService();

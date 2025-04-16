@@ -8,39 +8,39 @@ require('dotenv').config();
 
 const login = async (req, res) => {
     const { username, password } = req.body;
-    
+
     try {
-        // Recherche de l'utilisateur
         const query = `
-        SELECT ?userId ?password WHERE {
-            ?userId ex:username "${username}" ;
-                   ex:password ?password .
+        SELECT ?id ?password WHERE {
+            ?id a ex:User ;
+                ex:username "${username}" ;
+                ex:password ?password .
         }
         `;
-        
+
         const results = await sparqlService.selectQuery(query);
-        
+
         if (results.length === 0) {
             return res.status(401).json({ message: "Nom d'utilisateur ou mot de passe incorrect" });
         }
-        
+
         const user = results[0];
         const passwordMatch = await bcrypt.compare(password, user.password.value);
-        
+
         if (!passwordMatch) {
             return res.status(401).json({ message: "Nom d'utilisateur ou mot de passe incorrect" });
         }
-        
-        // Création du token JWT
-        const userId = user.userId.value.split('_')[1];
-        const token = generateToken(userId);
-        
+
+        const userId = user.id.value.split('_')[1]; // ex: ex:user_15 → "15"
+        generateTokenAndCookie(userId);
+
         res.json({ token, userId });
     } catch (error) {
         console.error(error);
         res.status(500).json({ message: "Erreur lors de l'authentification" });
     }
 };
+
 
 const register = async (req, res) => {
     const { username, email, password } = req.body;
