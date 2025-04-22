@@ -25,14 +25,24 @@ const login = async (req, res) => {
         }
 
         const user = results[0];
-        const passwordMatch = await bcrypt.compare(password, user.password.value);
+        //const passwordMatch = await bcrypt.compare(password, user.password.value);
 
-        if (!passwordMatch) {
+        if (password !== user.password.value) {
             return res.status(401).json({ message: "Nom d'utilisateur ou mot de passe incorrect" });
         }
 
         const userId = user.id.value.split('_')[1]; // ex: ex:user_15 → "15"
-        generateTokenAndCookie(userId);
+        const token = generateToken(userId);
+
+        // ✅ Définir le cookie sécurisé
+        const age = 1000 * 60 * 60 * 24 * 7; // a one week
+
+        res.cookie('token', token, {
+            httpOnly: true,
+            //secure: process.env.NODE_ENV === 'production', // true en production
+            //sameSite: 'strict',
+            maxAge: age
+        });
 
         res.json({ token, userId });
     } catch (error) {
@@ -60,23 +70,17 @@ const register = async (req, res) => {
         }
         
         // Hacher le mot de passe
-        const hashedPassword = await bcrypt.hash(password, 12);
+       // const hashedPassword = await bcrypt.hash(password, 12);
         
         // Créer l'utilisateur
         const userId = await sparqlService.createUser({
             username,
             email,
-            password: hashedPassword
+            password: password
         });
         
-        // Générer le token
-        const token = jwt.sign(
-            { userId },
-            process.env.JWT_SECRET,
-            { expiresIn: '1h' }
-        );
         
-        res.status(201).json({ token, userId });
+        res.status(201).json({ userId });
     } catch (error) {
         console.error(error);
         res.status(500).json({ message: "Erreur lors de l'inscription" });

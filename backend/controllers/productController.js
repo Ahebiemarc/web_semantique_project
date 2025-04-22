@@ -5,25 +5,15 @@ const recommenderService = require('../services/recommenderService');
 
 const getProductById = async (req, res) => {
     const { id } = req.params;
-    
+
     try {
-        const query = `
-        SELECT ?name ?price ?image ?description ?categoryName WHERE {
-            ex:product_${id} ex:productName ?name ;
-                             ex:price ?price ;
-                             ex:image ?image ;
-                             ex:description ?description ;
-                             ex:belongsToCategory ?category .
-            ?category ex:categoryName ?categoryName .
-        }
-        `;
-        
-        const results = await sparqlService.selectQuery(query);
-        
+
+        const results = await sparqlService.getProductById(id);
+
         if (results.length === 0) {
             return res.status(404).json({ message: "Produit non trouvé" });
         }
-        
+
         res.json(results[0]);
     } catch (error) {
         console.error(error);
@@ -33,33 +23,46 @@ const getProductById = async (req, res) => {
 
 const getRecommendedProducts = async (req, res) => {
     const { userId } = req.params;
-    
+
     try {
-        // Combiner les recommandations basées sur les préférences et l'historique
+        // Récupération des deux types de recommandations
         const prefBased = await recommenderService.getPreferenceBasedRecommendations(userId);
         const historyBased = await recommenderService.getHistoryBasedRecommendations(userId);
-        
-        // Fusionner et dédupliquer les résultats
+
+        // Fusion des deux sources
         const allRecommendations = [...prefBased, ...historyBased];
         const uniqueProducts = [];
         const seenProducts = new Set();
-        
+
         for (const product of allRecommendations) {
-            if (!seenProducts.has(product.product.value)) {
-                seenProducts.add(product.product.value);
-                uniqueProducts.push(product);
+            const productUri =
+                product.product?.value || product.recommendedProduct?.value;
+
+            if (productUri && !seenProducts.has(productUri)) {
+                seenProducts.add(productUri);
+                uniqueProducts.push({
+                    id: productUri,
+                    name: product.name?.value,
+                    price: product.price?.value,
+                    image: product.image?.value,
+                    avgRating: product.avgRating?.value || null
+                });
             }
         }
-        
+
         res.json(uniqueProducts.slice(0, 10));
     } catch (error) {
-        console.error(error);
+        console.error("Erreur dans getRecommendedProducts:", error);
         res.status(500).json({ message: "Erreur lors de la récupération des recommandations" });
     }
 };
 
+
 const getRecommendedProductsScorePondere = async (req, res) => {
     const { userId } = req.params;
+
+    console.log(req.userId);
+    
 
     try {
         const hybridResults = await recommenderService.getHybridRecommendations(userId);
@@ -68,6 +71,54 @@ const getRecommendedProductsScorePondere = async (req, res) => {
     } catch (error) {
         console.error(error);
         res.status(500).json({ message: "Erreur lors de la récupération des recommandations hybrides" });
+    }
+};
+
+const getProductsByPriceLessThan = async (req, res) => {
+    const prix = parseFloat(req.query.priceL);
+
+    try {
+        const products = await sparqlService.getProductsByPriceLessThan(prix);
+        res.json(products);
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ message: "Erreur lors de la récupération des produits par prix inférieur" });
+    }
+};
+
+const getProductsByPriceGreaterThan = async (req, res) => {
+    const prix = parseFloat(req.query.priceG);
+
+    try {
+        const products = await sparqlService.getProductsByPriceGreaterThan(prix);
+        res.json(products);
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ message: "Erreur lors de la récupération des produits par prix supérieur" });
+    }
+};
+
+const getProductsByName = async (req, res) => {
+    const name = req.query.name?.toString() || '';
+
+    try {
+        const products = await sparqlService.getProductsByName(name);
+        res.json(products);
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ message: "Erreur lors de la récupération des produits par nom" });
+    }
+};
+
+const getProductsByCategory = async (req, res) => {
+    const categoryId = req.query.categoryId?.toString();
+
+    try {
+        const products = await sparqlService.getProductsByCategory(categoryId);
+        res.json(products);
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ message: "Erreur lors de la récupération des produits par catégorie" });
     }
 };
 
@@ -102,4 +153,49 @@ const updateProductRating = async (req, res) => {
     }
 };
 
-module.exports = { getProductById, getRecommendedProducts, getRecommendedProductsScorePondere, updateProductRating };
+const getAllProduct = async (req, res) => {
+    const limit = parseInt(req.query.limit) || 30;
+  
+    const query = `
+      SELECT ?id ?name ?price ?image ?categoryId WHERE {
+        ?id a ex:Product ;
+            ex:productName ?name ;
+            ex:price ?price ;
+            ex:image ?image ;
+            ex:belongsToCategory ?category .
+  
+        BIND(STRAFTER(STR(?category), "category_") AS ?categoryId)
+      }
+      LIMIT ${limit}
+    `;
+  
+    try {
+      const results = await sparqlService.selectQuery(query);
+  
+      const formatted = results.map(row => ({
+        id: row.id.value,
+        name: row.name.value,
+        price: row.price.value,
+        image: row.image.value,
+        categoryId: row.categoryId.value
+      }));
+  
+      res.json(formatted);
+    } catch (error) {
+      console.error('Erreur dans getAllProduct:', error);
+      res.status(500).json({ message: 'Erreur lors de la récupération des produits' });
+    }
+  };
+  
+
+module.exports = { 
+    getProductById, 
+    getRecommendedProducts, 
+    getRecommendedProductsScorePondere, 
+    updateProductRating, 
+    getAllProduct, 
+    getProductsByPriceGreaterThan, 
+    getProductsByCategory, 
+    getProductsByName, 
+    getProductsByPriceLessThan,  
+};

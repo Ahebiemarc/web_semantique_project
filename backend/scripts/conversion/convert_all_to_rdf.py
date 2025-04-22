@@ -21,6 +21,8 @@ for _, row in users_df.iterrows():
     g.add((user_uri, RDF.type, ex.User))
     g.add((user_uri, ex.username, Literal(row['username'], datatype=XSD.string)))
     g.add((user_uri, ex.email, Literal(row['email'], datatype=XSD.string)))
+    g.add((user_uri, ex.password, Literal(row['password'], datatype=XSD.string)))
+
 
 # Ajout des produits + catégories
 categories_added = set()

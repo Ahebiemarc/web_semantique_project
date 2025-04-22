@@ -4,70 +4,77 @@ const sparqlService = require('./sparqlService');
 
 class RecommenderService {
     // Recommandations basées sur les préférences
-    async getPreferenceBasedRecommendations(userId, limit = 5) {
+    async getPreferenceBasedRecommendations(userId, limit = 100) {
         const query = `
-        SELECT ?product ?name ?price ?image (AVG(?rating) as ?avgRating) WHERE {
+        SELECT ?product ?name ?price ?image ?categoryId (AVG(?rating) as ?avgRating) WHERE {
             ex:user_${userId} ex:hasPreference ?pref .
             ?pref ex:preferredCategory ?cat .
-            
+    
             ?product ex:belongsToCategory ?cat ;
                      ex:productName ?name ;
                      ex:price ?price ;
-                     ex:image ?image .
-            
+                     ex:image ?image ;
+                     ex:belongsToCategory ?category .
+    
+            BIND(STRAFTER(STR(?category), "category_") AS ?categoryId)
+    
             OPTIONAL {
                 ?review ex:reviewedProduct ?product ;
                         ex:rating ?rating .
             }
-            
+    
             FILTER NOT EXISTS {
                 ex:user_${userId} ex:hasOrder ?order .
                 ?order ex:containsProduct ?product .
             }
         }
-        GROUP BY ?product ?name ?price ?image
+        GROUP BY ?product ?name ?price ?image ?categoryId
         ORDER BY DESC(?avgRating)
         LIMIT ${limit}
         `;
-        
+    
         return await sparqlService.selectQuery(query);
     }
+    
 
     // Recommandations basées sur l'historique
-    async getHistoryBasedRecommendations(userId, limit = 5) {
+    async getHistoryBasedRecommendations(userId, limit = 100) {
         const query = `
-        SELECT ?recommendedProduct ?name ?price ?image (AVG(?rating) as ?avgRating) WHERE {
+        SELECT ?recommendedProduct ?name ?price ?image ?categoryId (AVG(?rating) as ?avgRating) WHERE {
             # Produits achetés par l'utilisateur
             ex:user_${userId} ex:hasOrder ?order .
             ?order ex:containsProduct ?purchasedProduct .
             ?purchasedProduct ex:belongsToCategory ?category .
-            
+    
             # Produits similaires dans les mêmes catégories
             ?recommendedProduct ex:belongsToCategory ?category ;
-                               ex:productName ?name ;
-                               ex:price ?price ;
-                               ex:image ?image .
-            
+                                ex:productName ?name ;
+                                ex:price ?price ;
+                                ex:image ?image .
+    
+            BIND(STRAFTER(STR(?category), "category_") AS ?categoryId)
+    
             # Exclure les produits déjà achetés
             FILTER (?recommendedProduct != ?purchasedProduct)
             FILTER NOT EXISTS {
                 ex:user_${userId} ex:hasOrder ?otherOrder .
                 ?otherOrder ex:containsProduct ?recommendedProduct .
             }
-            
+    
             # Notes moyennes
             OPTIONAL {
                 ?review ex:reviewedProduct ?recommendedProduct ;
                         ex:rating ?rating .
             }
         }
-        GROUP BY ?recommendedProduct ?name ?price ?image
+        GROUP BY ?recommendedProduct ?name ?price ?image ?categoryId
         ORDER BY DESC(?avgRating)
         LIMIT ${limit}
         `;
-        
+    
         return await sparqlService.selectQuery(query);
     }
+    
 
     // Mettre à jour les préférences utilisateur
     async updateUserPreferences(userId, categoryId) {
@@ -111,6 +118,10 @@ class RecommenderService {
                 const name = product.name?.value;
                 const price = product.price?.value;
                 const image = product.image?.value;
+                //const categoryId = product.category?.value?.split('category_')[1] || null;
+                const categoryId = product.categoryId?.value || null;
+
+
 
                 if (!productMap.has(id)) {
                     productMap.set(id, {
@@ -118,6 +129,7 @@ class RecommenderService {
                         name,
                         price,
                         image,
+                        categoryId,
                         score: 0
                     });
                 }

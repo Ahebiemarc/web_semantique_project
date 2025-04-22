@@ -6,13 +6,24 @@ const {
     getRecommendedProducts,
     updateProductRating,
     getRecommendedProductsScorePondere,
+    getProductsByPriceLessThan,
+    getProductsByPriceGreaterThan, getProductsByCategory, getProductsByName,
+    getAllProduct,
 } = require('../controllers/productController');
+const authMiddleware = require('../middleware/authMiddleware');
 
 const router = express.Router();
 
+
+router.get('/show-alls', getAllProduct);
+router.get('/price-greater', getProductsByPriceGreaterThan);
+router.get('/price-less', getProductsByPriceLessThan);
+router.get('/category', getProductsByCategory);
+router.get('/namep', getProductsByName);
 router.get('/:id', getProductById);
-router.get('/recommendations/:userId', getRecommendedProducts);
-router.get('/recommendations-par-score-pondere/:userId', getRecommendedProductsScorePondere);
+router.get('/recommendations/:userId', authMiddleware, getRecommendedProducts);
+router.get('/recommendations-par-score-pondere/:userId', authMiddleware, getRecommendedProductsScorePondere);
 router.post('/:productId/review/:userId', updateProductRating);
+
 
 module.exports = router;

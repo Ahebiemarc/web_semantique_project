@@ -364,29 +364,35 @@ ex:product_70 a ex:Product ;
 ex:user_1 a ex:User ;
     ex:email "ncaron@ifrance.com"^^xsd:string ;
     ex:hasReview ex:review_341 ;
+    ex:password "dZtI2#YoJ+hk"^^xsd:string ;
     ex:username "cousingilbert"^^xsd:string .
 
 ex:user_10 a ex:User ;
     ex:email "alexandriedupre@deschamps.org"^^xsd:string ;
     ex:hasOrder ex:order_326 ;
+    ex:password "%TP*Bh$63zYI"^^xsd:string ;
     ex:username "anoukchauvin"^^xsd:string .
 
 ex:user_100 a ex:User ;
     ex:email "guyferreira@huet.org"^^xsd:string ;
+    ex:password "%4(QMhDe$Aq3"^^xsd:string ;
     ex:username "noellaurence"^^xsd:string .
 
 ex:user_101 a ex:User ;
     ex:email "colincaroline@michel.net"^^xsd:string ;
     ex:hasReview ex:review_110 ;
+    ex:password "wA5O)7+y@dYq"^^xsd:string ;
     ex:username "couturierjean"^^xsd:string .
 
 ex:user_102 a ex:User ;
     ex:email "david48@lecoq.fr"^^xsd:string ;
+    ex:password "#!2MUc3%w2df"^^xsd:string ;
     ex:username "rochealexandria"^^xsd:string .
 
 ex:user_103 a ex:User ;
     ex:email "xlemaire@hotmail.fr"^^xsd:string ;
     ex:hasReview ex:review_430 ;
+    ex:password ")ty1VGuQw5O&"^^xsd:string ;
     ex:username "william84"^^xsd:string .
 
 ex:user_104 a ex:User ;
@@ -395,16 +401,19 @@ ex:user_104 a ex:User ;
     ex:hasReview ex:review_194,
         ex:review_398,
         ex:review_54 ;
+    ex:password "HcpXS0Ij#H%n"^^xsd:string ;
     ex:username "adele63"^^xsd:string .
 
 ex:user_105 a ex:User ;
     ex:email "cgeorges@parent.fr"^^xsd:string ;
     ex:hasOrder ex:order_172 ;
     ex:hasReview ex:review_403 ;
+    ex:password "QD8*HRe1M)8S"^^xsd:string ;
     ex:username "philippe28"^^xsd:string .
 
 ex:user_106 a ex:User ;
     ex:email "lambertcolette@free.fr"^^xsd:string ;
+    ex:password "&EPOTm(cn5FS"^^xsd:string ;
     ex:username "louisebesnard"^^xsd:string .
 
 ex:user_107 a ex:User ;
@@ -412,11 +421,13 @@ ex:user_107 a ex:User ;
     ex:hasOrder ex:order_237,
         ex:order_411 ;
     ex:hasReview ex:review_169 ;
+    ex:password "15J8%msL$$@l"^^xsd:string ;
     ex:username "robertchartier"^^xsd:string .
 
 ex:user_108 a ex:User ;
     ex:email "guichardjules@traore.org"^^xsd:string ;
     ex:hasReview ex:review_393 ;
+    ex:password "WIQV!%qs+3mX"^^xsd:string ;
     ex:username "girardtheophile"^^xsd:string .
 
 ex:user_109 a ex:User ;
@@ -424,23 +435,27 @@ ex:user_109 a ex:User ;
     ex:hasOrder ex:order_471,
         ex:order_487 ;
     ex:hasReview ex:review_468 ;
+    ex:password "c&LaZ+SAGc4s"^^xsd:string ;
     ex:username "rogervallee"^^xsd:string .
 
 ex:user_11 a ex:User ;
     ex:email "sebastienalexandre@david.fr"^^xsd:string ;
     ex:hasReview ex:review_291,
         ex:review_363 ;
+    ex:password "jJ&3BpL+i3fO"^^xsd:string ;
     ex:username "xdiallo"^^xsd:string .
 
 ex:user_110 a ex:User ;
     ex:email "beckerclaire@valette.net"^^xsd:string ;
     ex:hasOrder ex:order_119 ;
     ex:hasReview ex:review_100 ;
+    ex:password "zxk)lBo&#1NX"^^xsd:string ;
     ex:username "perrotmichelle"^^xsd:string .
 
 ex:user_111 a ex:User ;
     ex:email "gilles64@barbier.fr"^^xsd:string ;
     ex:hasOrder ex:order_418 ;
+    ex:password "@TLlps09+_3N"^^xsd:string ;
     ex:username "matthieu91"^^xsd:string .
 
 ex:user_112 a ex:User ;
@@ -448,12 +463,14 @@ ex:user_112 a ex:User ;
     ex:hasReview ex:review_32,
         ex:review_345,
         ex:review_389 ;
+    ex:password "22YAWc!&+F8Q"^^xsd:string ;
     ex:username "david90"^^xsd:string .
 
 ex:user_113 a ex:User ;
     ex:email "henryolivier@rousseau.com"^^xsd:string ;
     ex:hasOrder ex:order_296 ;
     ex:hasReview ex:review_486 ;
+    ex:password "!5&E9LnZ&$j0"^^xsd:string ;
     ex:username "penelope40"^^xsd:string .
 
 ex:user_114 a ex:User ;
@@ -462,20 +479,24 @@ ex:user_114 a ex:User ;
         ex:order_53 ;
     ex:hasReview ex:review_359,
         ex:review_462 ;
+    ex:password "dz^3Utz+AmRg"^^xsd:string ;
     ex:username "sylviesimon"^^xsd:string .
 
 ex:user_115 a ex:User ;
     ex:email "rocheadrienne@marchal.com"^^xsd:string ;
     ex:hasOrder ex:order_235 ;
+    ex:password "*9jy5GmfzejH"^^xsd:string ;
     ex:username "colettedavid"^^xsd:string .
 
 ex:user_116 a ex:User ;
     ex:email "alexmeunier@live.com"^^xsd:string ;
+    ex:password "7!+@Im8tCg02"^^xsd:string ;
     ex:username "andree28"^^xsd:string .
 
 ex:user_117 a ex:User ;
     ex:email "maurice72@leduc.com"^^xsd:string ;
     ex:hasReview ex:review_339 ;
+    ex:password "!x_vbMVx1O&I"^^xsd:string ;
     ex:username "leleurenee"^^xsd:string .
 
 ex:user_118 a ex:User ;
@@ -484,22 +505,26 @@ ex:user_118 a ex:User ;
         ex:order_209,
         ex:order_239 ;
     ex:hasReview ex:review_80 ;
+    ex:password "%_V8GQyOm02%"^^xsd:string ;
     ex:username "bouchetvictor"^^xsd:string .
 
 ex:user_119 a ex:User ;
     ex:email "roger28@noos.fr"^^xsd:string ;
+    ex:password "_Yce69Bc_iU0"^^xsd:string ;
     ex:username "thomas71"^^xsd:string .
 
 ex:user_12 a ex:User ;
     ex:email "jpayet@noos.fr"^^xsd:string ;
     ex:hasReview ex:review_158,
         ex:review_77 ;
+    ex:password "1Mjkr5rd@YDV"^^xsd:string ;
     ex:username "guillaumepetitjean"^^xsd:string .
 
 ex:user_120 a ex:User ;
     ex:email "leblancalphonse@garcia.org"^^xsd:string ;
     ex:hasOrder ex:order_155,
         ex:order_472 ;
+    ex:password "M!73rgzgt1pE"^^xsd:string ;
     ex:username "bigotlorraine"^^xsd:string .
 
 ex:user_121 a ex:User ;
@@ -507,6 +532,7 @@ ex:user_121 a ex:User ;
     ex:hasOrder ex:order_136,
         ex:order_182 ;
     ex:hasReview ex:review_113 ;
+    ex:password "#8U5kB9G_tT8"^^xsd:string ;
     ex:username "jeanblanchet"^^xsd:string .
 
 ex:user_122 a ex:User ;
@@ -515,21 +541,25 @@ ex:user_122 a ex:User ;
     ex:hasReview ex:review_396,
         ex:review_460,
         ex:review_491 ;
+    ex:password "m#2t+Dy!Yi#3"^^xsd:string ;
     ex:username "josephboulay"^^xsd:string .
 
 ex:user_123 a ex:User ;
     ex:email "wriou@orange.fr"^^xsd:string ;
     ex:hasOrder ex:order_205,
         ex:order_9 ;
+    ex:password "sFw0A@jr^I2E"^^xsd:string ;
     ex:username "dupreaurelie"^^xsd:string .
 
 ex:user_124 a ex:User ;
     ex:email "chantalrossi@dbmail.com"^^xsd:string ;
+    ex:password "1uXt9ElWJ&Q&"^^xsd:string ;
     ex:username "augustin42"^^xsd:string .
 
 ex:user_125 a ex:User ;
     ex:email "robertedouard@bertin.org"^^xsd:string ;
     ex:hasOrder ex:order_465 ;
+    ex:password "%1!agDx*AXI0"^^xsd:string ;
     ex:username "auguste81"^^xsd:string .
 
 ex:user_126 a ex:User ;
@@ -540,11 +570,13 @@ ex:user_126 a ex:User ;
         ex:order_225 ;
     ex:hasReview ex:review_234,
         ex:review_457 ;
+    ex:password "WE@*0BMy6_bN"^^xsd:string ;
     ex:username "thierryauger"^^xsd:string .
 
 ex:user_127 a ex:User ;
     ex:email "ufernandez@schneider.org"^^xsd:string ;
     ex:hasOrder ex:order_348 ;
+    ex:password "Q7)L1SnqHwQ&"^^xsd:string ;
     ex:username "bouvetaurore"^^xsd:string .
 
 ex:user_128 a ex:User ;
@@ -552,18 +584,21 @@ ex:user_128 a ex:User ;
     ex:hasOrder ex:order_177,
         ex:order_306 ;
     ex:hasReview ex:review_485 ;
+    ex:password "299mFJRw%Msy"^^xsd:string ;
     ex:username "adele59"^^xsd:string .
 
 ex:user_129 a ex:User ;
     ex:email "wgrenier@dijoux.fr"^^xsd:string ;
     ex:hasOrder ex:order_97 ;
     ex:hasReview ex:review_248 ;
+    ex:password "_k6YXUcI@tFr"^^xsd:string ;
     ex:username "huetjean"^^xsd:string .
 
 ex:user_13 a ex:User ;
     ex:email "emmanuelmasse@sfr.fr"^^xsd:string ;
     ex:hasReview ex:review_117,
         ex:review_354 ;
+    ex:password "*KIpAORxL8@s"^^xsd:string ;
     ex:username "arthurrocher"^^xsd:string .
 
 ex:user_130 a ex:User ;
@@ -571,6 +606,7 @@ ex:user_130 a ex:User ;
     ex:hasOrder ex:order_412,
         ex:order_452 ;
     ex:hasReview ex:review_90 ;
+    ex:password "W8NiicWm_NCX"^^xsd:string ;
     ex:username "odette37"^^xsd:string .
 
 ex:user_131 a ex:User ;
@@ -579,12 +615,14 @@ ex:user_131 a ex:User ;
         ex:order_442 ;
     ex:hasReview ex:review_152,
         ex:review_260 ;
+    ex:password "gA+WaQk)+S*0"^^xsd:string ;
     ex:username "ydiallo"^^xsd:string .
 
 ex:user_132 a ex:User ;
     ex:email "elisabethgarnier@free.fr"^^xsd:string ;
     ex:hasOrder ex:order_463 ;
     ex:hasReview ex:review_240 ;
+    ex:password "SSL2@Vtzp(Q6"^^xsd:string ;
     ex:username "georgesblanchard"^^xsd:string .
 
 ex:user_133 a ex:User ;
@@ -594,22 +632,26 @@ ex:user_133 a ex:User ;
         ex:review_201,
         ex:review_247,
         ex:review_472 ;
+    ex:password "MHeEqxPa(zh8"^^xsd:string ;
     ex:username "sarnaud"^^xsd:string .
 
 ex:user_134 a ex:User ;
     ex:email "hgonzalez@yahoo.fr"^^xsd:string ;
     ex:hasReview ex:review_352 ;
+    ex:password "3j!dLq!h#no1"^^xsd:string ;
     ex:username "emmanuelgaillard"^^xsd:string .
 
 ex:user_135 a ex:User ;
     ex:email "baillysusan@perrin.fr"^^xsd:string ;
     ex:hasOrder ex:order_305 ;
+    ex:password "OFl8@UOax%cp"^^xsd:string ;
     ex:username "benoit84"^^xsd:string .
 
 ex:user_136 a ex:User ;
     ex:email "moniquegarcia@club-internet.fr"^^xsd:string ;
     ex:hasOrder ex:order_108,
         ex:order_448 ;
+    ex:password "A%GvgnB#1I3Z"^^xsd:string ;
     ex:username "fmoreno"^^xsd:string .
 
 ex:user_137 a ex:User ;
@@ -619,12 +661,14 @@ ex:user_137 a ex:User ;
         ex:order_401 ;
     ex:hasReview ex:review_391,
         ex:review_404 ;
+    ex:password "U$v*3cXyM2lW"^^xsd:string ;
     ex:username "denisribeiro"^^xsd:string .
 
 ex:user_138 a ex:User ;
     ex:email "chevaliercorinne@club-internet.fr"^^xsd:string ;
     ex:hasOrder ex:order_151 ;
     ex:hasReview ex:review_173 ;
+    ex:password "^n52Zn3robp!"^^xsd:string ;
     ex:username "madeleinedeschamps"^^xsd:string .
 
 ex:user_139 a ex:User ;
@@ -633,6 +677,7 @@ ex:user_139 a ex:User ;
         ex:order_283,
         ex:order_51 ;
     ex:hasReview ex:review_238 ;
+    ex:password "cpNxMMj5_^H2"^^xsd:string ;
     ex:username "lucbertin"^^xsd:string .
 
 ex:user_14 a ex:User ;
@@ -640,37 +685,44 @@ ex:user_14 a ex:User ;
     ex:hasOrder ex:order_343,
         ex:order_367 ;
     ex:hasReview ex:review_200 ;
+    ex:password "4B!iwT6ccxIU"^^xsd:string ;
     ex:username "etiennehenri"^^xsd:string .
 
 ex:user_140 a ex:User ;
     ex:email "jreynaud@dbmail.com"^^xsd:string ;
     ex:hasOrder ex:order_117 ;
     ex:hasReview ex:review_239 ;
+    ex:password "O7xIAQfr)HTY"^^xsd:string ;
     ex:username "martheberthelot"^^xsd:string .
 
 ex:user_141 a ex:User ;
     ex:email "celinathomas@laposte.net"^^xsd:string ;
     ex:hasOrder ex:order_447 ;
+    ex:password "1sw3RzqupU)K"^^xsd:string ;
     ex:username "henridumas"^^xsd:string .
 
 ex:user_142 a ex:User ;
     ex:email "franck20@wanadoo.fr"^^xsd:string ;
     ex:hasOrder ex:order_68 ;
     ex:hasReview ex:review_63 ;
+    ex:password "3owhK9bhX##2"^^xsd:string ;
     ex:username "cecilemenard"^^xsd:string .
 
 ex:user_143 a ex:User ;
     ex:email "mmarie@free.fr"^^xsd:string ;
     ex:hasReview ex:review_140,
         ex:review_417 ;
+    ex:password "!v3Q!Tb^a2)h"^^xsd:string ;
     ex:username "marc78"^^xsd:string .
 
 ex:user_144 a ex:User ;
     ex:email "rogerthomas@hotmail.fr"^^xsd:string ;
+    ex:password ")*ehOa0e_)7S"^^xsd:string ;
     ex:username "barbejoseph"^^xsd:string .
 
 ex:user_145 a ex:User ;
     ex:email "antoine27@sfr.fr"^^xsd:string ;
+    ex:password "D^3PZSMaSm^!"^^xsd:string ;
     ex:username "elise25"^^xsd:string .
 
 ex:user_146 a ex:User ;
@@ -679,45 +731,54 @@ ex:user_146 a ex:User ;
         ex:order_318,
         ex:order_433 ;
     ex:hasReview ex:review_160 ;
+    ex:password "+4PA1TwrK9oB"^^xsd:string ;
     ex:username "audreycohen"^^xsd:string .
 
 ex:user_147 a ex:User ;
     ex:email "marinvictoire@leclercq.fr"^^xsd:string ;
+    ex:password "Lb3L8Emq#u!X"^^xsd:string ;
     ex:username "emmanuellecousin"^^xsd:string .
 
 ex:user_148 a ex:User ;
     ex:email "julie33@gaillard.fr"^^xsd:string ;
     ex:hasOrder ex:order_403 ;
+    ex:password "b#ZP#LUzUN24"^^xsd:string ;
     ex:username "alexandrevallee"^^xsd:string .
 
 ex:user_149 a ex:User ;
     ex:email "lorraine59@live.com"^^xsd:string ;
     ex:hasReview ex:review_369 ;
+    ex:password "(WCJYZ6v7t1e"^^xsd:string ;
     ex:username "danielgautier"^^xsd:string .
 
 ex:user_15 a ex:User ;
     ex:email "anastasierolland@yahoo.fr"^^xsd:string ;
     ex:hasOrder ex:order_499 ;
     ex:hasReview ex:review_132 ;
+    ex:password "Y54OEbtlf%6V"^^xsd:string ;
     ex:username "jules76"^^xsd:string .
 
 ex:user_150 a ex:User ;
     ex:email "edithcousin@chauvet.com"^^xsd:string ;
     ex:hasReview ex:review_327 ;
+    ex:password "uw!6M*hR#v5K"^^xsd:string ;
     ex:username "ljacquot"^^xsd:string .
 
 ex:user_151 a ex:User ;
     ex:email "yblanc@arnaud.com"^^xsd:string ;
     ex:hasOrder ex:order_434 ;
+    ex:password "A2vNpr*$^2s0"^^xsd:string ;
     ex:username "tristanvallet"^^xsd:string .
 
 ex:user_152 a ex:User ;
     ex:email "lambertgabrielle@roux.com"^^xsd:string ;
     ex:hasOrder ex:order_94 ;
+    ex:password "*ZYd5YGBt8!@"^^xsd:string ;
     ex:username "greniergilbert"^^xsd:string .
 
 ex:user_153 a ex:User ;
     ex:email "edouardcousin@bouygtel.fr"^^xsd:string ;
+    ex:password "quJI0EPAH*+H"^^xsd:string ;
     ex:username "qpetitjean"^^xsd:string .
 
 ex:user_154 a ex:User ;
@@ -725,6 +786,7 @@ ex:user_154 a ex:User ;
     ex:hasOrder ex:order_80 ;
     ex:hasReview ex:review_344,
         ex:review_382 ;
+    ex:password "@00rZEnciVGt"^^xsd:string ;
     ex:username "martinphilippe"^^xsd:string .
 
 ex:user_155 a ex:User ;
@@ -732,35 +794,42 @@ ex:user_155 a ex:User ;
     ex:hasOrder ex:order_336,
         ex:order_337 ;
     ex:hasReview ex:review_171 ;
+    ex:password "@TG7zT+x)7yb"^^xsd:string ;
     ex:username "leondumas"^^xsd:string .
 
 ex:user_156 a ex:User ;
     ex:email "laetitiamarion@pages.fr"^^xsd:string ;
+    ex:password "LHBvmYSl^%7Z"^^xsd:string ;
     ex:username "oaubert"^^xsd:string .
 
 ex:user_157 a ex:User ;
     ex:email "danielturpin@brunel.fr"^^xsd:string ;
     ex:hasOrder ex:order_6 ;
     ex:hasReview ex:review_76 ;
+    ex:password "&o@FsuQnqv5D"^^xsd:string ;
     ex:username "remymartel"^^xsd:string .
 
 ex:user_158 a ex:User ;
     ex:email "ichevallier@rodriguez.com"^^xsd:string ;
+    ex:password "08P5vSPs*K$O"^^xsd:string ;
     ex:username "mmorvan"^^xsd:string .
 
 ex:user_159 a ex:User ;
     ex:email "ines92@verdier.com"^^xsd:string ;
+    ex:password "G*xFGW(eMhL2"^^xsd:string ;
     ex:username "danielmaillard"^^xsd:string .
 
 ex:user_16 a ex:User ;
     ex:email "brigittecouturier@grenier.com"^^xsd:string ;
     ex:hasOrder ex:order_36 ;
     ex:hasReview ex:review_16 ;
+    ex:password "#Ml4nA2ewPqN"^^xsd:string ;
     ex:username "bertrandhamel"^^xsd:string .
 
 ex:user_160 a ex:User ;
     ex:email "xcordier@hotmail.fr"^^xsd:string ;
     ex:hasOrder ex:order_407 ;
+    ex:password "Tz+6UjbaX^OD"^^xsd:string ;
     ex:username "valleevictoire"^^xsd:string .
 
 ex:user_161 a ex:User ;
@@ -768,16 +837,19 @@ ex:user_161 a ex:User ;
     ex:hasOrder ex:order_413 ;
     ex:hasReview ex:review_348,
         ex:review_360 ;
+    ex:password "v1@Xq5Wg%cl*"^^xsd:string ;
     ex:username "anastasie09"^^xsd:string .
 
 ex:user_162 a ex:User ;
     ex:email "chartiereugene@wanadoo.fr"^^xsd:string ;
     ex:hasOrder ex:order_396 ;
+    ex:password "^1T^sxdiwFx0"^^xsd:string ;
     ex:username "jeannedelorme"^^xsd:string .
 
 ex:user_163 a ex:User ;
     ex:email "stephanelefebvre@noos.fr"^^xsd:string ;
     ex:hasReview ex:review_429 ;
+    ex:password "L!R#vNj%)n88"^^xsd:string ;
     ex:username "rcoulon"^^xsd:string .
 
 ex:user_164 a ex:User ;
@@ -786,11 +858,13 @@ ex:user_164 a ex:User ;
     ex:hasReview ex:review_128,
         ex:review_281,
         ex:review_61 ;
+    ex:password "qZ1^PcI&aG3C"^^xsd:string ;
     ex:username "michelvalette"^^xsd:string .
 
 ex:user_165 a ex:User ;
     ex:email "legrosluc@millet.com"^^xsd:string ;
     ex:hasReview ex:review_227 ;
+    ex:password "9KWJl1xp#1P8"^^xsd:string ;
     ex:username "martelodette"^^xsd:string .
 
 ex:user_166 a ex:User ;
@@ -799,6 +873,7 @@ ex:user_166 a ex:User ;
     ex:hasReview ex:review_222,
         ex:review_347,
         ex:review_39 ;
+    ex:password "f6f6RJhT)krH"^^xsd:string ;
     ex:username "thierry55"^^xsd:string .
 
 ex:user_167 a ex:User ;
@@ -808,22 +883,26 @@ ex:user_167 a ex:User ;
     ex:hasReview ex:review_285,
         ex:review_390,
         ex:review_74 ;
+    ex:password "(I8HRYyuF6l*"^^xsd:string ;
     ex:username "sanchezeugene"^^xsd:string .
 
 ex:user_168 a ex:User ;
     ex:email "bbrunel@techer.com"^^xsd:string ;
     ex:hasReview ex:review_276 ;
+    ex:password "$nVTdlrc2p3!"^^xsd:string ;
     ex:username "voisinguillaume"^^xsd:string .
 
 ex:user_169 a ex:User ;
     ex:email "isaac23@noos.fr"^^xsd:string ;
     ex:hasReview ex:review_445,
         ex:review_459 ;
+    ex:password "+x99hCf_brNg"^^xsd:string ;
     ex:username "fontaineyves"^^xsd:string .
 
 ex:user_17 a ex:User ;
     ex:email "gabriellegaudin@noos.fr"^^xsd:string ;
     ex:hasReview ex:review_387 ;
+    ex:password "TNp@7_Bv^7JM"^^xsd:string ;
     ex:username "georges59"^^xsd:string .
 
 ex:user_170 a ex:User ;
@@ -831,23 +910,27 @@ ex:user_170 a ex:User ;
     ex:hasOrder ex:order_146,
         ex:order_372 ;
     ex:hasReview ex:review_124 ;
+    ex:password "h&VMWxYG&8l("^^xsd:string ;
     ex:username "victorraymond"^^xsd:string .
 
 ex:user_171 a ex:User ;
     ex:email "prevostbenjamin@tiscali.fr"^^xsd:string ;
     ex:hasReview ex:review_175 ;
+    ex:password "9j1+ab@YQp3A"^^xsd:string ;
     ex:username "humbertpierre"^^xsd:string .
 
 ex:user_172 a ex:User ;
     ex:email "genevieve84@bouygtel.fr"^^xsd:string ;
     ex:hasOrder ex:order_476 ;
     ex:hasReview ex:review_311 ;
+    ex:password "(H#WHipSK*O6"^^xsd:string ;
     ex:username "lgay"^^xsd:string .
 
 ex:user_173 a ex:User ;
     ex:email "groux@yahoo.fr"^^xsd:string ;
     ex:hasOrder ex:order_167,
         ex:order_52 ;
+    ex:password "4(AYLj&Z@zLv"^^xsd:string ;
     ex:username "zmarie"^^xsd:string .
 
 ex:user_174 a ex:User ;
@@ -856,25 +939,30 @@ ex:user_174 a ex:User ;
     ex:hasReview ex:review_196,
         ex:review_51,
         ex:review_67 ;
+    ex:password "o6zvI1uI+oXi"^^xsd:string ;
     ex:username "dleclercq"^^xsd:string .
 
 ex:user_175 a ex:User ;
     ex:email "elisabethcamus@dupre.net"^^xsd:string ;
     ex:hasOrder ex:order_67 ;
+    ex:password "&m7pekKjYP1V"^^xsd:string ;
     ex:username "patriciadelmas"^^xsd:string .
 
 ex:user_176 a ex:User ;
     ex:email "grodrigues@dbmail.com"^^xsd:string ;
     ex:hasOrder ex:order_491 ;
+    ex:password "Sf_BBTgcW26s"^^xsd:string ;
     ex:username "agathe70"^^xsd:string .
 
 ex:user_177 a ex:User ;
     ex:email "michele84@sauvage.com"^^xsd:string ;
     ex:hasOrder ex:order_451 ;
+    ex:password "*2u%utRqrsKW"^^xsd:string ;
     ex:username "ines95"^^xsd:string .
 
 ex:user_178 a ex:User ;
     ex:email "josette92@martins.net"^^xsd:string ;
+    ex:password "20TfIqNDb$$)"^^xsd:string ;
     ex:username "yferreira"^^xsd:string .
 
 ex:user_179 a ex:User ;
@@ -885,6 +973,7 @@ ex:user_179 a ex:User ;
         ex:order_38,
         ex:order_70 ;
     ex:hasReview ex:review_70 ;
+    ex:password ")3RtxX&U@o_r"^^xsd:string ;
     ex:username "philippe86"^^xsd:string .
 
 ex:user_18 a ex:User ;
@@ -892,11 +981,13 @@ ex:user_18 a ex:User ;
     ex:hasOrder ex:order_193,
         ex:order_369 ;
     ex:hasReview ex:review_421 ;
+    ex:password "*uqbL8McSNt3"^^xsd:string ;
     ex:username "bperrier"^^xsd:string .
 
 ex:user_180 a ex:User ;
     ex:email "marie25@laporte.org"^^xsd:string ;
     ex:hasOrder ex:order_249 ;
+    ex:password "oU2Dzwii^3NT"^^xsd:string ;
     ex:username "matthieuvaillant"^^xsd:string .
 
 ex:user_181 a ex:User ;
@@ -909,22 +1000,26 @@ ex:user_181 a ex:User ;
         ex:review_407,
         ex:review_496,
         ex:review_94 ;
+    ex:password "w^IyjN$5@n9s"^^xsd:string ;
     ex:username "franck15"^^xsd:string .
 
 ex:user_182 a ex:User ;
     ex:email "nathalie50@hotmail.fr"^^xsd:string ;
     ex:hasOrder ex:order_28 ;
+    ex:password "7@f7Q9a0WUF9"^^xsd:string ;
     ex:username "ferrandmargot"^^xsd:string .
 
 ex:user_183 a ex:User ;
     ex:email "rene31@vasseur.net"^^xsd:string ;
     ex:hasReview ex:review_9 ;
+    ex:password "!VBH_aYera3A"^^xsd:string ;
     ex:username "seguinmartine"^^xsd:string .
 
 ex:user_184 a ex:User ;
     ex:email "francois27@hotmail.fr"^^xsd:string ;
     ex:hasOrder ex:order_19,
         ex:order_210 ;
+    ex:password "QWJ27AWvH6U^"^^xsd:string ;
     ex:username "dianeguillot"^^xsd:string .
 
 ex:user_185 a ex:User ;
@@ -932,10 +1027,12 @@ ex:user_185 a ex:User ;
     ex:hasOrder ex:order_265,
         ex:order_420 ;
     ex:hasReview ex:review_104 ;
+    ex:password "+CJ5Q%auH#63"^^xsd:string ;
     ex:username "reneemorvan"^^xsd:string .
 
 ex:user_186 a ex:User ;
     ex:email "fabremarie@noos.fr"^^xsd:string ;
+    ex:password "2pKwtU(z$^5A"^^xsd:string ;
     ex:username "emmanuel80"^^xsd:string .
 
 ex:user_187 a ex:User ;
@@ -945,17 +1042,20 @@ ex:user_187 a ex:User ;
         ex:order_462 ;
     ex:hasReview ex:review_253,
         ex:review_380 ;
+    ex:password "ZCwl^Q0un%99"^^xsd:string ;
     ex:username "boucherjeanne"^^xsd:string .
 
 ex:user_188 a ex:User ;
     ex:email "mulleranastasie@gmail.com"^^xsd:string ;
     ex:hasOrder ex:order_333 ;
+    ex:password "f*C5W+uVQV#P"^^xsd:string ;
     ex:username "alice59"^^xsd:string .
 
 ex:user_189 a ex:User ;
     ex:email "adrien60@alves.com"^^xsd:string ;
     ex:hasReview ex:review_336,
         ex:review_494 ;
+    ex:password "&5G+ez0M@xK7"^^xsd:string ;
     ex:username "raymondlefort"^^xsd:string .
 
 ex:user_19 a ex:User ;
@@ -964,6 +1064,7 @@ ex:user_19 a ex:User ;
         ex:order_217,
         ex:order_352 ;
     ex:hasReview ex:review_82 ;
+    ex:password "x9P1LK7h#DBR"^^xsd:string ;
     ex:username "michele42"^^xsd:string .
 
 ex:user_190 a ex:User ;
@@ -971,16 +1072,19 @@ ex:user_190 a ex:User ;
     ex:hasOrder ex:order_138 ;
     ex:hasReview ex:review_149,
         ex:review_59 ;
+    ex:password "kCaH8Xgl^4%E"^^xsd:string ;
     ex:username "ggilles"^^xsd:string .
 
 ex:user_191 a ex:User ;
     ex:email "madeleinebailly@foucher.org"^^xsd:string ;
+    ex:password "!WH1THjGOOq6"^^xsd:string ;
     ex:username "nfleury"^^xsd:string .
 
 ex:user_192 a ex:User ;
     ex:email "pelletieraudrey@hotmail.fr"^^xsd:string ;
     ex:hasOrder ex:order_154 ;
     ex:hasReview ex:review_282 ;
+    ex:password "Yy2QGiiY&*KH"^^xsd:string ;
     ex:username "lacroixrenee"^^xsd:string .
 
 ex:user_193 a ex:User ;
@@ -989,6 +1093,7 @@ ex:user_193 a ex:User ;
         ex:review_189,
         ex:review_335,
         ex:review_337 ;
+    ex:password "0UJIk1Bv@W2t"^^xsd:string ;
     ex:username "roycapucine"^^xsd:string .
 
 ex:user_194 a ex:User ;
@@ -996,16 +1101,19 @@ ex:user_194 a ex:User ;
     ex:hasReview ex:review_190,
         ex:review_318,
         ex:review_476 ;
+    ex:password ")DbMB%tqA6bI"^^xsd:string ;
     ex:username "vjacques"^^xsd:string .
 
 ex:user_195 a ex:User ;
     ex:email "bernieralexandria@yahoo.fr"^^xsd:string ;
     ex:hasOrder ex:order_301 ;
+    ex:password "GGrP1BokMm^3"^^xsd:string ;
     ex:username "peronandree"^^xsd:string .
 
 ex:user_196 a ex:User ;
     ex:email "yves55@orange.fr"^^xsd:string ;
     ex:hasReview ex:review_454 ;
+    ex:password "Q5UwyuAx(NHt"^^xsd:string ;
     ex:username "humbertmichelle"^^xsd:string .
 
 ex:user_197 a ex:User ;
@@ -1013,6 +1121,7 @@ ex:user_197 a ex:User ;
     ex:hasOrder ex:order_203,
         ex:order_422 ;
     ex:hasReview ex:review_177 ;
+    ex:password "&CURjCbe^3yJ"^^xsd:string ;
     ex:username "barresophie"^^xsd:string .
 
 ex:user_198 a ex:User ;
@@ -1020,10 +1129,12 @@ ex:user_198 a ex:User ;
     ex:hasOrder ex:order_474 ;
     ex:hasReview ex:review_265,
         ex:review_433 ;
+    ex:password "HI^xvXTk#5_2"^^xsd:string ;
     ex:username "tguillon"^^xsd:string .
 
 ex:user_199 a ex:User ;
     ex:email "hubertfranck@gmail.com"^^xsd:string ;
+    ex:password "+5y3jMh!n(K#"^^xsd:string ;
     ex:username "marinelecomte"^^xsd:string .
 
 ex:user_2 a ex:User ;
@@ -1031,24 +1142,28 @@ ex:user_2 a ex:User ;
     ex:hasOrder ex:order_242 ;
     ex:hasReview ex:review_168,
         ex:review_351 ;
+    ex:password "i_PSTRbr7^58"^^xsd:string ;
     ex:username "celina51"^^xsd:string .
 
 ex:user_20 a ex:User ;
     ex:email "vchevallier@le.com"^^xsd:string ;
     ex:hasReview ex:review_436,
         ex:review_452 ;
+    ex:password "&BnAKiZ6i)3j"^^xsd:string ;
     ex:username "adrien65"^^xsd:string .
 
 ex:user_200 a ex:User ;
     ex:email "margot11@free.fr"^^xsd:string ;
     ex:hasOrder ex:order_438 ;
     ex:hasReview ex:review_378 ;
+    ex:password "FM2Hrdo9i&cK"^^xsd:string ;
     ex:username "pruvostsylvie"^^xsd:string .
 
 ex:user_201 a ex:User ;
     ex:email "oliviermarty@free.fr"^^xsd:string ;
     ex:hasOrder ex:order_282 ;
     ex:hasReview ex:review_115 ;
+    ex:password "cq%WnM#Dm2S!"^^xsd:string ;
     ex:username "agathesanchez"^^xsd:string .
 
 ex:user_202 a ex:User ;
@@ -1057,21 +1172,25 @@ ex:user_202 a ex:User ;
         ex:order_327,
         ex:order_353,
         ex:order_74 ;
+    ex:password "7MS)t@z^F#5t"^^xsd:string ;
     ex:username "laurenceneveu"^^xsd:string .
 
 ex:user_203 a ex:User ;
     ex:email "ines88@gmail.com"^^xsd:string ;
     ex:hasReview ex:review_217 ;
+    ex:password "2T%1aMclV%UF"^^xsd:string ;
     ex:username "michaudlucie"^^xsd:string .
 
 ex:user_204 a ex:User ;
     ex:email "charlessusan@guillot.com"^^xsd:string ;
     ex:hasOrder ex:order_382 ;
+    ex:password "xR$(yymnlw6N"^^xsd:string ;
     ex:username "pbarbe"^^xsd:string .
 
 ex:user_205 a ex:User ;
     ex:email "fgiraud@tele2.fr"^^xsd:string ;
     ex:hasOrder ex:order_17 ;
+    ex:password "@0Bg*LgeIoLT"^^xsd:string ;
     ex:username "alexandrethomas"^^xsd:string .
 
 ex:user_206 a ex:User ;
@@ -1079,11 +1198,13 @@ ex:user_206 a ex:User ;
     ex:hasReview ex:review_125,
         ex:review_184,
         ex:review_365 ;
+    ex:password ")8VXYEsmyxuN"^^xsd:string ;
     ex:username "augustinlefebvre"^^xsd:string .
 
 ex:user_207 a ex:User ;
     ex:email "margot48@noos.fr"^^xsd:string ;
     ex:hasOrder ex:order_261 ;
+    ex:password "_0Gb7B0rRkMj"^^xsd:string ;
     ex:username "durandceline"^^xsd:string .
 
 ex:user_208 a ex:User ;
@@ -1091,12 +1212,14 @@ ex:user_208 a ex:User ;
     ex:hasOrder ex:order_459 ;
     ex:hasReview ex:review_232,
         ex:review_293 ;
+    ex:password "2o0U^zwL#lrQ"^^xsd:string ;
     ex:username "boyerlaurent"^^xsd:string .
 
 ex:user_209 a ex:User ;
     ex:email "garniermonique@paul.fr"^^xsd:string ;
     ex:hasOrder ex:order_26,
         ex:order_478 ;
+    ex:password "3i!61kWnbrH$"^^xsd:string ;
     ex:username "uparis"^^xsd:string .
 
 ex:user_21 a ex:User ;
@@ -1104,6 +1227,7 @@ ex:user_21 a ex:User ;
     ex:hasReview ex:review_230,
         ex:review_303,
         ex:review_483 ;
+    ex:password "t_8OgPmcANsW"^^xsd:string ;
     ex:username "lbonnin"^^xsd:string .
 
 ex:user_210 a ex:User ;
@@ -1112,15 +1236,18 @@ ex:user_210 a ex:User ;
         ex:order_88 ;
     ex:hasReview ex:review_263,
         ex:review_434 ;
+    ex:password "@6mMn#Hf&7g9"^^xsd:string ;
     ex:username "remy89"^^xsd:string .
 
 ex:user_211 a ex:User ;
     ex:email "yweber@tiscali.fr"^^xsd:string ;
     ex:hasReview ex:review_447 ;
+    ex:password "oU7%f#Iy*@YK"^^xsd:string ;
     ex:username "marthe40"^^xsd:string .
 
 ex:user_212 a ex:User ;
     ex:email "lmarchal@delmas.com"^^xsd:string ;
+    ex:password "d_&0VofgIA@W"^^xsd:string ;
     ex:username "aime00"^^xsd:string .
 
 ex:user_213 a ex:User ;
@@ -1128,12 +1255,14 @@ ex:user_213 a ex:User ;
     ex:hasOrder ex:order_126 ;
     ex:hasReview ex:review_470,
         ex:review_473 ;
+    ex:password "xb4^jtyyI_KQ"^^xsd:string ;
     ex:username "xpelletier"^^xsd:string .
 
 ex:user_214 a ex:User ;
     ex:email "cecile94@collin.org"^^xsd:string ;
     ex:hasOrder ex:order_281 ;
     ex:hasReview ex:review_33 ;
+    ex:password "bxNOGLvC#3rf"^^xsd:string ;
     ex:username "lopesmargaret"^^xsd:string .
 
 ex:user_215 a ex:User ;
@@ -1141,20 +1270,24 @@ ex:user_215 a ex:User ;
     ex:hasOrder ex:order_307,
         ex:order_376,
         ex:order_429 ;
+    ex:password "*2prCxhWW)_2"^^xsd:string ;
     ex:username "coulonelodie"^^xsd:string .
 
 ex:user_216 a ex:User ;
     ex:email "adelemichaud@merle.net"^^xsd:string ;
     ex:hasReview ex:review_438 ;
+    ex:password "MF&Wm6gUN#4h"^^xsd:string ;
     ex:username "bertrandmargaux"^^xsd:string .
 
 ex:user_217 a ex:User ;
     ex:email "techerthibault@sfr.fr"^^xsd:string ;
+    ex:password "oO4MRnMt@%cx"^^xsd:string ;
     ex:username "patricia49"^^xsd:string .
 
 ex:user_218 a ex:User ;
     ex:email "micheltimothee@orange.fr"^^xsd:string ;
     ex:hasReview ex:review_143 ;
+    ex:password "TO9R*r!qC)cH"^^xsd:string ;
     ex:username "xavier89"^^xsd:string .
 
 ex:user_219 a ex:User ;
@@ -1162,6 +1295,7 @@ ex:user_219 a ex:User ;
     ex:hasOrder ex:order_207,
         ex:order_300,
         ex:order_449 ;
+    ex:password "a0mRlut!@uvo"^^xsd:string ;
     ex:username "alphonse74"^^xsd:string .
 
 ex:user_22 a ex:User ;
@@ -1169,12 +1303,14 @@ ex:user_22 a ex:User ;
     ex:hasOrder ex:order_246,
         ex:order_90 ;
     ex:hasReview ex:review_315 ;
+    ex:password "1(F1Nn4b^rq9"^^xsd:string ;
     ex:username "fparent"^^xsd:string .
 
 ex:user_220 a ex:User ;
     ex:email "parisremy@delaunay.fr"^^xsd:string ;
     ex:hasReview ex:review_126,
         ex:review_133 ;
+    ex:password "Ct7Tz%p@O!wD"^^xsd:string ;
     ex:username "buissonclaude"^^xsd:string .
 
 ex:user_221 a ex:User ;
@@ -1184,11 +1320,13 @@ ex:user_221 a ex:User ;
     ex:hasReview ex:review_114,
         ex:review_193,
         ex:review_493 ;
+    ex:password "#A2KT4zoZ74g"^^xsd:string ;
     ex:username "valeriebreton"^^xsd:string .
 
 ex:user_222 a ex:User ;
     ex:email "wcoste@renaud.com"^^xsd:string ;
     ex:hasReview ex:review_258 ;
+    ex:password "h(gYP4Hk&&U&"^^xsd:string ;
     ex:username "jerome80"^^xsd:string .
 
 ex:user_223 a ex:User ;
@@ -1196,21 +1334,25 @@ ex:user_223 a ex:User ;
     ex:hasOrder ex:order_13,
         ex:order_388 ;
     ex:hasReview ex:review_444 ;
+    ex:password "4y0^Kd#kza!V"^^xsd:string ;
     ex:username "claurent"^^xsd:string .
 
 ex:user_224 a ex:User ;
     ex:email "ihebert@meyer.fr"^^xsd:string ;
     ex:hasOrder ex:order_357 ;
+    ex:password "2_&MMv^u$moR"^^xsd:string ;
     ex:username "laurentsimon"^^xsd:string .
 
 ex:user_225 a ex:User ;
     ex:email "bertrand14@tele2.fr"^^xsd:string ;
     ex:hasOrder ex:order_344 ;
+    ex:password "U+4e5P0s@iXP"^^xsd:string ;
     ex:username "aimeroy"^^xsd:string .
 
 ex:user_226 a ex:User ;
     ex:email "renaultceline@maillard.fr"^^xsd:string ;
     ex:hasReview ex:review_270 ;
+    ex:password "P0RJ4Iv4_syZ"^^xsd:string ;
     ex:username "hle-gall"^^xsd:string .
 
 ex:user_227 a ex:User ;
@@ -1220,29 +1362,34 @@ ex:user_227 a ex:User ;
     ex:hasReview ex:review_145,
         ex:review_212,
         ex:review_416 ;
+    ex:password "$oZ&y7o2aV35"^^xsd:string ;
     ex:username "pineaulaurent"^^xsd:string .
 
 ex:user_228 a ex:User ;
     ex:email "barbiereric@duval.com"^^xsd:string ;
     ex:hasOrder ex:order_313,
         ex:order_469 ;
+    ex:password "05crA$ts^*Zw"^^xsd:string ;
     ex:username "fguillot"^^xsd:string .
 
 ex:user_229 a ex:User ;
     ex:email "lroger@de.org"^^xsd:string ;
     ex:hasOrder ex:order_346 ;
     ex:hasReview ex:review_338 ;
+    ex:password "d%h3hPk(Pd!+"^^xsd:string ;
     ex:username "emilemartineau"^^xsd:string .
 
 ex:user_23 a ex:User ;
     ex:email "sroger@olivier.com"^^xsd:string ;
     ex:hasReview ex:review_195 ;
+    ex:password "$qET(jUAj0Id"^^xsd:string ;
     ex:username "cleroux"^^xsd:string .
 
 ex:user_230 a ex:User ;
     ex:email "christinejacquet@neveu.com"^^xsd:string ;
     ex:hasOrder ex:order_39 ;
     ex:hasReview ex:review_299 ;
+    ex:password "*E5(kHwcvEXK"^^xsd:string ;
     ex:username "ltraore"^^xsd:string .
 
 ex:user_231 a ex:User ;
@@ -1250,17 +1397,20 @@ ex:user_231 a ex:User ;
     ex:hasOrder ex:order_11,
         ex:order_374 ;
     ex:hasReview ex:review_4 ;
+    ex:password "Qgw9IneEj5$f"^^xsd:string ;
     ex:username "bouviersimone"^^xsd:string .
 
 ex:user_232 a ex:User ;
     ex:email "marchandgerard@le.com"^^xsd:string ;
     ex:hasOrder ex:order_226 ;
     ex:hasReview ex:review_334 ;
+    ex:password "9tLE9fAk&oqa"^^xsd:string ;
     ex:username "dorotheepichon"^^xsd:string .
 
 ex:user_233 a ex:User ;
     ex:email "celinagregoire@orange.fr"^^xsd:string ;
     ex:hasReview ex:review_392 ;
+    ex:password "HP!8(I_evU_q"^^xsd:string ;
     ex:username "marcbruneau"^^xsd:string .
 
 ex:user_234 a ex:User ;
@@ -1268,34 +1418,40 @@ ex:user_234 a ex:User ;
     ex:hasOrder ex:order_34 ;
     ex:hasReview ex:review_47,
         ex:review_484 ;
+    ex:password "&yCF2Huj64k2"^^xsd:string ;
     ex:username "arenaud"^^xsd:string .
 
 ex:user_235 a ex:User ;
     ex:email "aime64@voila.fr"^^xsd:string ;
     ex:hasReview ex:review_20,
         ex:review_405 ;
+    ex:password "h*T$3SxqN%51"^^xsd:string ;
     ex:username "chauveausabine"^^xsd:string .
 
 ex:user_236 a ex:User ;
     ex:email "etienne77@dumas.fr"^^xsd:string ;
     ex:hasOrder ex:order_275,
         ex:order_404 ;
+    ex:password "4!47cqkqHBK^"^^xsd:string ;
     ex:username "ileroux"^^xsd:string .
 
 ex:user_237 a ex:User ;
     ex:email "mgoncalves@verdier.fr"^^xsd:string ;
     ex:hasOrder ex:order_149,
         ex:order_206 ;
+    ex:password "$3C(Pp4Rvr6B"^^xsd:string ;
     ex:username "delannoyphilippe"^^xsd:string .
 
 ex:user_238 a ex:User ;
     ex:email "marguerite12@live.com"^^xsd:string ;
     ex:hasOrder ex:order_398 ;
+    ex:password "(GahCPai2yMV"^^xsd:string ;
     ex:username "zacharietoussaint"^^xsd:string .
 
 ex:user_239 a ex:User ;
     ex:email "andreevincent@dbmail.com"^^xsd:string ;
     ex:hasReview ex:review_465 ;
+    ex:password "%TEbtdcGH7#i"^^xsd:string ;
     ex:username "oceanegiraud"^^xsd:string .
 
 ex:user_24 a ex:User ;
@@ -1303,15 +1459,18 @@ ex:user_24 a ex:User ;
     ex:hasOrder ex:order_258,
         ex:order_414 ;
     ex:hasReview ex:review_7 ;
+    ex:password "4!LAdtsmP6M("^^xsd:string ;
     ex:username "matthieu24"^^xsd:string .
 
 ex:user_240 a ex:User ;
     ex:email "lecoqcorinne@collin.net"^^xsd:string ;
+    ex:password "#j@uQs^vQy3#"^^xsd:string ;
     ex:username "henriettehardy"^^xsd:string .
 
 ex:user_241 a ex:User ;
     ex:email "clemencevasseur@noos.fr"^^xsd:string ;
     ex:hasReview ex:review_130 ;
+    ex:password "@5R$4oqq769g"^^xsd:string ;
     ex:username "alphonse43"^^xsd:string .
 
 ex:user_242 a ex:User ;
@@ -1319,12 +1478,14 @@ ex:user_242 a ex:User ;
     ex:hasOrder ex:order_234 ;
     ex:hasReview ex:review_237,
         ex:review_304 ;
+    ex:password "b%I5uXxP3wC)"^^xsd:string ;
     ex:username "colindiane"^^xsd:string .
 
 ex:user_243 a ex:User ;
     ex:email "lbenard@laposte.net"^^xsd:string ;
     ex:hasOrder ex:order_129,
         ex:order_444 ;
+    ex:password "F(3XWGb9hu51"^^xsd:string ;
     ex:username "leclercqcolette"^^xsd:string .
 
 ex:user_244 a ex:User ;
@@ -1334,6 +1495,7 @@ ex:user_244 a ex:User ;
         ex:order_497,
         ex:order_91 ;
     ex:hasReview ex:review_26 ;
+    ex:password "#9#gvWCdwV50"^^xsd:string ;
     ex:username "emileschneider"^^xsd:string .
 
 ex:user_245 a ex:User ;
@@ -1342,6 +1504,7 @@ ex:user_245 a ex:User ;
         ex:order_450,
         ex:order_473 ;
     ex:hasReview ex:review_500 ;
+    ex:password "$*40Y$eUqfhM"^^xsd:string ;
     ex:username "zoe10"^^xsd:string .
 
 ex:user_246 a ex:User ;
@@ -1352,6 +1515,7 @@ ex:user_246 a ex:User ;
     ex:hasReview ex:review_251,
         ex:review_431,
         ex:review_89 ;
+    ex:password "v8uXqczAwxs!"^^xsd:string ;
     ex:username "alexandria67"^^xsd:string .
 
 ex:user_247 a ex:User ;
@@ -1359,6 +1523,7 @@ ex:user_247 a ex:User ;
     ex:hasOrder ex:order_187,
         ex:order_266,
         ex:order_425 ;
+    ex:password "r_nxAilUYCz4"^^xsd:string ;
     ex:username "dperrot"^^xsd:string .
 
 ex:user_248 a ex:User ;
@@ -1366,27 +1531,32 @@ ex:user_248 a ex:User ;
     ex:hasOrder ex:order_457,
         ex:order_60 ;
     ex:hasReview ex:review_475 ;
+    ex:password "(u2GKETqu101"^^xsd:string ;
     ex:username "jeanninereynaud"^^xsd:string .
 
 ex:user_249 a ex:User ;
     ex:email "alfred73@regnier.com"^^xsd:string ;
     ex:hasOrder ex:order_78 ;
+    ex:password "rn2(XMVn4FIT"^^xsd:string ;
     ex:username "tlacroix"^^xsd:string .
 
 ex:user_25 a ex:User ;
     ex:email "josephine38@pruvost.com"^^xsd:string ;
     ex:hasOrder ex:order_115 ;
     ex:hasReview ex:review_35 ;
+    ex:password "(40uH&dxfvdK"^^xsd:string ;
     ex:username "kguillet"^^xsd:string .
 
 ex:user_250 a ex:User ;
     ex:email "znormand@yahoo.fr"^^xsd:string ;
     ex:hasOrder ex:order_200 ;
+    ex:password ")8EF(JukEwW^"^^xsd:string ;
     ex:username "agnesbonnin"^^xsd:string .
 
 ex:user_251 a ex:User ;
     ex:email "manon07@allard.com"^^xsd:string ;
     ex:hasReview ex:review_310 ;
+    ex:password "t3OcqF$N$3#K"^^xsd:string ;
     ex:username "dos-santossusan"^^xsd:string .
 
 ex:user_252 a ex:User ;
@@ -1395,42 +1565,50 @@ ex:user_252 a ex:User ;
     ex:hasReview ex:review_134,
         ex:review_216,
         ex:review_313 ;
+    ex:password "YS1w!dUc)P!9"^^xsd:string ;
     ex:username "thereseledoux"^^xsd:string .
 
 ex:user_253 a ex:User ;
     ex:email "dsauvage@laposte.net"^^xsd:string ;
     ex:hasOrder ex:order_188,
         ex:order_213 ;
+    ex:password "gyV3LImqmb2("^^xsd:string ;
     ex:username "juliette37"^^xsd:string .
 
 ex:user_254 a ex:User ;
     ex:email "rogerthibaut@humbert.com"^^xsd:string ;
     ex:hasOrder ex:order_183,
         ex:order_325 ;
+    ex:password "8FEUPLVm+iKT"^^xsd:string ;
     ex:username "xgillet"^^xsd:string .
 
 ex:user_255 a ex:User ;
     ex:email "payetolivier@fouquet.com"^^xsd:string ;
+    ex:password "1+PGShoPT%07"^^xsd:string ;
     ex:username "lecontemathilde"^^xsd:string .
 
 ex:user_256 a ex:User ;
     ex:email "jules24@wanadoo.fr"^^xsd:string ;
     ex:hasOrder ex:order_329 ;
+    ex:password "dRZkqpBy^1AX"^^xsd:string ;
     ex:username "alexandrie19"^^xsd:string .
 
 ex:user_257 a ex:User ;
     ex:email "agnesdumas@hotmail.fr"^^xsd:string ;
     ex:hasReview ex:review_328 ;
+    ex:password "e+2AnV$cR_oS"^^xsd:string ;
     ex:username "gregoirelebon"^^xsd:string .
 
 ex:user_258 a ex:User ;
     ex:email "ysalmon@loiseau.com"^^xsd:string ;
+    ex:password "^x@qCc%s!$5V"^^xsd:string ;
     ex:username "stephanieblot"^^xsd:string .
 
 ex:user_259 a ex:User ;
     ex:email "guycordier@boulanger.org"^^xsd:string ;
     ex:hasOrder ex:order_315 ;
     ex:hasReview ex:review_30 ;
+    ex:password "AI1WI5yl(f%+"^^xsd:string ;
     ex:username "legendreguy"^^xsd:string .
 
 ex:user_26 a ex:User ;
@@ -1439,20 +1617,24 @@ ex:user_26 a ex:User ;
         ex:order_221,
         ex:order_304 ;
     ex:hasReview ex:review_488 ;
+    ex:password "AW4I5NMgBb&W"^^xsd:string ;
     ex:username "dominiquecamus"^^xsd:string .
 
 ex:user_260 a ex:User ;
     ex:email "claire70@gmail.com"^^xsd:string ;
+    ex:password "7O78nkq(^AWU"^^xsd:string ;
     ex:username "guy27"^^xsd:string .
 
 ex:user_261 a ex:User ;
     ex:email "lucjacob@live.com"^^xsd:string ;
     ex:hasOrder ex:order_109 ;
     ex:hasReview ex:review_154 ;
+    ex:password "u36&_!gh+3xU"^^xsd:string ;
     ex:username "zpierre"^^xsd:string .
 
 ex:user_262 a ex:User ;
     ex:email "eugene89@colas.net"^^xsd:string ;
+    ex:password "gX6rwbIsBBV)"^^xsd:string ;
     ex:username "victor09"^^xsd:string .
 
 ex:user_263 a ex:User ;
@@ -1460,6 +1642,7 @@ ex:user_263 a ex:User ;
     ex:hasOrder ex:order_101 ;
     ex:hasReview ex:review_136,
         ex:review_326 ;
+    ex:password "D4zvrv5h_UBb"^^xsd:string ;
     ex:username "svasseur"^^xsd:string .
 
 ex:user_264 a ex:User ;
@@ -1468,37 +1651,44 @@ ex:user_264 a ex:User ;
         ex:review_269,
         ex:review_321,
         ex:review_58 ;
+    ex:password "E^3FBo7C_8yz"^^xsd:string ;
     ex:username "laetitia35"^^xsd:string .
 
 ex:user_265 a ex:User ;
     ex:email "valerie78@reynaud.com"^^xsd:string ;
+    ex:password "8R8Pa4*1N#&T"^^xsd:string ;
     ex:username "fremy"^^xsd:string .
 
 ex:user_266 a ex:User ;
     ex:email "renee37@live.com"^^xsd:string ;
     ex:hasReview ex:review_21,
         ex:review_477 ;
+    ex:password "6d1!7ADi@0%o"^^xsd:string ;
     ex:username "marthe52"^^xsd:string .
 
 ex:user_267 a ex:User ;
     ex:email "josephinecolas@hotmail.fr"^^xsd:string ;
     ex:hasOrder ex:order_56 ;
+    ex:password "W@Uj7KFoT*wE"^^xsd:string ;
     ex:username "veronique55"^^xsd:string .
 
 ex:user_268 a ex:User ;
     ex:email "susanne26@pierre.org"^^xsd:string ;
+    ex:password "O(6K^za46j7q"^^xsd:string ;
     ex:username "hcolin"^^xsd:string .
 
 ex:user_269 a ex:User ;
     ex:email "albertrobert@mallet.com"^^xsd:string ;
     ex:hasReview ex:review_288,
         ex:review_305 ;
+    ex:password "TvvQ71MQk(7P"^^xsd:string ;
     ex:username "royerchantal"^^xsd:string .
 
 ex:user_27 a ex:User ;
     ex:email "margaret84@tiscali.fr"^^xsd:string ;
     ex:hasOrder ex:order_359 ;
     ex:hasReview ex:review_463 ;
+    ex:password "*MP5)5JkXe^o"^^xsd:string ;
     ex:username "baillyjacques"^^xsd:string .
 
 ex:user_270 a ex:User ;
@@ -1507,26 +1697,31 @@ ex:user_270 a ex:User ;
         ex:order_361 ;
     ex:hasReview ex:review_118,
         ex:review_498 ;
+    ex:password "#h9YBq(ByPMH"^^xsd:string ;
     ex:username "dominiqueribeiro"^^xsd:string .
 
 ex:user_271 a ex:User ;
     ex:email "nrenault@club-internet.fr"^^xsd:string ;
     ex:hasOrder ex:order_295 ;
+    ex:password "%QQx3wZzXsf@"^^xsd:string ;
     ex:username "julienboucher"^^xsd:string .
 
 ex:user_272 a ex:User ;
     ex:email "potieraime@ifrance.com"^^xsd:string ;
     ex:hasReview ex:review_294 ;
+    ex:password "K&U#RP6dp944"^^xsd:string ;
     ex:username "danielle47"^^xsd:string .
 
 ex:user_273 a ex:User ;
     ex:email "mariemichel@club-internet.fr"^^xsd:string ;
     ex:hasOrder ex:order_181,
         ex:order_484 ;
+    ex:password ")fv0Wf)Qj45O"^^xsd:string ;
     ex:username "thomasmartine"^^xsd:string .
 
 ex:user_274 a ex:User ;
     ex:email "wlefort@masse.fr"^^xsd:string ;
+    ex:password "0G_Rs6XuU*yy"^^xsd:string ;
     ex:username "gilbert80"^^xsd:string .
 
 ex:user_275 a ex:User ;
@@ -1534,18 +1729,21 @@ ex:user_275 a ex:User ;
     ex:hasOrder ex:order_163,
         ex:order_342 ;
     ex:hasReview ex:review_12 ;
+    ex:password "Vb@#4FvCPQ91"^^xsd:string ;
     ex:username "dialloleon"^^xsd:string .
 
 ex:user_276 a ex:User ;
     ex:email "suzanneraynaud@laposte.net"^^xsd:string ;
     ex:hasReview ex:review_105,
         ex:review_272 ;
+    ex:password ")hm6XRzXyEk8"^^xsd:string ;
     ex:username "leclercjean"^^xsd:string .
 
 ex:user_277 a ex:User ;
     ex:email "ifernandez@ifrance.com"^^xsd:string ;
     ex:hasOrder ex:order_189 ;
     ex:hasReview ex:review_28 ;
+    ex:password "vM_0Db#v!x)0"^^xsd:string ;
     ex:username "adriennealbert"^^xsd:string .
 
 ex:user_278 a ex:User ;
@@ -1553,45 +1751,54 @@ ex:user_278 a ex:User ;
     ex:hasOrder ex:order_289 ;
     ex:hasReview ex:review_14,
         ex:review_371 ;
+    ex:password "2HdbJ6#uP@n4"^^xsd:string ;
     ex:username "susan90"^^xsd:string .
 
 ex:user_279 a ex:User ;
     ex:email "sebastien57@voila.fr"^^xsd:string ;
+    ex:password "3HguzIeVFTA@"^^xsd:string ;
     ex:username "arthurlegendre"^^xsd:string .
 
 ex:user_28 a ex:User ;
     ex:email "charlesvalerie@free.fr"^^xsd:string ;
+    ex:password "12Kw_lrr(BKY"^^xsd:string ;
     ex:username "manonvasseur"^^xsd:string .
 
 ex:user_280 a ex:User ;
     ex:email "jeanninesimon@live.com"^^xsd:string ;
     ex:hasReview ex:review_197 ;
+    ex:password "1HC5unhz($6c"^^xsd:string ;
     ex:username "yvesperrin"^^xsd:string .
 
 ex:user_281 a ex:User ;
     ex:email "martinphilippe@diallo.fr"^^xsd:string ;
     ex:hasOrder ex:order_5 ;
+    ex:password ")2A_!kMnL#2T"^^xsd:string ;
     ex:username "adele51"^^xsd:string .
 
 ex:user_282 a ex:User ;
     ex:email "danielle-gall@le.fr"^^xsd:string ;
     ex:hasReview ex:review_355,
         ex:review_368 ;
+    ex:password "22i@8Z1bm5*B"^^xsd:string ;
     ex:username "bernard21"^^xsd:string .
 
 ex:user_283 a ex:User ;
     ex:email "denisblondel@legrand.fr"^^xsd:string ;
     ex:hasOrder ex:order_485,
         ex:order_87 ;
+    ex:password "e2)*HSwxdYt9"^^xsd:string ;
     ex:username "omerle"^^xsd:string .
 
 ex:user_284 a ex:User ;
     ex:email "maryse30@chevallier.fr"^^xsd:string ;
     ex:hasReview ex:review_131 ;
+    ex:password "_t3cEWS76vEu"^^xsd:string ;
     ex:username "jeanalix"^^xsd:string .
 
 ex:user_285 a ex:User ;
     ex:email "victoire53@wanadoo.fr"^^xsd:string ;
+    ex:password ")HgFY8h%0XPE"^^xsd:string ;
     ex:username "carpentiergilbert"^^xsd:string .
 
 ex:user_286 a ex:User ;
@@ -1599,32 +1806,38 @@ ex:user_286 a ex:User ;
     ex:hasOrder ex:order_345 ;
     ex:hasReview ex:review_19,
         ex:review_384 ;
+    ex:password "cBvWYduZ)3x3"^^xsd:string ;
     ex:username "petitemmanuelle"^^xsd:string .
 
 ex:user_287 a ex:User ;
     ex:email "bouvetlaetitia@live.com"^^xsd:string ;
     ex:hasOrder ex:order_161 ;
+    ex:password "_4^5ZRiJ^#!R"^^xsd:string ;
     ex:username "michellemartins"^^xsd:string .
 
 ex:user_288 a ex:User ;
     ex:email "guillaumelefort@fernandez.com"^^xsd:string ;
+    ex:password "+(0iaTAkIRO5"^^xsd:string ;
     ex:username "vcoste"^^xsd:string .
 
 ex:user_289 a ex:User ;
     ex:email "arnaudmarie@dubois.fr"^^xsd:string ;
     ex:hasReview ex:review_245,
         ex:review_332 ;
+    ex:password "hl9JXy0#^($T"^^xsd:string ;
     ex:username "camillemarin"^^xsd:string .
 
 ex:user_29 a ex:User ;
     ex:email "sylviebarthelemy@maurice.fr"^^xsd:string ;
     ex:hasReview ex:review_376,
         ex:review_432 ;
+    ex:password "+goR#L(jE59@"^^xsd:string ;
     ex:username "meunierhelene"^^xsd:string .
 
 ex:user_290 a ex:User ;
     ex:email "georgesgabriel@allard.fr"^^xsd:string ;
     ex:hasOrder ex:order_288 ;
+    ex:password "hZ(gi0Vu$mTS"^^xsd:string ;
     ex:username "tmartel"^^xsd:string .
 
 ex:user_291 a ex:User ;
@@ -1634,31 +1847,37 @@ ex:user_291 a ex:User ;
         ex:order_437 ;
     ex:hasReview ex:review_322,
         ex:review_57 ;
+    ex:password "^qgGj^I0&9F6"^^xsd:string ;
     ex:username "umartin"^^xsd:string .
 
 ex:user_292 a ex:User ;
     ex:email "mauryluce@bigot.net"^^xsd:string ;
     ex:hasReview ex:review_44 ;
+    ex:password "6qXiW9Rv__b@"^^xsd:string ;
     ex:username "louis47"^^xsd:string .
 
 ex:user_293 a ex:User ;
     ex:email "emeyer@dbmail.com"^^xsd:string ;
+    ex:password "#qT9q3&S92uA"^^xsd:string ;
     ex:username "isabelle98"^^xsd:string .
 
 ex:user_294 a ex:User ;
     ex:email "xavier55@bertin.net"^^xsd:string ;
     ex:hasReview ex:review_127,
         ex:review_199 ;
+    ex:password "TtM_3WAhz$%8"^^xsd:string ;
     ex:username "michaudeleonore"^^xsd:string .
 
 ex:user_295 a ex:User ;
     ex:email "zacharieferrand@roux.fr"^^xsd:string ;
     ex:hasOrder ex:order_280,
         ex:order_392 ;
+    ex:password "bIUE4i@e_77N"^^xsd:string ;
     ex:username "aimee38"^^xsd:string .
 
 ex:user_296 a ex:User ;
     ex:email "lebretondenis@muller.fr"^^xsd:string ;
+    ex:password "4y*R#2zC#Nn)"^^xsd:string ;
     ex:username "claudinelucas"^^xsd:string .
 
 ex:user_297 a ex:User ;
@@ -1666,10 +1885,12 @@ ex:user_297 a ex:User ;
     ex:hasOrder ex:order_236,
         ex:order_394 ;
     ex:hasReview ex:review_252 ;
+    ex:password "v8$SP#t0+81m"^^xsd:string ;
     ex:username "robertcouturier"^^xsd:string .
 
 ex:user_298 a ex:User ;
     ex:email "benoitbigot@tele2.fr"^^xsd:string ;
+    ex:password "z8+MU&3qP7#8"^^xsd:string ;
     ex:username "aimejacquet"^^xsd:string .
 
 ex:user_299 a ex:User ;
@@ -1677,6 +1898,7 @@ ex:user_299 a ex:User ;
     ex:hasOrder ex:order_214,
         ex:order_72 ;
     ex:hasReview ex:review_300 ;
+    ex:password "Mf3)KDd#@VR&"^^xsd:string ;
     ex:username "aurelie17"^^xsd:string .
 
 ex:user_3 a ex:User ;
@@ -1684,22 +1906,26 @@ ex:user_3 a ex:User ;
     ex:hasOrder ex:order_252,
         ex:order_290 ;
     ex:hasReview ex:review_461 ;
+    ex:password "33o)Gzu3#Dc&"^^xsd:string ;
     ex:username "patrickbarbe"^^xsd:string .
 
 ex:user_30 a ex:User ;
     ex:email "pperrot@martel.com"^^xsd:string ;
     ex:hasOrder ex:order_75 ;
+    ex:password "5jHBivuhm)3@"^^xsd:string ;
     ex:username "philippinejoseph"^^xsd:string .
 
 ex:user_300 a ex:User ;
     ex:email "margueritegarnier@foucher.fr"^^xsd:string ;
     ex:hasOrder ex:order_194 ;
     ex:hasReview ex:review_31 ;
+    ex:password "ePTryjEsk(7l"^^xsd:string ;
     ex:username "theophile40"^^xsd:string .
 
 ex:user_301 a ex:User ;
     ex:email "vberger@wanadoo.fr"^^xsd:string ;
     ex:hasOrder ex:order_41 ;
+    ex:password "S0D5def@_2cM"^^xsd:string ;
     ex:username "astrid04"^^xsd:string .
 
 ex:user_302 a ex:User ;
@@ -1707,6 +1933,7 @@ ex:user_302 a ex:User ;
     ex:hasOrder ex:order_279,
         ex:order_458 ;
     ex:hasReview ex:review_17 ;
+    ex:password "+t9TNS3f_1+8"^^xsd:string ;
     ex:username "virginie96"^^xsd:string .
 
 ex:user_303 a ex:User ;
@@ -1714,6 +1941,7 @@ ex:user_303 a ex:User ;
     ex:hasOrder ex:order_31,
         ex:order_475 ;
     ex:hasReview ex:review_383 ;
+    ex:password "gFYMYK8hY*1b"^^xsd:string ;
     ex:username "karnaud"^^xsd:string .
 
 ex:user_304 a ex:User ;
@@ -1721,12 +1949,14 @@ ex:user_304 a ex:User ;
     ex:hasOrder ex:order_360 ;
     ex:hasReview ex:review_343,
         ex:review_8 ;
+    ex:password "3M7UKgLm*TE2"^^xsd:string ;
     ex:username "rguyon"^^xsd:string .
 
 ex:user_305 a ex:User ;
     ex:email "renehumbert@duval.com"^^xsd:string ;
     ex:hasOrder ex:order_479 ;
     ex:hasReview ex:review_185 ;
+    ex:password ")dS9UiV_8lLL"^^xsd:string ;
     ex:username "xpereira"^^xsd:string .
 
 ex:user_306 a ex:User ;
@@ -1736,12 +1966,14 @@ ex:user_306 a ex:User ;
         ex:order_466 ;
     ex:hasReview ex:review_309,
         ex:review_478 ;
+    ex:password "K@hlCkAcTp_8"^^xsd:string ;
     ex:username "diasmarie"^^xsd:string .
 
 ex:user_307 a ex:User ;
     ex:email "robertvirginie@schneider.com"^^xsd:string ;
     ex:hasOrder ex:order_137 ;
     ex:hasReview ex:review_385 ;
+    ex:password "H&1KFqiVzl_2"^^xsd:string ;
     ex:username "andreenormand"^^xsd:string .
 
 ex:user_308 a ex:User ;
@@ -1749,6 +1981,7 @@ ex:user_308 a ex:User ;
     ex:hasReview ex:review_221,
         ex:review_244,
         ex:review_306 ;
+    ex:password "(g6GBSfj$K(u"^^xsd:string ;
     ex:username "antoinettele-roux"^^xsd:string .
 
 ex:user_309 a ex:User ;
@@ -1756,6 +1989,7 @@ ex:user_309 a ex:User ;
     ex:hasOrder ex:order_320 ;
     ex:hasReview ex:review_109,
         ex:review_204 ;
+    ex:password "uW6*%pqzr_OM"^^xsd:string ;
     ex:username "renardmargot"^^xsd:string .
 
 ex:user_31 a ex:User ;
@@ -1765,46 +1999,55 @@ ex:user_31 a ex:User ;
         ex:order_366 ;
     ex:hasReview ex:review_358,
         ex:review_93 ;
+    ex:password "+1Qx2tiJg$sG"^^xsd:string ;
     ex:username "cbernier"^^xsd:string .
 
 ex:user_310 a ex:User ;
     ex:email "cjourdan@lefevre.com"^^xsd:string ;
     ex:hasOrder ex:order_391 ;
+    ex:password "0K3%JuP_^I99"^^xsd:string ;
     ex:username "hortense47"^^xsd:string .
 
 ex:user_311 a ex:User ;
     ex:email "christiane36@voila.fr"^^xsd:string ;
     ex:hasOrder ex:order_405 ;
+    ex:password "S3&PZrsa)Aut"^^xsd:string ;
     ex:username "martineaumargaud"^^xsd:string .
 
 ex:user_312 a ex:User ;
     ex:email "michelleetienne@free.fr"^^xsd:string ;
     ex:hasReview ex:review_224 ;
+    ex:password "(4HOzlQTD!tX"^^xsd:string ;
     ex:username "zledoux"^^xsd:string .
 
 ex:user_313 a ex:User ;
     ex:email "alainjean@hotmail.fr"^^xsd:string ;
     ex:hasReview ex:review_422 ;
+    ex:password "V_cT3Ek&a45V"^^xsd:string ;
     ex:username "victoire53"^^xsd:string .
 
 ex:user_314 a ex:User ;
     ex:email "renebouchet@tiscali.fr"^^xsd:string ;
     ex:hasOrder ex:order_16 ;
+    ex:password "397ZwdmT!ZeP"^^xsd:string ;
     ex:username "gerard64"^^xsd:string .
 
 ex:user_315 a ex:User ;
     ex:email "benoitduhamel@leger.com"^^xsd:string ;
     ex:hasReview ex:review_73 ;
+    ex:password "0)Ltbrhy#jTW"^^xsd:string ;
     ex:username "bernadetteleger"^^xsd:string .
 
 ex:user_316 a ex:User ;
     ex:email "catherine84@coulon.fr"^^xsd:string ;
     ex:hasOrder ex:order_96 ;
+    ex:password "+hOJcQ0(8@UR"^^xsd:string ;
     ex:username "qallard"^^xsd:string .
 
 ex:user_317 a ex:User ;
     ex:email "boulayhenriette@ifrance.com"^^xsd:string ;
     ex:hasReview ex:review_323 ;
+    ex:password "T#)0S$a4Z)06"^^xsd:string ;
     ex:username "michaudanouk"^^xsd:string .
 
 ex:user_318 a ex:User ;
@@ -1812,32 +2055,38 @@ ex:user_318 a ex:User ;
     ex:hasOrder ex:order_162,
         ex:order_384 ;
     ex:hasReview ex:review_181 ;
+    ex:password "Z_H05AsqqtPt"^^xsd:string ;
     ex:username "dupreemilie"^^xsd:string .
 
 ex:user_319 a ex:User ;
     ex:email "xpasquier@noos.fr"^^xsd:string ;
     ex:hasReview ex:review_191 ;
+    ex:password "5GdLJ!cf#12Q"^^xsd:string ;
     ex:username "nathalie49"^^xsd:string .
 
 ex:user_32 a ex:User ;
     ex:email "josephine29@live.com"^^xsd:string ;
     ex:hasOrder ex:order_480 ;
     ex:hasReview ex:review_24 ;
+    ex:password "CgNlRmWu&63b"^^xsd:string ;
     ex:username "eric25"^^xsd:string .
 
 ex:user_320 a ex:User ;
     ex:email "martherenault@renard.fr"^^xsd:string ;
+    ex:password "#eF^s9QvUE9Q"^^xsd:string ;
     ex:username "gguerin"^^xsd:string .
 
 ex:user_321 a ex:User ;
     ex:email "poiriermargaret@delahaye.net"^^xsd:string ;
     ex:hasOrder ex:order_220 ;
     ex:hasReview ex:review_144 ;
+    ex:password "$sVJDEagp3Ha"^^xsd:string ;
     ex:username "jdelahaye"^^xsd:string .
 
 ex:user_322 a ex:User ;
     ex:email "manonmerle@pierre.fr"^^xsd:string ;
     ex:hasOrder ex:order_248 ;
+    ex:password "L_5+4UbFv&tG"^^xsd:string ;
     ex:username "adupont"^^xsd:string .
 
 ex:user_323 a ex:User ;
@@ -1847,18 +2096,21 @@ ex:user_323 a ex:User ;
         ex:review_367,
         ex:review_381,
         ex:review_81 ;
+    ex:password "io&K0Ul0b3Ve"^^xsd:string ;
     ex:username "ulebreton"^^xsd:string .
 
 ex:user_324 a ex:User ;
     ex:email "gonzalezemile@tele2.fr"^^xsd:string ;
     ex:hasOrder ex:order_130 ;
     ex:hasReview ex:review_148 ;
+    ex:password "(l7VBWJs#3dP"^^xsd:string ;
     ex:username "lalbert"^^xsd:string .
 
 ex:user_325 a ex:User ;
     ex:email "michellele-roux@potier.com"^^xsd:string ;
     ex:hasReview ex:review_22,
         ex:review_428 ;
+    ex:password "9)i+Z7QlYL0l"^^xsd:string ;
     ex:username "bonnincatherine"^^xsd:string .
 
 ex:user_326 a ex:User ;
@@ -1866,16 +2118,19 @@ ex:user_326 a ex:User ;
     ex:hasOrder ex:order_257,
         ex:order_378 ;
     ex:hasReview ex:review_361 ;
+    ex:password "*8S2xNZdnRdu"^^xsd:string ;
     ex:username "wagnerjulie"^^xsd:string .
 
 ex:user_327 a ex:User ;
     ex:email "jtexier@georges.com"^^xsd:string ;
     ex:hasReview ex:review_170 ;
+    ex:password "#&hO1K(hozjf"^^xsd:string ;
     ex:username "william39"^^xsd:string .
 
 ex:user_328 a ex:User ;
     ex:email "laurence30@perrot.com"^^xsd:string ;
     ex:hasOrder ex:order_47 ;
+    ex:password "_Te+SPx!02LQ"^^xsd:string ;
     ex:username "ebenoit"^^xsd:string .
 
 ex:user_329 a ex:User ;
@@ -1883,6 +2138,7 @@ ex:user_329 a ex:User ;
     ex:hasOrder ex:order_120,
         ex:order_495 ;
     ex:hasReview ex:review_164 ;
+    ex:password "2Kb*vmc3!u*M"^^xsd:string ;
     ex:username "xgiraud"^^xsd:string .
 
 ex:user_33 a ex:User ;
@@ -1890,32 +2146,38 @@ ex:user_33 a ex:User ;
     ex:hasOrder ex:order_102,
         ex:order_164,
         ex:order_395 ;
+    ex:password "OEK(5qxJn1Ss"^^xsd:string ;
     ex:username "stephane42"^^xsd:string .
 
 ex:user_330 a ex:User ;
     ex:email "adelegeorges@monnier.com"^^xsd:string ;
+    ex:password "36#MGCgs@rdz"^^xsd:string ;
     ex:username "madeleineraynaud"^^xsd:string .
 
 ex:user_331 a ex:User ;
     ex:email "pottierastrid@vaillant.org"^^xsd:string ;
     ex:hasReview ex:review_112 ;
+    ex:password "+J^ew1Vya8QW"^^xsd:string ;
     ex:username "dcarre"^^xsd:string .
 
 ex:user_332 a ex:User ;
     ex:email "tmace@leroux.fr"^^xsd:string ;
     ex:hasOrder ex:order_373 ;
     ex:hasReview ex:review_235 ;
+    ex:password "k1F8@OxY(PZ8"^^xsd:string ;
     ex:username "teixeiracecile"^^xsd:string .
 
 ex:user_333 a ex:User ;
     ex:email "wchauvet@club-internet.fr"^^xsd:string ;
     ex:hasReview ex:review_180 ;
+    ex:password "6R4NjJUt%%PB"^^xsd:string ;
     ex:username "blindavid"^^xsd:string .
 
 ex:user_334 a ex:User ;
     ex:email "david97@tele2.fr"^^xsd:string ;
     ex:hasReview ex:review_102,
         ex:review_18 ;
+    ex:password "00r5UyH2!yKI"^^xsd:string ;
     ex:username "guerinmargaud"^^xsd:string .
 
 ex:user_335 a ex:User ;
@@ -1924,6 +2186,7 @@ ex:user_335 a ex:User ;
         ex:order_82 ;
     ex:hasReview ex:review_443,
         ex:review_455 ;
+    ex:password "%gp9O(eFI&P4"^^xsd:string ;
     ex:username "ngirard"^^xsd:string .
 
 ex:user_336 a ex:User ;
@@ -1933,73 +2196,86 @@ ex:user_336 a ex:User ;
     ex:hasReview ex:review_116,
         ex:review_280,
         ex:review_425 ;
+    ex:password "P&TmrZj0*i*9"^^xsd:string ;
     ex:username "virginielombard"^^xsd:string .
 
 ex:user_337 a ex:User ;
     ex:email "picardalphonse@orange.fr"^^xsd:string ;
     ex:hasReview ex:review_482 ;
+    ex:password "(2R6WZsy7gaZ"^^xsd:string ;
     ex:username "renaudpierre"^^xsd:string .
 
 ex:user_338 a ex:User ;
     ex:email "yalbert@durand.fr"^^xsd:string ;
+    ex:password "66fHO*Yb(iF6"^^xsd:string ;
     ex:username "valletalain"^^xsd:string .
 
 ex:user_339 a ex:User ;
     ex:email "jacqueline28@voila.fr"^^xsd:string ;
     ex:hasReview ex:review_203,
         ex:review_228 ;
+    ex:password "h22ev5MH+gKb"^^xsd:string ;
     ex:username "anouk18"^^xsd:string .
 
 ex:user_34 a ex:User ;
     ex:email "arnaudehubert@monnier.net"^^xsd:string ;
     ex:hasOrder ex:order_453 ;
+    ex:password "x)up_rDj0o9E"^^xsd:string ;
     ex:username "plouis"^^xsd:string .
 
 ex:user_340 a ex:User ;
     ex:email "labbeandre@orange.fr"^^xsd:string ;
     ex:hasReview ex:review_206 ;
+    ex:password "$T38rSdFd51D"^^xsd:string ;
     ex:username "ngoncalves"^^xsd:string .
 
 ex:user_341 a ex:User ;
     ex:email "charles06@bonneau.net"^^xsd:string ;
     ex:hasOrder ex:order_131 ;
     ex:hasReview ex:review_302 ;
+    ex:password "f56LRUZp+!7v"^^xsd:string ;
     ex:username "suzanne76"^^xsd:string .
 
 ex:user_342 a ex:User ;
     ex:email "daniel97@moulin.com"^^xsd:string ;
     ex:hasReview ex:review_151,
         ex:review_479 ;
+    ex:password "0oXNxjZv)WsB"^^xsd:string ;
     ex:username "jeanmendes"^^xsd:string .
 
 ex:user_343 a ex:User ;
     ex:email "dominiqueblot@devaux.com"^^xsd:string ;
     ex:hasOrder ex:order_277,
         ex:order_50 ;
+    ex:password ")2DOXpj8i2FQ"^^xsd:string ;
     ex:username "aubertpatrick"^^xsd:string .
 
 ex:user_344 a ex:User ;
     ex:email "josephineweber@orange.fr"^^xsd:string ;
     ex:hasOrder ex:order_192 ;
     ex:hasReview ex:review_236 ;
+    ex:password "#+9Mb)eH7o1T"^^xsd:string ;
     ex:username "margottecher"^^xsd:string .
 
 ex:user_345 a ex:User ;
     ex:email "theresegautier@free.fr"^^xsd:string ;
     ex:hasOrder ex:order_143,
         ex:order_66 ;
+    ex:password "#3zi!MB1oKXa"^^xsd:string ;
     ex:username "duponttimothee"^^xsd:string .
 
 ex:user_346 a ex:User ;
     ex:email "bergerlouise@voisin.com"^^xsd:string ;
     ex:hasOrder ex:order_18,
         ex:order_4 ;
+    ex:password "JE8Z6KzmNBb^"^^xsd:string ;
     ex:username "jhoarau"^^xsd:string .
 
 ex:user_347 a ex:User ;
     ex:email "cmoreau@live.com"^^xsd:string ;
     ex:hasReview ex:review_307,
         ex:review_451 ;
+    ex:password "k!yl5mRUd!2C"^^xsd:string ;
     ex:username "wvasseur"^^xsd:string .
 
 ex:user_348 a ex:User ;
@@ -2007,11 +2283,13 @@ ex:user_348 a ex:User ;
     ex:hasOrder ex:order_303 ;
     ex:hasReview ex:review_188,
         ex:review_400 ;
+    ex:password "5!8NF5ye7^dX"^^xsd:string ;
     ex:username "xjoubert"^^xsd:string .
 
 ex:user_349 a ex:User ;
     ex:email "gregoire34@legrand.fr"^^xsd:string ;
     ex:hasOrder ex:order_488 ;
+    ex:password "^3YAAc(colw9"^^xsd:string ;
     ex:username "hamelgilbert"^^xsd:string .
 
 ex:user_35 a ex:User ;
@@ -2022,12 +2300,14 @@ ex:user_35 a ex:User ;
     ex:hasReview ex:review_34,
         ex:review_377,
         ex:review_418 ;
+    ex:password "++z9(BnzGsAD"^^xsd:string ;
     ex:username "margaux26"^^xsd:string .
 
 ex:user_350 a ex:User ;
     ex:email "claudebonneau@hotmail.fr"^^xsd:string ;
     ex:hasOrder ex:order_179 ;
     ex:hasReview ex:review_215 ;
+    ex:password "R%2)!M4#^ttC"^^xsd:string ;
     ex:username "celinacohen"^^xsd:string .
 
 ex:user_351 a ex:User ;
@@ -2035,17 +2315,20 @@ ex:user_351 a ex:User ;
     ex:hasOrder ex:order_139,
         ex:order_423,
         ex:order_81 ;
+    ex:password "W_1Is#xlDh(o"^^xsd:string ;
     ex:username "jbonnin"^^xsd:string .
 
 ex:user_352 a ex:User ;
     ex:email "sfabre@orange.fr"^^xsd:string ;
     ex:hasReview ex:review_141 ;
+    ex:password "k#9GA3nxhy3C"^^xsd:string ;
     ex:username "mathieuamelie"^^xsd:string .
 
 ex:user_353 a ex:User ;
     ex:email "martyantoine@ifrance.com"^^xsd:string ;
     ex:hasOrder ex:order_410,
         ex:order_443 ;
+    ex:password "4r*s#DaSkmu0"^^xsd:string ;
     ex:username "emmanuelle14"^^xsd:string .
 
 ex:user_354 a ex:User ;
@@ -2057,10 +2340,12 @@ ex:user_354 a ex:User ;
     ex:hasReview ex:review_10,
         ex:review_183,
         ex:review_56 ;
+    ex:password "@U7EdhaKK^uN"^^xsd:string ;
     ex:username "patricia93"^^xsd:string .
 
 ex:user_355 a ex:User ;
     ex:email "ccaron@ferreira.net"^^xsd:string ;
+    ex:password "HJF$7IqR)Jx0"^^xsd:string ;
     ex:username "timotheebesson"^^xsd:string .
 
 ex:user_356 a ex:User ;
@@ -2069,10 +2354,12 @@ ex:user_356 a ex:User ;
         ex:order_254 ;
     ex:hasReview ex:review_275,
         ex:review_308 ;
+    ex:password "^_65Ythm(527"^^xsd:string ;
     ex:username "boulangergabriel"^^xsd:string .
 
 ex:user_357 a ex:User ;
     ex:email "guydiaz@laposte.net"^^xsd:string ;
+    ex:password "FO*fIA^eP3A@"^^xsd:string ;
     ex:username "marthe78"^^xsd:string .
 
 ex:user_358 a ex:User ;
@@ -2080,20 +2367,24 @@ ex:user_358 a ex:User ;
     ex:hasReview ex:review_356,
         ex:review_37,
         ex:review_466 ;
+    ex:password "6_*7FlKo39EV"^^xsd:string ;
     ex:username "ferreiramichel"^^xsd:string .
 
 ex:user_359 a ex:User ;
     ex:email "clairemaillet@tiscali.fr"^^xsd:string ;
     ex:hasReview ex:review_229,
         ex:review_298 ;
+    ex:password "!%FPIfpM5nbr"^^xsd:string ;
     ex:username "sriviere"^^xsd:string .
 
 ex:user_36 a ex:User ;
     ex:email "lauregregoire@charpentier.fr"^^xsd:string ;
+    ex:password "(iW6Ib&kR6Ew"^^xsd:string ;
     ex:username "capucinegros"^^xsd:string .
 
 ex:user_360 a ex:User ;
     ex:email "constancedos-santos@leveque.fr"^^xsd:string ;
+    ex:password "Q4Ot+YmX&*gT"^^xsd:string ;
     ex:username "tjoseph"^^xsd:string .
 
 ex:user_361 a ex:User ;
@@ -2102,6 +2393,7 @@ ex:user_361 a ex:User ;
         ex:order_349,
         ex:order_440 ;
     ex:hasReview ex:review_274 ;
+    ex:password "0r^nVSgG#7Me"^^xsd:string ;
     ex:username "samsoncecile"^^xsd:string .
 
 ex:user_362 a ex:User ;
@@ -2109,15 +2401,18 @@ ex:user_362 a ex:User ;
     ex:hasOrder ex:order_229 ;
     ex:hasReview ex:review_220,
         ex:review_362 ;
+    ex:password "8*#*HiyS)m(e"^^xsd:string ;
     ex:username "madeleinecharrier"^^xsd:string .
 
 ex:user_363 a ex:User ;
     ex:email "lorraine55@free.fr"^^xsd:string ;
     ex:hasOrder ex:order_77 ;
+    ex:password "f+W8H(BswRfV"^^xsd:string ;
     ex:username "lambertroland"^^xsd:string .
 
 ex:user_364 a ex:User ;
     ex:email "maillardyves@tiscali.fr"^^xsd:string ;
+    ex:password "w&1GOFcz_185"^^xsd:string ;
     ex:username "malletpaulette"^^xsd:string .
 
 ex:user_365 a ex:User ;
@@ -2126,6 +2421,7 @@ ex:user_365 a ex:User ;
         ex:order_335,
         ex:order_454 ;
     ex:hasReview ex:review_68 ;
+    ex:password "^&5YlXtt1UMP"^^xsd:string ;
     ex:username "manon83"^^xsd:string .
 
 ex:user_366 a ex:User ;
@@ -2134,6 +2430,7 @@ ex:user_366 a ex:User ;
         ex:review_329,
         ex:review_375,
         ex:review_99 ;
+    ex:password "515hFlO4p)2d"^^xsd:string ;
     ex:username "valletlaetitia"^^xsd:string .
 
 ex:user_367 a ex:User ;
@@ -2142,6 +2439,7 @@ ex:user_367 a ex:User ;
         ex:order_341 ;
     ex:hasReview ex:review_448,
         ex:review_453 ;
+    ex:password "h2vVy0lb)R+*"^^xsd:string ;
     ex:username "michelle45"^^xsd:string .
 
 ex:user_368 a ex:User ;
@@ -2149,12 +2447,14 @@ ex:user_368 a ex:User ;
     ex:hasOrder ex:order_243,
         ex:order_278 ;
     ex:hasReview ex:review_406 ;
+    ex:password "Rw3SDVHj!AK4"^^xsd:string ;
     ex:username "roussetlaure"^^xsd:string .
 
 ex:user_369 a ex:User ;
     ex:email "delaunaylorraine@mahe.fr"^^xsd:string ;
     ex:hasOrder ex:order_406 ;
     ex:hasReview ex:review_331 ;
+    ex:password "wN@JlbBc8l6g"^^xsd:string ;
     ex:username "marine50"^^xsd:string .
 
 ex:user_37 a ex:User ;
@@ -2164,6 +2464,7 @@ ex:user_37 a ex:User ;
     ex:hasReview ex:review_241,
         ex:review_364,
         ex:review_41 ;
+    ex:password "zp68DApxP*Yb"^^xsd:string ;
     ex:username "anne28"^^xsd:string .
 
 ex:user_370 a ex:User ;
@@ -2173,12 +2474,14 @@ ex:user_370 a ex:User ;
         ex:order_76 ;
     ex:hasReview ex:review_165,
         ex:review_442 ;
+    ex:password "Nm^UOPs^k_k8"^^xsd:string ;
     ex:username "marcel17"^^xsd:string .
 
 ex:user_371 a ex:User ;
     ex:email "suzannebouvier@hotmail.fr"^^xsd:string ;
     ex:hasOrder ex:order_197,
         ex:order_415 ;
+    ex:password "%u1cE#Qbtb(5"^^xsd:string ;
     ex:username "chantalparis"^^xsd:string .
 
 ex:user_372 a ex:User ;
@@ -2186,10 +2489,12 @@ ex:user_372 a ex:User ;
     ex:hasOrder ex:order_400,
         ex:order_432 ;
     ex:hasReview ex:review_214 ;
+    ex:password "#3Up3BDBtJBF"^^xsd:string ;
     ex:username "gonzalezconstance"^^xsd:string .
 
 ex:user_373 a ex:User ;
     ex:email "guychevalier@laposte.net"^^xsd:string ;
+    ex:password "#KGnXQ7s+5Pt"^^xsd:string ;
     ex:username "michelle03"^^xsd:string .
 
 ex:user_374 a ex:User ;
@@ -2197,47 +2502,56 @@ ex:user_374 a ex:User ;
     ex:hasOrder ex:order_215 ;
     ex:hasReview ex:review_218,
         ex:review_319 ;
+    ex:password "RN3S9vSn+OXV"^^xsd:string ;
     ex:username "merlegenevieve"^^xsd:string .
 
 ex:user_375 a ex:User ;
     ex:email "fontainemartine@club-internet.fr"^^xsd:string ;
     ex:hasReview ex:review_357 ;
+    ex:password "k95P1&zp+2b6"^^xsd:string ;
     ex:username "boulayines"^^xsd:string .
 
 ex:user_376 a ex:User ;
     ex:email "rbarthelemy@bonnet.net"^^xsd:string ;
     ex:hasOrder ex:order_380 ;
+    ex:password "!0bYtSiF_ac7"^^xsd:string ;
     ex:username "olivie73"^^xsd:string .
 
 ex:user_377 a ex:User ;
     ex:email "anouk01@maurice.net"^^xsd:string ;
     ex:hasOrder ex:order_293,
         ex:order_339 ;
+    ex:password "_vNTPg)80FFw"^^xsd:string ;
     ex:username "bertinamelie"^^xsd:string .
 
 ex:user_378 a ex:User ;
     ex:email "odette71@orange.fr"^^xsd:string ;
     ex:hasOrder ex:order_314 ;
+    ex:password "#jf!VQ!i@0)d"^^xsd:string ;
     ex:username "launaymarguerite"^^xsd:string .
 
 ex:user_379 a ex:User ;
     ex:email "bernadetteweber@dbmail.com"^^xsd:string ;
     ex:hasReview ex:review_261 ;
+    ex:password "w0^Be0LnzQF7"^^xsd:string ;
     ex:username "marguerite21"^^xsd:string .
 
 ex:user_38 a ex:User ;
     ex:email "regnierdenis@rodrigues.net"^^xsd:string ;
     ex:hasOrder ex:order_245,
         ex:order_426 ;
+    ex:password "_wG9GN@S)+na"^^xsd:string ;
     ex:username "lerouxcecile"^^xsd:string .
 
 ex:user_380 a ex:User ;
     ex:email "ddurand@tiscali.fr"^^xsd:string ;
+    ex:password "g5UQjkmN*5J+"^^xsd:string ;
     ex:username "duponteugene"^^xsd:string .
 
 ex:user_381 a ex:User ;
     ex:email "maillardedith@laposte.net"^^xsd:string ;
     ex:hasReview ex:review_480 ;
+    ex:password "AqwSZ@52@6nb"^^xsd:string ;
     ex:username "philippe76"^^xsd:string .
 
 ex:user_382 a ex:User ;
@@ -2246,6 +2560,7 @@ ex:user_382 a ex:User ;
         ex:order_286 ;
     ex:hasReview ex:review_342,
         ex:review_65 ;
+    ex:password "+#50!W2ym7hN"^^xsd:string ;
     ex:username "sylviepoulain"^^xsd:string .
 
 ex:user_383 a ex:User ;
@@ -2254,15 +2569,18 @@ ex:user_383 a ex:User ;
         ex:order_310 ;
     ex:hasReview ex:review_301,
         ex:review_346 ;
+    ex:password "$1IrLz*pfa1X"^^xsd:string ;
     ex:username "veroniquevincent"^^xsd:string .
 
 ex:user_384 a ex:User ;
     ex:email "martineaupierre@blanchet.fr"^^xsd:string ;
     ex:hasOrder ex:order_274 ;
+    ex:password "sByDXN(o#92%"^^xsd:string ;
     ex:username "theodore54"^^xsd:string .
 
 ex:user_385 a ex:User ;
     ex:email "timotheearnaud@voila.fr"^^xsd:string ;
+    ex:password "$FEOK$d%Tz2V"^^xsd:string ;
     ex:username "rda-costa"^^xsd:string .
 
 ex:user_386 a ex:User ;
@@ -2274,22 +2592,26 @@ ex:user_386 a ex:User ;
         ex:review_374,
         ex:review_386,
         ex:review_414 ;
+    ex:password "AU#6IgyRv$lj"^^xsd:string ;
     ex:username "astrid64"^^xsd:string .
 
 ex:user_387 a ex:User ;
     ex:email "camillepaul@ifrance.com"^^xsd:string ;
     ex:hasOrder ex:order_273 ;
+    ex:password "Yo9NoPEvzT*i"^^xsd:string ;
     ex:username "michelerenard"^^xsd:string .
 
 ex:user_388 a ex:User ;
     ex:email "tgay@perrot.com"^^xsd:string ;
     ex:hasReview ex:review_287 ;
+    ex:password "dZD(L6TqQ0V%"^^xsd:string ;
     ex:username "allainstephane"^^xsd:string .
 
 ex:user_389 a ex:User ;
     ex:email "pintochristiane@descamps.fr"^^xsd:string ;
     ex:hasReview ex:review_242,
         ex:review_427 ;
+    ex:password "^g@SyZwR35ih"^^xsd:string ;
     ex:username "renaudmichelle"^^xsd:string .
 
 ex:user_39 a ex:User ;
@@ -2297,11 +2619,13 @@ ex:user_39 a ex:User ;
     ex:hasOrder ex:order_331,
         ex:order_430 ;
     ex:hasReview ex:review_278 ;
+    ex:password "W8wQ4mxnBG*&"^^xsd:string ;
     ex:username "faureclaire"^^xsd:string .
 
 ex:user_390 a ex:User ;
     ex:email "tmarechal@sfr.fr"^^xsd:string ;
     ex:hasOrder ex:order_158 ;
+    ex:password "U$2BwDpd)RM)"^^xsd:string ;
     ex:username "benoit26"^^xsd:string .
 
 ex:user_391 a ex:User ;
@@ -2309,6 +2633,7 @@ ex:user_391 a ex:User ;
     ex:hasReview ex:review_15,
         ex:review_446,
         ex:review_495 ;
+    ex:password "6BevWlle)dVi"^^xsd:string ;
     ex:username "carliermichel"^^xsd:string .
 
 ex:user_392 a ex:User ;
@@ -2316,11 +2641,13 @@ ex:user_392 a ex:User ;
     ex:hasOrder ex:order_196,
         ex:order_363 ;
     ex:hasReview ex:review_38 ;
+    ex:password "z(waGvY#bdP7"^^xsd:string ;
     ex:username "gautiervictor"^^xsd:string .
 
 ex:user_393 a ex:User ;
     ex:email "jeandiallo@pons.com"^^xsd:string ;
     ex:hasReview ex:review_172 ;
+    ex:password "9cQQfm&f^25M"^^xsd:string ;
     ex:username "margueriteverdier"^^xsd:string .
 
 ex:user_394 a ex:User ;
@@ -2328,6 +2655,7 @@ ex:user_394 a ex:User ;
     ex:hasOrder ex:order_492 ;
     ex:hasReview ex:review_198,
         ex:review_449 ;
+    ex:password "*3@oU#(f38My"^^xsd:string ;
     ex:username "alice86"^^xsd:string .
 
 ex:user_395 a ex:User ;
@@ -2336,48 +2664,57 @@ ex:user_395 a ex:User ;
         ex:order_294,
         ex:order_431,
         ex:order_490 ;
+    ex:password "RzHQ+son#1Xe"^^xsd:string ;
     ex:username "celinemeunier"^^xsd:string .
 
 ex:user_396 a ex:User ;
     ex:email "zlebreton@leclerc.com"^^xsd:string ;
+    ex:password "C*L&2vOuj@2R"^^xsd:string ;
     ex:username "egallet"^^xsd:string .
 
 ex:user_397 a ex:User ;
     ex:email "ponschristiane@bouygtel.fr"^^xsd:string ;
     ex:hasOrder ex:order_489 ;
+    ex:password "u%^G7Nh2iK&0"^^xsd:string ;
     ex:username "jean24"^^xsd:string .
 
 ex:user_398 a ex:User ;
     ex:email "nbigot@bigot.fr"^^xsd:string ;
     ex:hasOrder ex:order_354 ;
     ex:hasReview ex:review_129 ;
+    ex:password "gitVw)II_3*C"^^xsd:string ;
     ex:username "legrandmargaret"^^xsd:string .
 
 ex:user_399 a ex:User ;
     ex:email "thomas97@tiscali.fr"^^xsd:string ;
+    ex:password "S&R_y4fMh%0P"^^xsd:string ;
     ex:username "nathalie68"^^xsd:string .
 
 ex:user_4 a ex:User ;
     ex:email "vleroy@orange.fr"^^xsd:string ;
     ex:hasOrder ex:order_256,
         ex:order_387 ;
+    ex:password "K2HeA)qv*hFB"^^xsd:string ;
     ex:username "prevostemmanuelle"^^xsd:string .
 
 ex:user_40 a ex:User ;
     ex:email "philippine03@tele2.fr"^^xsd:string ;
     ex:hasOrder ex:order_124 ;
     ex:hasReview ex:review_6 ;
+    ex:password "o#3Id3%rkH6%"^^xsd:string ;
     ex:username "epaul"^^xsd:string .
 
 ex:user_400 a ex:User ;
     ex:email "clairedumas@noos.fr"^^xsd:string ;
     ex:hasReview ex:review_97 ;
+    ex:password "E%v^3Hw41nx("^^xsd:string ;
     ex:username "pferreira"^^xsd:string .
 
 ex:user_401 a ex:User ;
     ex:email "zrocher@mercier.com"^^xsd:string ;
     ex:hasReview ex:review_121,
         ex:review_23 ;
+    ex:password "S48_m^hsi82U"^^xsd:string ;
     ex:username "margaretdubois"^^xsd:string .
 
 ex:user_402 a ex:User ;
@@ -2385,53 +2722,63 @@ ex:user_402 a ex:User ;
     ex:hasOrder ex:order_46 ;
     ex:hasReview ex:review_373,
         ex:review_40 ;
+    ex:password "ahi3ZZtdG&B#"^^xsd:string ;
     ex:username "dchevalier"^^xsd:string .
 
 ex:user_403 a ex:User ;
     ex:email "reneeparent@auger.org"^^xsd:string ;
     ex:hasOrder ex:order_319 ;
     ex:hasReview ex:review_408 ;
+    ex:password "*rFkYAo!M3cG"^^xsd:string ;
     ex:username "clemence10"^^xsd:string .
 
 ex:user_404 a ex:User ;
     ex:email "da-silvathibault@wanadoo.fr"^^xsd:string ;
     ex:hasOrder ex:order_211 ;
     ex:hasReview ex:review_439 ;
+    ex:password "*K2^yTv+726W"^^xsd:string ;
     ex:username "rivieregilles"^^xsd:string .
 
 ex:user_405 a ex:User ;
     ex:email "frederiquegilbert@peltier.fr"^^xsd:string ;
     ex:hasOrder ex:order_30 ;
+    ex:password ")RtTa##40x0D"^^xsd:string ;
     ex:username "brunelanastasie"^^xsd:string .
 
 ex:user_406 a ex:User ;
     ex:email "annejourdan@voila.fr"^^xsd:string ;
     ex:hasOrder ex:order_48 ;
+    ex:password "&9PYoc9QahGW"^^xsd:string ;
     ex:username "nperrier"^^xsd:string .
 
 ex:user_407 a ex:User ;
     ex:email "anais90@peltier.com"^^xsd:string ;
     ex:hasOrder ex:order_42 ;
+    ex:password "RWOdr^B$*E%8"^^xsd:string ;
     ex:username "gleblanc"^^xsd:string .
 
 ex:user_408 a ex:User ;
     ex:email "epetitjean@club-internet.fr"^^xsd:string ;
     ex:hasOrder ex:order_152 ;
     ex:hasReview ex:review_388 ;
+    ex:password "IJ$ozg8f7j6P"^^xsd:string ;
     ex:username "mathieumartine"^^xsd:string .
 
 ex:user_409 a ex:User ;
     ex:email "martin24@ifrance.com"^^xsd:string ;
     ex:hasOrder ex:order_114 ;
+    ex:password "X&j4OMbl(Ubt"^^xsd:string ;
     ex:username "guillaumeroux"^^xsd:string .
 
 ex:user_41 a ex:User ;
     ex:email "celinabenoit@robin.org"^^xsd:string ;
     ex:hasReview ex:review_150 ;
+    ex:password "y#a1On3pRFz!"^^xsd:string ;
     ex:username "micheltristan"^^xsd:string .
 
 ex:user_410 a ex:User ;
     ex:email "fdiallo@cohen.fr"^^xsd:string ;
+    ex:password "&^H4SrJsuWz7"^^xsd:string ;
     ex:username "huguesriviere"^^xsd:string .
 
 ex:user_411 a ex:User ;
@@ -2440,12 +2787,14 @@ ex:user_411 a ex:User ;
     ex:hasReview ex:review_277,
         ex:review_55,
         ex:review_88 ;
+    ex:password "rYpv6#fT&1So"^^xsd:string ;
     ex:username "capucinerey"^^xsd:string .
 
 ex:user_412 a ex:User ;
     ex:email "diane06@le.fr"^^xsd:string ;
     ex:hasOrder ex:order_2,
         ex:order_358 ;
+    ex:password ")5FjEKUjDi#d"^^xsd:string ;
     ex:username "mbonnet"^^xsd:string .
 
 ex:user_413 a ex:User ;
@@ -2453,18 +2802,21 @@ ex:user_413 a ex:User ;
     ex:hasOrder ex:order_270,
         ex:order_65 ;
     ex:hasReview ex:review_207 ;
+    ex:password "38wTkQ(d*+hX"^^xsd:string ;
     ex:username "francoismace"^^xsd:string .
 
 ex:user_414 a ex:User ;
     ex:email "hfernandez@gmail.com"^^xsd:string ;
     ex:hasOrder ex:order_178,
         ex:order_44 ;
+    ex:password "vl6Ai0UPV#Qg"^^xsd:string ;
     ex:username "amelie37"^^xsd:string .
 
 ex:user_415 a ex:User ;
     ex:email "suzannehubert@boucher.fr"^^xsd:string ;
     ex:hasReview ex:review_279,
         ex:review_399 ;
+    ex:password "_SFVd*qhWQ1&"^^xsd:string ;
     ex:username "philippecollet"^^xsd:string .
 
 ex:user_416 a ex:User ;
@@ -2472,22 +2824,26 @@ ex:user_416 a ex:User ;
     ex:hasOrder ex:order_461 ;
     ex:hasReview ex:review_410,
         ex:review_412 ;
+    ex:password "M)6Htoo5_9W$"^^xsd:string ;
     ex:username "luc06"^^xsd:string .
 
 ex:user_417 a ex:User ;
     ex:email "antoineloiseau@bonnin.com"^^xsd:string ;
     ex:hasOrder ex:order_340 ;
+    ex:password "3WDdRikHu!2b"^^xsd:string ;
     ex:username "tlegendre"^^xsd:string .
 
 ex:user_418 a ex:User ;
     ex:email "maryse47@noos.fr"^^xsd:string ;
     ex:hasReview ex:review_192 ;
+    ex:password "(j&bYoa_!2JM"^^xsd:string ;
     ex:username "williamlejeune"^^xsd:string .
 
 ex:user_419 a ex:User ;
     ex:email "alain15@rey.com"^^xsd:string ;
     ex:hasOrder ex:order_32 ;
     ex:hasReview ex:review_249 ;
+    ex:password "T7Olr2Py&#FM"^^xsd:string ;
     ex:username "guilletemmanuelle"^^xsd:string .
 
 ex:user_42 a ex:User ;
@@ -2495,24 +2851,29 @@ ex:user_42 a ex:User ;
     ex:hasOrder ex:order_159,
         ex:order_166 ;
     ex:hasReview ex:review_312 ;
+    ex:password "A_aPcBukA_7x"^^xsd:string ;
     ex:username "margaud72"^^xsd:string .
 
 ex:user_420 a ex:User ;
     ex:email "simoneneveu@laroche.org"^^xsd:string ;
+    ex:password "ik1HNb1a9#3a"^^xsd:string ;
     ex:username "alfred47"^^xsd:string .
 
 ex:user_421 a ex:User ;
     ex:email "le-gallpenelope@tiscali.fr"^^xsd:string ;
+    ex:password "%hWZ5HdlHHFO"^^xsd:string ;
     ex:username "nblanc"^^xsd:string .
 
 ex:user_422 a ex:User ;
     ex:email "ygillet@laposte.net"^^xsd:string ;
     ex:hasReview ex:review_49 ;
+    ex:password "%H8WKo&djAIu"^^xsd:string ;
     ex:username "rolandcollet"^^xsd:string .
 
 ex:user_423 a ex:User ;
     ex:email "ferreirabernard@rocher.com"^^xsd:string ;
     ex:hasOrder ex:order_49 ;
+    ex:password "8&EqE1w)!rnQ"^^xsd:string ;
     ex:username "elodiebrunet"^^xsd:string .
 
 ex:user_424 a ex:User ;
@@ -2520,6 +2881,7 @@ ex:user_424 a ex:User ;
     ex:hasOrder ex:order_241,
         ex:order_316 ;
     ex:hasReview ex:review_317 ;
+    ex:password "L27IVVj705%J"^^xsd:string ;
     ex:username "allainstephanie"^^xsd:string .
 
 ex:user_425 a ex:User ;
@@ -2527,17 +2889,20 @@ ex:user_425 a ex:User ;
     ex:hasOrder ex:order_460,
         ex:order_59 ;
     ex:hasReview ex:review_415 ;
+    ex:password "#DcV@F_m5LlM"^^xsd:string ;
     ex:username "lucascharpentier"^^xsd:string .
 
 ex:user_426 a ex:User ;
     ex:email "amoreau@live.com"^^xsd:string ;
     ex:hasOrder ex:order_20 ;
+    ex:password "QHMVd)lz!2NE"^^xsd:string ;
     ex:username "davidnathalie"^^xsd:string .
 
 ex:user_427 a ex:User ;
     ex:email "dmartins@morin.com"^^xsd:string ;
     ex:hasOrder ex:order_298,
         ex:order_37 ;
+    ex:password "B_64!HnX@kJ@"^^xsd:string ;
     ex:username "ccouturier"^^xsd:string .
 
 ex:user_428 a ex:User ;
@@ -2545,32 +2910,38 @@ ex:user_428 a ex:User ;
     ex:hasOrder ex:order_25,
         ex:order_322 ;
     ex:hasReview ex:review_91 ;
+    ex:password "b&HVonKrU4w9"^^xsd:string ;
     ex:username "chartiermarthe"^^xsd:string .
 
 ex:user_429 a ex:User ;
     ex:email "antoinettebrun@club-internet.fr"^^xsd:string ;
     ex:hasReview ex:review_62 ;
+    ex:password "Q1k$khjV_k8J"^^xsd:string ;
     ex:username "lebretonjules"^^xsd:string .
 
 ex:user_43 a ex:User ;
     ex:email "sjourdan@sfr.fr"^^xsd:string ;
     ex:hasOrder ex:order_142,
         ex:order_43 ;
+    ex:password "^bcgU9kYLk82"^^xsd:string ;
     ex:username "guilberteleonore"^^xsd:string .
 
 ex:user_430 a ex:User ;
     ex:email "arnaudelebrun@besnard.net"^^xsd:string ;
     ex:hasOrder ex:order_368 ;
+    ex:password "17LapqgM_N7v"^^xsd:string ;
     ex:username "roland29"^^xsd:string .
 
 ex:user_431 a ex:User ;
     ex:email "remy43@hotmail.fr"^^xsd:string ;
     ex:hasOrder ex:order_135 ;
+    ex:password "!6TKrGDy)Cr1"^^xsd:string ;
     ex:username "alix03"^^xsd:string .
 
 ex:user_432 a ex:User ;
     ex:email "michellelamy@alves.fr"^^xsd:string ;
     ex:hasOrder ex:order_174 ;
+    ex:password "@7R3nX92(%G@"^^xsd:string ;
     ex:username "weissclaire"^^xsd:string .
 
 ex:user_433 a ex:User ;
@@ -2579,16 +2950,19 @@ ex:user_433 a ex:User ;
         ex:review_250,
         ex:review_254,
         ex:review_79 ;
+    ex:password "xm*UZ1!s#Cg7"^^xsd:string ;
     ex:username "honore97"^^xsd:string .
 
 ex:user_434 a ex:User ;
     ex:email "josephmaury@orange.fr"^^xsd:string ;
     ex:hasOrder ex:order_240 ;
+    ex:password "q+&u)9SfQvFK"^^xsd:string ;
     ex:username "adrien57"^^xsd:string .
 
 ex:user_435 a ex:User ;
     ex:email "christine25@voila.fr"^^xsd:string ;
     ex:hasReview ex:review_153 ;
+    ex:password "_X9F^$&hWkWM"^^xsd:string ;
     ex:username "leclercalice"^^xsd:string .
 
 ex:user_436 a ex:User ;
@@ -2597,10 +2971,12 @@ ex:user_436 a ex:User ;
         ex:order_493,
         ex:order_54 ;
     ex:hasReview ex:review_226 ;
+    ex:password "Fw8ZRK_c#21K"^^xsd:string ;
     ex:username "edith64"^^xsd:string .
 
 ex:user_437 a ex:User ;
     ex:email "barthelemyalexandrie@gregoire.fr"^^xsd:string ;
+    ex:password "&Fbm#dY7MKT4"^^xsd:string ;
     ex:username "emmanuellefernandes"^^xsd:string .
 
 ex:user_438 a ex:User ;
@@ -2610,6 +2986,7 @@ ex:user_438 a ex:User ;
         ex:order_330,
         ex:order_62,
         ex:order_86 ;
+    ex:password "#U$7vRtkL2dS"^^xsd:string ;
     ex:username "wbruneau"^^xsd:string .
 
 ex:user_439 a ex:User ;
@@ -2618,6 +2995,7 @@ ex:user_439 a ex:User ;
         ex:order_439 ;
     ex:hasReview ex:review_123,
         ex:review_372 ;
+    ex:password "O)I^PfM5Ch0P"^^xsd:string ;
     ex:username "rolandgeorges"^^xsd:string .
 
 ex:user_44 a ex:User ;
@@ -2625,33 +3003,39 @@ ex:user_44 a ex:User ;
     ex:hasOrder ex:order_33 ;
     ex:hasReview ex:review_233,
         ex:review_295 ;
+    ex:password "q!Z_8ERmuUzP"^^xsd:string ;
     ex:username "genevieveleger"^^xsd:string .
 
 ex:user_440 a ex:User ;
     ex:email "rochergabrielle@bouygtel.fr"^^xsd:string ;
+    ex:password ")8Pes52tg&mZ"^^xsd:string ;
     ex:username "ilombard"^^xsd:string .
 
 ex:user_441 a ex:User ;
     ex:email "wremy@club-internet.fr"^^xsd:string ;
     ex:hasOrder ex:order_132,
         ex:order_7 ;
+    ex:password "^tcz%VOmi4KJ"^^xsd:string ;
     ex:username "rogeraimee"^^xsd:string .
 
 ex:user_442 a ex:User ;
     ex:email "ucharles@bruneau.fr"^^xsd:string ;
     ex:hasOrder ex:order_208,
         ex:order_64 ;
+    ex:password "+FpvTBdCx113"^^xsd:string ;
     ex:username "descampstristan"^^xsd:string .
 
 ex:user_443 a ex:User ;
     ex:email "benjaminmaury@mallet.com"^^xsd:string ;
     ex:hasOrder ex:order_22 ;
     ex:hasReview ex:review_296 ;
+    ex:password "!(AAQx&o6+72"^^xsd:string ;
     ex:username "bouvetdavid"^^xsd:string .
 
 ex:user_444 a ex:User ;
     ex:email "cecilevasseur@voila.fr"^^xsd:string ;
     ex:hasReview ex:review_11 ;
+    ex:password ")7UJ$Y*cUiMk"^^xsd:string ;
     ex:username "peltieredith"^^xsd:string .
 
 ex:user_445 a ex:User ;
@@ -2661,12 +3045,14 @@ ex:user_445 a ex:User ;
         ex:order_417 ;
     ex:hasReview ex:review_75,
         ex:review_95 ;
+    ex:password "To8d+7Ok(FT!"^^xsd:string ;
     ex:username "tlefevre"^^xsd:string .
 
 ex:user_446 a ex:User ;
     ex:email "parentgabriel@costa.net"^^xsd:string ;
     ex:hasReview ex:review_157,
         ex:review_330 ;
+    ex:password "s9jGej80!f!s"^^xsd:string ;
     ex:username "jerome61"^^xsd:string .
 
 ex:user_447 a ex:User ;
@@ -2677,23 +3063,27 @@ ex:user_447 a ex:User ;
         ex:order_61 ;
     ex:hasReview ex:review_107,
         ex:review_379 ;
+    ex:password "lxtv1Dz_E5r!"^^xsd:string ;
     ex:username "michelhamon"^^xsd:string .
 
 ex:user_448 a ex:User ;
     ex:email "eclement@yahoo.fr"^^xsd:string ;
     ex:hasReview ex:review_176,
         ex:review_289 ;
+    ex:password "4%DF1Ggv(L3!"^^xsd:string ;
     ex:username "tanguyastrid"^^xsd:string .
 
 ex:user_449 a ex:User ;
     ex:email "eleonoredescamps@schneider.com"^^xsd:string ;
     ex:hasOrder ex:order_253 ;
     ex:hasReview ex:review_60 ;
+    ex:password "v^U(93csSNM5"^^xsd:string ;
     ex:username "veroniquedelannoy"^^xsd:string .
 
 ex:user_45 a ex:User ;
     ex:email "marianneleclerc@ifrance.com"^^xsd:string ;
     ex:hasReview ex:review_397 ;
+    ex:password "skH8ZEkUVm!N"^^xsd:string ;
     ex:username "colettemasse"^^xsd:string .
 
 ex:user_450 a ex:User ;
@@ -2701,12 +3091,14 @@ ex:user_450 a ex:User ;
     ex:hasOrder ex:order_190,
         ex:order_204 ;
     ex:hasReview ex:review_142 ;
+    ex:password "r)wiIuffLH4D"^^xsd:string ;
     ex:username "eleonore26"^^xsd:string .
 
 ex:user_451 a ex:User ;
     ex:email "samsonalexandre@dbmail.com"^^xsd:string ;
     ex:hasReview ex:review_437,
         ex:review_490 ;
+    ex:password "C3W_VofJ86!6"^^xsd:string ;
     ex:username "martineaufrancois"^^xsd:string .
 
 ex:user_452 a ex:User ;
@@ -2714,6 +3106,7 @@ ex:user_452 a ex:User ;
     ex:hasOrder ex:order_104 ;
     ex:hasReview ex:review_161,
         ex:review_29 ;
+    ex:password "&ZrVSPnj8uo$"^^xsd:string ;
     ex:username "ameliesalmon"^^xsd:string .
 
 ex:user_453 a ex:User ;
@@ -2721,33 +3114,39 @@ ex:user_453 a ex:User ;
     ex:hasOrder ex:order_464,
         ex:order_84,
         ex:order_98 ;
+    ex:password ")4@2OdO%oWC2"^^xsd:string ;
     ex:username "gsalmon"^^xsd:string .
 
 ex:user_454 a ex:User ;
     ex:email "boulangercorinne@simon.com"^^xsd:string ;
     ex:hasReview ex:review_210,
         ex:review_409 ;
+    ex:password "9C^(+Vav&BA2"^^xsd:string ;
     ex:username "bourdonthierry"^^xsd:string .
 
 ex:user_455 a ex:User ;
     ex:email "huguesadam@renault.com"^^xsd:string ;
     ex:hasOrder ex:order_107 ;
+    ex:password "i!gvZw&VtE1x"^^xsd:string ;
     ex:username "dorotheebouvet"^^xsd:string .
 
 ex:user_456 a ex:User ;
     ex:email "margotaubert@hoarau.org"^^xsd:string ;
+    ex:password "k^eIxA8j(QY)"^^xsd:string ;
     ex:username "victor67"^^xsd:string .
 
 ex:user_457 a ex:User ;
     ex:email "dufourmargot@orange.fr"^^xsd:string ;
     ex:hasOrder ex:order_122 ;
     ex:hasReview ex:review_213 ;
+    ex:password "am6Tnh@T!vyJ"^^xsd:string ;
     ex:username "gilberthernandez"^^xsd:string .
 
 ex:user_458 a ex:User ;
     ex:email "danielemmanuel@noos.fr"^^xsd:string ;
     ex:hasOrder ex:order_375,
         ex:order_455 ;
+    ex:password "MSQJ7lre^%1Q"^^xsd:string ;
     ex:username "rogerveronique"^^xsd:string .
 
 ex:user_459 a ex:User ;
@@ -2755,25 +3154,30 @@ ex:user_459 a ex:User ;
     ex:hasOrder ex:order_176 ;
     ex:hasReview ex:review_106,
         ex:review_349 ;
+    ex:password "S17Qd*ye_SvK"^^xsd:string ;
     ex:username "claudine45"^^xsd:string .
 
 ex:user_46 a ex:User ;
     ex:email "nicolasroux@cousin.net"^^xsd:string ;
     ex:hasOrder ex:order_134 ;
+    ex:password "4WN6pvoB_X0p"^^xsd:string ;
     ex:username "bertrandmarchand"^^xsd:string .
 
 ex:user_460 a ex:User ;
     ex:email "epons@tele2.fr"^^xsd:string ;
+    ex:password "9c%t2(RT(J^R"^^xsd:string ;
     ex:username "laurebigot"^^xsd:string .
 
 ex:user_461 a ex:User ;
     ex:email "martelhortense@bouygtel.fr"^^xsd:string ;
     ex:hasOrder ex:order_103 ;
     ex:hasReview ex:review_178 ;
+    ex:password "iFJ9L7lxf(G!"^^xsd:string ;
     ex:username "margaretcarlier"^^xsd:string .
 
 ex:user_462 a ex:User ;
     ex:email "cecileclerc@tele2.fr"^^xsd:string ;
+    ex:password "#zbaZO$q3YtL"^^xsd:string ;
     ex:username "lleroy"^^xsd:string .
 
 ex:user_463 a ex:User ;
@@ -2781,6 +3185,7 @@ ex:user_463 a ex:User ;
     ex:hasOrder ex:order_156,
         ex:order_35,
         ex:order_468 ;
+    ex:password "U%6zkhn78O8L"^^xsd:string ;
     ex:username "paulmichele"^^xsd:string .
 
 ex:user_464 a ex:User ;
@@ -2788,12 +3193,14 @@ ex:user_464 a ex:User ;
     ex:hasReview ex:review_138,
         ex:review_139,
         ex:review_182 ;
+    ex:password "(Hqv9T9t$%%g"^^xsd:string ;
     ex:username "lecoqjulien"^^xsd:string .
 
 ex:user_465 a ex:User ;
     ex:email "audreysauvage@herve.com"^^xsd:string ;
     ex:hasOrder ex:order_397 ;
     ex:hasReview ex:review_135 ;
+    ex:password ")x8vJxRE6HYv"^^xsd:string ;
     ex:username "pauline45"^^xsd:string .
 
 ex:user_466 a ex:User ;
@@ -2801,17 +3208,20 @@ ex:user_466 a ex:User ;
     ex:hasOrder ex:order_386 ;
     ex:hasReview ex:review_187,
         ex:review_243 ;
+    ex:password "^2eZjIAsKAMc"^^xsd:string ;
     ex:username "mathildehamel"^^xsd:string .
 
 ex:user_467 a ex:User ;
     ex:email "laetitia45@guillet.org"^^xsd:string ;
     ex:hasOrder ex:order_321 ;
     ex:hasReview ex:review_435 ;
+    ex:password "Yv2SJaGTQ_uq"^^xsd:string ;
     ex:username "rtorres"^^xsd:string .
 
 ex:user_468 a ex:User ;
     ex:email "veronique73@germain.com"^^xsd:string ;
     ex:hasReview ex:review_353 ;
+    ex:password "&3Cj_WUhIFU$"^^xsd:string ;
     ex:username "margaretferreira"^^xsd:string .
 
 ex:user_469 a ex:User ;
@@ -2819,26 +3229,31 @@ ex:user_469 a ex:User ;
     ex:hasOrder ex:order_160,
         ex:order_371 ;
     ex:hasReview ex:review_71 ;
+    ex:password "kpe_AXl)+5hb"^^xsd:string ;
     ex:username "qmerle"^^xsd:string .
 
 ex:user_47 a ex:User ;
     ex:email "andre07@ifrance.com"^^xsd:string ;
     ex:hasReview ex:review_471 ;
+    ex:password "#6AQuUFIm!_p"^^xsd:string ;
     ex:username "fturpin"^^xsd:string .
 
 ex:user_470 a ex:User ;
     ex:email "aimefernandez@free.fr"^^xsd:string ;
+    ex:password "!mUCmNL0zt8w"^^xsd:string ;
     ex:username "carrepatricia"^^xsd:string .
 
 ex:user_471 a ex:User ;
     ex:email "blanchardbenjamin@dbmail.com"^^xsd:string ;
     ex:hasOrder ex:order_269 ;
     ex:hasReview ex:review_42 ;
+    ex:password "MeS8PVoIF_sq"^^xsd:string ;
     ex:username "berniersusanne"^^xsd:string .
 
 ex:user_472 a ex:User ;
     ex:email "capucinefischer@bonneau.fr"^^xsd:string ;
     ex:hasReview ex:review_474 ;
+    ex:password "qs!Gf6Tkl+&!"^^xsd:string ;
     ex:username "timothee62"^^xsd:string .
 
 ex:user_473 a ex:User ;
@@ -2847,6 +3262,7 @@ ex:user_473 a ex:User ;
         ex:order_238,
         ex:order_317,
         ex:order_402 ;
+    ex:password "$z5bqq2VB41U"^^xsd:string ;
     ex:username "ollivierceline"^^xsd:string .
 
 ex:user_474 a ex:User ;
@@ -2856,6 +3272,7 @@ ex:user_474 a ex:User ;
         ex:order_496,
         ex:order_8 ;
     ex:hasReview ex:review_174 ;
+    ex:password "yd$&dphv(C6L"^^xsd:string ;
     ex:username "gonzalezaudrey"^^xsd:string .
 
 ex:user_475 a ex:User ;
@@ -2864,18 +3281,21 @@ ex:user_475 a ex:User ;
         ex:review_292,
         ex:review_316,
         ex:review_441 ;
+    ex:password "Wd6RBU4r#+b&"^^xsd:string ;
     ex:username "henrithierry"^^xsd:string .
 
 ex:user_476 a ex:User ;
     ex:email "yevrard@free.fr"^^xsd:string ;
     ex:hasReview ex:review_225,
         ex:review_64 ;
+    ex:password "&g09#6X2Q_GO"^^xsd:string ;
     ex:username "jeanninepayet"^^xsd:string .
 
 ex:user_477 a ex:User ;
     ex:email "didiersusanne@orange.fr"^^xsd:string ;
     ex:hasReview ex:review_179,
         ex:review_219 ;
+    ex:password "W7Bf_!CU^dYY"^^xsd:string ;
     ex:username "fmichel"^^xsd:string .
 
 ex:user_478 a ex:User ;
@@ -2883,21 +3303,25 @@ ex:user_478 a ex:User ;
     ex:hasOrder ex:order_89 ;
     ex:hasReview ex:review_147,
         ex:review_3 ;
+    ex:password "(PhMx!6l6oTo"^^xsd:string ;
     ex:username "remyperrot"^^xsd:string .
 
 ex:user_479 a ex:User ;
     ex:email "vincent13@tiscali.fr"^^xsd:string ;
     ex:hasReview ex:review_246,
         ex:review_92 ;
+    ex:password "!1K07TKfBb8o"^^xsd:string ;
     ex:username "martineauemmanuelle"^^xsd:string .
 
 ex:user_48 a ex:User ;
     ex:email "guy59@laporte.net"^^xsd:string ;
+    ex:password "rX!vSux1UW96"^^xsd:string ;
     ex:username "celina44"^^xsd:string .
 
 ex:user_480 a ex:User ;
     ex:email "eguibert@wanadoo.fr"^^xsd:string ;
     ex:hasReview ex:review_46 ;
+    ex:password "+91bXkraAAYZ"^^xsd:string ;
     ex:username "alphonse68"^^xsd:string .
 
 ex:user_481 a ex:User ;
@@ -2906,12 +3330,14 @@ ex:user_481 a ex:User ;
         ex:order_324,
         ex:order_63 ;
     ex:hasReview ex:review_50 ;
+    ex:password "RtfNUiab+h7Z"^^xsd:string ;
     ex:username "legernicolas"^^xsd:string .
 
 ex:user_482 a ex:User ;
     ex:email "zmarchand@wanadoo.fr"^^xsd:string ;
     ex:hasOrder ex:order_153,
         ex:order_467 ;
+    ex:password "g*1MnusL^T1Y"^^xsd:string ;
     ex:username "diazalfred"^^xsd:string .
 
 ex:user_483 a ex:User ;
@@ -2919,15 +3345,18 @@ ex:user_483 a ex:User ;
     ex:hasReview ex:review_111,
         ex:review_159,
         ex:review_489 ;
+    ex:password "L&NrY5(opN5&"^^xsd:string ;
     ex:username "bouvierchantal"^^xsd:string .
 
 ex:user_484 a ex:User ;
     ex:email "anoukruiz@leconte.org"^^xsd:string ;
+    ex:password "%eP5ZLkJ93a@"^^xsd:string ;
     ex:username "sophiegaillard"^^xsd:string .
 
 ex:user_485 a ex:User ;
     ex:email "penelopegros@hotmail.fr"^^xsd:string ;
     ex:hasReview ex:review_255 ;
+    ex:password "KgV@m&&M^c5P"^^xsd:string ;
     ex:username "meunierhugues"^^xsd:string .
 
 ex:user_486 a ex:User ;
@@ -2936,6 +3365,7 @@ ex:user_486 a ex:User ;
         ex:order_85 ;
     ex:hasReview ex:review_103,
         ex:review_98 ;
+    ex:password "y0fnSHqj^9&T"^^xsd:string ;
     ex:username "ztanguy"^^xsd:string .
 
 ex:user_487 a ex:User ;
@@ -2943,12 +3373,14 @@ ex:user_487 a ex:User ;
     ex:hasOrder ex:order_347,
         ex:order_45 ;
     ex:hasReview ex:review_83 ;
+    ex:password "#FdpxMuY#8Up"^^xsd:string ;
     ex:username "richard71"^^xsd:string .
 
 ex:user_488 a ex:User ;
     ex:email "bmenard@sfr.fr"^^xsd:string ;
     ex:hasOrder ex:order_216 ;
     ex:hasReview ex:review_78 ;
+    ex:password "1b@+DQlj+@LY"^^xsd:string ;
     ex:username "paulbouvet"^^xsd:string .
 
 ex:user_489 a ex:User ;
@@ -2956,18 +3388,21 @@ ex:user_489 a ex:User ;
     ex:hasOrder ex:order_351 ;
     ex:hasReview ex:review_101,
         ex:review_87 ;
+    ex:password "2+WaIaBiT*6V"^^xsd:string ;
     ex:username "vramos"^^xsd:string .
 
 ex:user_49 a ex:User ;
     ex:email "camille18@gilbert.fr"^^xsd:string ;
     ex:hasOrder ex:order_383,
         ex:order_419 ;
+    ex:password "0CH5YoY_u&$Y"^^xsd:string ;
     ex:username "imahe"^^xsd:string .
 
 ex:user_490 a ex:User ;
     ex:email "jean29@hotmail.fr"^^xsd:string ;
     ex:hasOrder ex:order_23 ;
     ex:hasReview ex:review_264 ;
+    ex:password "E4xtSqnsB@!4"^^xsd:string ;
     ex:username "wlanglois"^^xsd:string .
 
 ex:user_491 a ex:User ;
@@ -2975,22 +3410,26 @@ ex:user_491 a ex:User ;
     ex:hasOrder ex:order_83 ;
     ex:hasReview ex:review_426,
         ex:review_5 ;
+    ex:password "eo&%iyzSSZ1Z"^^xsd:string ;
     ex:username "lucas85"^^xsd:string .
 
 ex:user_492 a ex:User ;
     ex:email "alexandriadijoux@ribeiro.org"^^xsd:string ;
     ex:hasOrder ex:order_185 ;
+    ex:password "fdSV!xuq(D4O"^^xsd:string ;
     ex:username "plaporte"^^xsd:string .
 
 ex:user_493 a ex:User ;
     ex:email "pmallet@maillet.com"^^xsd:string ;
     ex:hasReview ex:review_499,
         ex:review_66 ;
+    ex:password "i9Z#JOVTE_Sv"^^xsd:string ;
     ex:username "grosdorothee"^^xsd:string .
 
 ex:user_494 a ex:User ;
     ex:email "hdescamps@carlier.fr"^^xsd:string ;
     ex:hasOrder ex:order_334 ;
+    ex:password "_5vG3@Sptd4G"^^xsd:string ;
     ex:username "adelemarty"^^xsd:string .
 
 ex:user_495 a ex:User ;
@@ -2999,10 +3438,12 @@ ex:user_495 a ex:User ;
         ex:order_445 ;
     ex:hasReview ex:review_320,
         ex:review_72 ;
+    ex:password "1ZKekkCE_82P"^^xsd:string ;
     ex:username "pauletteparent"^^xsd:string .
 
 ex:user_496 a ex:User ;
     ex:email "hlejeune@maurice.com"^^xsd:string ;
+    ex:password "rlkOwC_g7)W!"^^xsd:string ;
     ex:username "qmillet"^^xsd:string .
 
 ex:user_497 a ex:User ;
@@ -3011,6 +3452,7 @@ ex:user_497 a ex:User ;
     ex:hasReview ex:review_420,
         ex:review_487,
         ex:review_86 ;
+    ex:password "ppjJB3LW%8J_"^^xsd:string ;
     ex:username "tchartier"^^xsd:string .
 
 ex:user_498 a ex:User ;
@@ -3019,6 +3461,7 @@ ex:user_498 a ex:User ;
     ex:hasReview ex:review_211,
         ex:review_27,
         ex:review_469 ;
+    ex:password "oa1OGpEG!NSt"^^xsd:string ;
     ex:username "bcharpentier"^^xsd:string .
 
 ex:user_499 a ex:User ;
@@ -3026,6 +3469,7 @@ ex:user_499 a ex:User ;
     ex:hasOrder ex:order_323,
         ex:order_470 ;
     ex:hasReview ex:review_205 ;
+    ex:password "$zyl%0JpU8H^"^^xsd:string ;
     ex:username "alfredlemaire"^^xsd:string .
 
 ex:user_5 a ex:User ;
@@ -3033,40 +3477,47 @@ ex:user_5 a ex:User ;
     ex:hasOrder ex:order_165 ;
     ex:hasReview ex:review_259,
         ex:review_96 ;
+    ex:password "!5^X+jSfqfJb"^^xsd:string ;
     ex:username "bseguin"^^xsd:string .
 
 ex:user_50 a ex:User ;
     ex:email "wcollet@voila.fr"^^xsd:string ;
     ex:hasOrder ex:order_308 ;
     ex:hasReview ex:review_267 ;
+    ex:password "t(93K)tQ*)&M"^^xsd:string ;
     ex:username "wrey"^^xsd:string .
 
 ex:user_500 a ex:User ;
     ex:email "aimee38@baudry.fr"^^xsd:string ;
     ex:hasOrder ex:order_79 ;
     ex:hasReview ex:review_52 ;
+    ex:password "e7Nxm9KIJOh^"^^xsd:string ;
     ex:username "marguerite16"^^xsd:string .
 
 ex:user_51 a ex:User ;
     ex:email "bouvetroger@bertin.fr"^^xsd:string ;
     ex:hasReview ex:review_257 ;
+    ex:password "HC$+gSiNZG8G"^^xsd:string ;
     ex:username "tdevaux"^^xsd:string .
 
 ex:user_52 a ex:User ;
     ex:email "fbernier@sfr.fr"^^xsd:string ;
     ex:hasOrder ex:order_424 ;
+    ex:password "%7H50eusvyzM"^^xsd:string ;
     ex:username "vincent69"^^xsd:string .
 
 ex:user_53 a ex:User ;
     ex:email "marquesvictor@club-internet.fr"^^xsd:string ;
     ex:hasOrder ex:order_141 ;
     ex:hasReview ex:review_163 ;
+    ex:password "vLZp8Rs))S%W"^^xsd:string ;
     ex:username "rollanderic"^^xsd:string .
 
 ex:user_54 a ex:User ;
     ex:email "alfred24@courtois.net"^^xsd:string ;
     ex:hasOrder ex:order_409 ;
     ex:hasReview ex:review_395 ;
+    ex:password "BJRH4tBp+S5_"^^xsd:string ;
     ex:username "ydeschamps"^^xsd:string .
 
 ex:user_55 a ex:User ;
@@ -3074,12 +3525,14 @@ ex:user_55 a ex:User ;
     ex:hasReview ex:review_283,
         ex:review_36,
         ex:review_45 ;
+    ex:password "w16JsWrg0MR&"^^xsd:string ;
     ex:username "xvoisin"^^xsd:string .
 
 ex:user_56 a ex:User ;
     ex:email "delmasrene@gilles.fr"^^xsd:string ;
     ex:hasOrder ex:order_71 ;
     ex:hasReview ex:review_25 ;
+    ex:password "Zg!G4GAfkxmw"^^xsd:string ;
     ex:username "valleeeric"^^xsd:string .
 
 ex:user_57 a ex:User ;
@@ -3088,22 +3541,26 @@ ex:user_57 a ex:User ;
         ex:order_202,
         ex:order_40 ;
     ex:hasReview ex:review_271 ;
+    ex:password "Y$MAGPc)#64T"^^xsd:string ;
     ex:username "caroline73"^^xsd:string .
 
 ex:user_58 a ex:User ;
     ex:email "francois43@barbe.fr"^^xsd:string ;
     ex:hasOrder ex:order_231 ;
+    ex:password "KWj7fdBbGVf$"^^xsd:string ;
     ex:username "nandre"^^xsd:string .
 
 ex:user_59 a ex:User ;
     ex:email "lebonjoseph@ollivier.com"^^xsd:string ;
     ex:hasReview ex:review_458 ;
+    ex:password "(#D7RRma$KpR"^^xsd:string ;
     ex:username "ferreiraelise"^^xsd:string .
 
 ex:user_6 a ex:User ;
     ex:email "francois45@tiscali.fr"^^xsd:string ;
     ex:hasOrder ex:order_180 ;
     ex:hasReview ex:review_424 ;
+    ex:password "&1HYqHgR$hgm"^^xsd:string ;
     ex:username "royeric"^^xsd:string .
 
 ex:user_60 a ex:User ;
@@ -3112,23 +3569,28 @@ ex:user_60 a ex:User ;
     ex:hasReview ex:review_122,
         ex:review_262,
         ex:review_394 ;
+    ex:password "_2fPwUlR)oe&"^^xsd:string ;
     ex:username "rdescamps"^^xsd:string .
 
 ex:user_61 a ex:User ;
     ex:email "le-galloceane@gmail.com"^^xsd:string ;
+    ex:password "Tx)E2KmtKXhX"^^xsd:string ;
     ex:username "michelpaul"^^xsd:string .
 
 ex:user_62 a ex:User ;
     ex:email "djoly@dbmail.com"^^xsd:string ;
+    ex:password "$I(2LoFxZrW)"^^xsd:string ;
     ex:username "charles25"^^xsd:string .
 
 ex:user_63 a ex:User ;
     ex:email "jeannineturpin@bouygtel.fr"^^xsd:string ;
     ex:hasOrder ex:order_175 ;
+    ex:password "&4SMZxe9MOd0"^^xsd:string ;
     ex:username "lalexandre"^^xsd:string .
 
 ex:user_64 a ex:User ;
     ex:email "edouardremy@robin.com"^^xsd:string ;
+    ex:password "EDwk5Dlx%!0c"^^xsd:string ;
     ex:username "deniseweiss"^^xsd:string .
 
 ex:user_65 a ex:User ;
@@ -3136,17 +3598,20 @@ ex:user_65 a ex:User ;
     ex:hasOrder ex:order_57 ;
     ex:hasReview ex:review_450,
         ex:review_492 ;
+    ex:password "#3xsG2EH@VF4"^^xsd:string ;
     ex:username "zoe94"^^xsd:string .
 
 ex:user_66 a ex:User ;
     ex:email "bbourdon@hotmail.fr"^^xsd:string ;
     ex:hasOrder ex:order_105 ;
     ex:hasReview ex:review_13 ;
+    ex:password "rCCciXuO$1U^"^^xsd:string ;
     ex:username "dufoursabine"^^xsd:string .
 
 ex:user_67 a ex:User ;
     ex:email "martheschmitt@gmail.com"^^xsd:string ;
     ex:hasReview ex:review_411 ;
+    ex:password "2$u&5NAkSce*"^^xsd:string ;
     ex:username "weissmarine"^^xsd:string .
 
 ex:user_68 a ex:User ;
@@ -3154,16 +3619,19 @@ ex:user_68 a ex:User ;
     ex:hasOrder ex:order_55 ;
     ex:hasReview ex:review_314,
         ex:review_467 ;
+    ex:password "Y+#RjYFb_8A7"^^xsd:string ;
     ex:username "philippeleroy"^^xsd:string .
 
 ex:user_69 a ex:User ;
     ex:email "maillotanne@orange.fr"^^xsd:string ;
+    ex:password "2)x4R1(Cxtkk"^^xsd:string ;
     ex:username "danielle80"^^xsd:string .
 
 ex:user_7 a ex:User ;
     ex:email "gimenezdanielle@club-internet.fr"^^xsd:string ;
     ex:hasOrder ex:order_228 ;
     ex:hasReview ex:review_464 ;
+    ex:password "((BgOA5o1k8J"^^xsd:string ;
     ex:username "cguichard"^^xsd:string .
 
 ex:user_70 a ex:User ;
@@ -3171,11 +3639,13 @@ ex:user_70 a ex:User ;
     ex:hasOrder ex:order_260 ;
     ex:hasReview ex:review_146,
         ex:review_324 ;
+    ex:password "l4PCcvM3)1Xe"^^xsd:string ;
     ex:username "nathalieboyer"^^xsd:string .
 
 ex:user_71 a ex:User ;
     ex:email "valletadelaide@chartier.net"^^xsd:string ;
     ex:hasOrder ex:order_500 ;
+    ex:password "Up@6yKd(&1!D"^^xsd:string ;
     ex:username "ericbazin"^^xsd:string .
 
 ex:user_72 a ex:User ;
@@ -3183,12 +3653,14 @@ ex:user_72 a ex:User ;
     ex:hasOrder ex:order_250,
         ex:order_365 ;
     ex:hasReview ex:review_69 ;
+    ex:password "r(39FE%j(&)A"^^xsd:string ;
     ex:username "ugallet"^^xsd:string .
 
 ex:user_73 a ex:User ;
     ex:email "margueritemoreno@live.com"^^xsd:string ;
     ex:hasReview ex:review_2,
         ex:review_231 ;
+    ex:password "Ush9Ui)Z@MKt"^^xsd:string ;
     ex:username "marionthibaut"^^xsd:string .
 
 ex:user_74 a ex:User ;
@@ -3196,6 +3668,7 @@ ex:user_74 a ex:User ;
     ex:hasOrder ex:order_272,
         ex:order_389 ;
     ex:hasReview ex:review_53 ;
+    ex:password ")rp25toZ(8Y3"^^xsd:string ;
     ex:username "sabinedupre"^^xsd:string .
 
 ex:user_75 a ex:User ;
@@ -3206,6 +3679,7 @@ ex:user_75 a ex:User ;
         ex:review_284,
         ex:review_333,
         ex:review_85 ;
+    ex:password "_9J7$LDhScfu"^^xsd:string ;
     ex:username "brunpauline"^^xsd:string .
 
 ex:user_76 a ex:User ;
@@ -3214,11 +3688,13 @@ ex:user_76 a ex:User ;
         ex:order_421,
         ex:order_99 ;
     ex:hasReview ex:review_155 ;
+    ex:password "HNtg9SBa&v_T"^^xsd:string ;
     ex:username "clambert"^^xsd:string .
 
 ex:user_77 a ex:User ;
     ex:email "rdumas@free.fr"^^xsd:string ;
     ex:hasOrder ex:order_428 ;
+    ex:password "f2COHxMz*B7f"^^xsd:string ;
     ex:username "idubois"^^xsd:string .
 
 ex:user_78 a ex:User ;
@@ -3226,12 +3702,14 @@ ex:user_78 a ex:User ;
     ex:hasOrder ex:order_299 ;
     ex:hasReview ex:review_340,
         ex:review_43 ;
+    ex:password "#PcYv6NwSbd8"^^xsd:string ;
     ex:username "dominique95"^^xsd:string .
 
 ex:user_79 a ex:User ;
     ex:email "frederiquethibault@petitjean.com"^^xsd:string ;
     ex:hasOrder ex:order_111 ;
     ex:hasReview ex:review_209 ;
+    ex:password "7)WsAn2f*P1P"^^xsd:string ;
     ex:username "roger78"^^xsd:string .
 
 ex:user_8 a ex:User ;
@@ -3240,6 +3718,7 @@ ex:user_8 a ex:User ;
     ex:hasReview ex:review_266,
         ex:review_370,
         ex:review_401 ;
+    ex:password "gj^WY8Qjz9Y5"^^xsd:string ;
     ex:username "therese77"^^xsd:string .
 
 ex:user_80 a ex:User ;
@@ -3247,10 +3726,12 @@ ex:user_80 a ex:User ;
     ex:hasOrder ex:order_285,
         ex:order_69 ;
     ex:hasReview ex:review_208 ;
+    ex:password "@$d2QJ+u4_jt"^^xsd:string ;
     ex:username "michelreynaud"^^xsd:string .
 
 ex:user_81 a ex:User ;
     ex:email "berthelotmarianne@bouchet.fr"^^xsd:string ;
+    ex:password "(gK9AS+yV%Qf"^^xsd:string ;
     ex:username "alexandria73"^^xsd:string .
 
 ex:user_82 a ex:User ;
@@ -3258,44 +3739,53 @@ ex:user_82 a ex:User ;
     ex:hasOrder ex:order_267,
         ex:order_355 ;
     ex:hasReview ex:review_167 ;
+    ex:password "*&zzbZ^y_4gx"^^xsd:string ;
     ex:username "vchevalier"^^xsd:string .
 
 ex:user_83 a ex:User ;
     ex:email "thomasmorel@laposte.net"^^xsd:string ;
     ex:hasOrder ex:order_58 ;
+    ex:password "d+1Pnul9_&7F"^^xsd:string ;
     ex:username "francoisnguyen"^^xsd:string .
 
 ex:user_84 a ex:User ;
     ex:email "leongros@laposte.net"^^xsd:string ;
     ex:hasReview ex:review_423 ;
+    ex:password "+2c*xOo@fNRE"^^xsd:string ;
     ex:username "claude96"^^xsd:string .
 
 ex:user_85 a ex:User ;
     ex:email "isaacallard@ifrance.com"^^xsd:string ;
     ex:hasOrder ex:order_247,
         ex:order_385 ;
+    ex:password "mX#50D@pLhqa"^^xsd:string ;
     ex:username "laurenteric"^^xsd:string .
 
 ex:user_86 a ex:User ;
     ex:email "xdeschamps@yahoo.fr"^^xsd:string ;
+    ex:password "jHtw+MqPX*3l"^^xsd:string ;
     ex:username "blanchardjacques"^^xsd:string .
 
 ex:user_87 a ex:User ;
     ex:email "pruvostolivie@gillet.org"^^xsd:string ;
     ex:hasReview ex:review_440 ;
+    ex:password "nWH*IuR3@u$5"^^xsd:string ;
     ex:username "alexandriapetit"^^xsd:string .
 
 ex:user_88 a ex:User ;
     ex:email "bernadettesalmon@ramos.fr"^^xsd:string ;
+    ex:password "xlz+5NSr%+mv"^^xsd:string ;
     ex:username "couturierclaire"^^xsd:string .
 
 ex:user_89 a ex:User ;
     ex:email "suzanne49@hotmail.fr"^^xsd:string ;
     ex:hasOrder ex:order_218 ;
+    ex:password "FmobKf8K(9mi"^^xsd:string ;
     ex:username "danielleclercq"^^xsd:string .
 
 ex:user_9 a ex:User ;
     ex:email "dorotheechauvin@allard.com"^^xsd:string ;
+    ex:password "*Zg#+kcHq3UN"^^xsd:string ;
     ex:username "nathalieriviere"^^xsd:string .
 
 ex:user_90 a ex:User ;
@@ -3305,12 +3795,14 @@ ex:user_90 a ex:User ;
         ex:order_477 ;
     ex:hasReview ex:review_286,
         ex:review_497 ;
+    ex:password "^2R_9$3gy9Z!"^^xsd:string ;
     ex:username "wagneradrienne"^^xsd:string .
 
 ex:user_91 a ex:User ;
     ex:email "emmanuelperrot@voila.fr"^^xsd:string ;
     ex:hasOrder ex:order_92 ;
     ex:hasReview ex:review_419 ;
+    ex:password "1LZ_e_y8v!UV"^^xsd:string ;
     ex:username "nathalie80"^^xsd:string .
 
 ex:user_92 a ex:User ;
@@ -3318,21 +3810,25 @@ ex:user_92 a ex:User ;
     ex:hasReview ex:review_186,
         ex:review_297,
         ex:review_350 ;
+    ex:password "#DW(SF4qy6IR"^^xsd:string ;
     ex:username "micheltheodore"^^xsd:string .
 
 ex:user_93 a ex:User ;
     ex:email "pierre18@noos.fr"^^xsd:string ;
+    ex:password ")Zz6kJIa+k1E"^^xsd:string ;
     ex:username "arnaude94"^^xsd:string .
 
 ex:user_94 a ex:User ;
     ex:email "veroniquenavarro@delorme.com"^^xsd:string ;
     ex:hasReview ex:review_402,
         ex:review_456 ;
+    ex:password "Yt2FA+PvlA#4"^^xsd:string ;
     ex:username "lelievrethierry"^^xsd:string .
 
 ex:user_95 a ex:User ;
     ex:email "cbreton@leleu.fr"^^xsd:string ;
     ex:hasOrder ex:order_427 ;
+    ex:password "!LVGWRb2zDh4"^^xsd:string ;
     ex:username "camilleadam"^^xsd:string .
 
 ex:user_96 a ex:User ;
@@ -3341,10 +3837,12 @@ ex:user_96 a ex:User ;
     ex:hasReview ex:review_202,
         ex:review_325,
         ex:review_84 ;
+    ex:password "1S!4hSiQs^g%"^^xsd:string ;
     ex:username "gosselinmarguerite"^^xsd:string .
 
 ex:user_97 a ex:User ;
     ex:email "gilbertbertrand@lacombe.net"^^xsd:string ;
+    ex:password "P5+%QnXICoOU"^^xsd:string ;
     ex:username "bazinvalentine"^^xsd:string .
 
 ex:user_98 a ex:User ;
@@ -3353,12 +3851,14 @@ ex:user_98 a ex:User ;
     ex:hasReview ex:review_119,
         ex:review_413,
         ex:review_48 ;
+    ex:password ")9NgSep2wt$2"^^xsd:string ;
     ex:username "marechaltristan"^^xsd:string .
 
 ex:user_99 a ex:User ;
     ex:email "albertjacques@guyon.org"^^xsd:string ;
     ex:hasOrder ex:order_224 ;
     ex:hasReview ex:review_481 ;
+    ex:password "&g!0&HWw&e&K"^^xsd:string ;
     ex:username "celinadumont"^^xsd:string .
 
 ex:order_1 a ex:Order ;

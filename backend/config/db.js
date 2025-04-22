@@ -20,12 +20,25 @@ const executeQuery = async (query, headers = {}) => {
                 }
             }
         );
-        return response.data.results.bindings;
+
+        // Gestion des différents types de réponses
+        if (response.data.boolean !== undefined) {
+            // Cas des requêtes ASK
+            return { boolean: response.data.boolean };
+        }
+
+        if (response.data.results?.bindings !== undefined) {
+            // Cas des requêtes SELECT
+            return { bindings: response.data.results.bindings };
+        }
+
+        throw new Error("Réponse SPARQL inattendue");
     } catch (error) {
-        console.error('SPARQL Query Error:', error);
+        console.error('SPARQL Query Error:', error.response?.data || error.message);
         throw error;
     }
 };
+
 
 const updateQuery = async (query) => {
     try {

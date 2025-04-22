@@ -3,15 +3,18 @@
 const { verifyToken } = require('../config/auth');
 
 const authMiddleware = (req, res, next) => {
-    const authHeader = req.get('Authorization');
-    if (!authHeader) {
+    const token = req.cookies.token;
+    if (!token) {
         return res.status(401).json({ message: 'Non authentifié' });
     }
     
-    const token = authHeader.split(' ')[1];
     try {
         const decodedToken = verifyToken(token);
-        req.userId = decodedToken.userId;
+        //console.log(decodedToken);
+        
+        req.userId = decodedToken.id;
+
+        
         next();
     } catch (error) {
         return res.status(401).json({ message: 'Token invalide' });

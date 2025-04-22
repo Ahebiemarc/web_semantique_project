@@ -2,3 +2,5 @@ backend/node_modules/
 backend/.env
 backend/scripts/conversion/data/
 backend/scripts/conversion/venv/
+
+frontend/e-commerce-front/node_modules/

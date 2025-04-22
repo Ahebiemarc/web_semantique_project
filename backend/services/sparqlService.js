@@ -13,8 +13,15 @@ class SparqlService {
     // Méthode générique pour exécuter des requêtes SELECT
     async selectQuery(query) {
         const fullQuery = PREFIXES + query;
-        return await executeQuery(fullQuery);
+        const result = await executeQuery(fullQuery);
+    
+        // Si c’est une requête ASK, retourne le booléen
+        if ('boolean' in result) return result.boolean;
+    
+        // Sinon retourne les bindings de SELECT
+        return result.bindings || [];
     }
+    
 
     // Méthode générique pour exécuter des requêtes UPDATE
     async updateQuery(query) {
@@ -48,6 +55,81 @@ class SparqlService {
         return await this.selectQuery(query);
     }
 
+
+    async getProductById(productId) {
+        const query = `
+        SELECT ?name ?price ?image ?categoryId WHERE {
+            ex:product_${productId} ex:productName ?name ;
+                                    ex:price ?price ;
+                                    ex:image ?image ;
+                                    ex:belongsToCategory ?category .
+            BIND(STRAFTER(STR(?category), "category_") AS ?categoryId)
+        }
+        `;
+        return await this.selectQuery(query);
+    }
+    
+
+
+    async getProductsByPriceLessThan(priceValue) {
+        const query = `
+        SELECT ?product ?name ?price ?image ?categoryId WHERE {
+            ?product a ex:Product ;
+                     ex:productName ?name ;
+                     ex:price ?price ;
+                     ex:image ?image ;
+                     ex:belongsToCategory ?category .
+    
+            BIND(STRAFTER(STR(?category), "category_") AS ?categoryId)
+    
+            FILTER(?price <= ${priceValue})
+        }
+        `;
+        return await this.selectQuery(query);
+    }
+
+
+    async getProductsByPriceGreaterThan(priceValue) {
+        const query = `
+        SELECT ?product ?name ?price ?image ?categoryId WHERE {
+            ?product a ex:Product ;
+                     ex:productName ?name ;
+                     ex:price ?price ;
+                     ex:image ?image ;
+                     ex:belongsToCategory ?category .
+    
+            BIND(STRAFTER(STR(?category), "category_") AS ?categoryId)
+    
+            FILTER(?price >= ${priceValue})
+        }
+        `;
+        return await this.selectQuery(query);
+    }
+
+    async getProductsByName(searchTerm) {
+        const words = searchTerm.trim().toLowerCase().split(/\s+/); // coupe par mot
+        const filters = words.map(
+            word => `CONTAINS(LCASE(?name), "${word}")`
+        ).join(' || '); // au moins un mot
+    
+        const query = `
+        SELECT ?product ?name ?price ?image ?categoryId WHERE {
+            ?product a ex:Product ;
+                     ex:productName ?name ;
+                     ex:price ?price ;
+                     ex:image ?image ;
+                     ex:belongsToCategory ?category .
+    
+            BIND(STRAFTER(STR(?category), "category_") AS ?categoryId)
+    
+            FILTER(${filters})
+        }
+        `;
+        return await this.selectQuery(query);
+    }
+    
+    
+
     // Ajouter un nouvel utilisateur
     async createUser(userData) {
         const { username, email, password } = userData;
@@ -65,6 +147,18 @@ class SparqlService {
         await this.updateQuery(query);
         return userId;
     }
+
+    async getUserById(userId) {
+        const query = `
+        SELECT ?username ?email WHERE {
+            ex:user_${userId} ex:username ?username ;
+                               ex:email ?email .
+        }
+        `;
+        const results = await this.selectQuery(query);
+        return results[0] || null;
+    }
+    
 
     // Enregistrer une commande
     async createOrder(userId, productId) {
