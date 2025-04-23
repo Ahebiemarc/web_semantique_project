@@ -32,6 +32,10 @@ const UserMenu: React.FC<UserMenuProps> = ({ user }) => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, []);
+
+
+  if (!user) return null;
+
   
   return (
     <div className="relative" ref={menuRef}>

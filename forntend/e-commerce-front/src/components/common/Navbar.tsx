@@ -40,8 +40,8 @@ const Navbar: React.FC = () => {
           </div>
           
           <div className="flex items-center">
-            {isAuthenticated ? (
-              <UserMenu user={user!} />
+            {isAuthenticated && user ? (
+              <UserMenu user={user} />
             ) : (
               <div className="flex space-x-4">
                 <Link to="/login" className="text-gray-500 hover:text-indigo-600">

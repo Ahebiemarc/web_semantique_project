@@ -14,7 +14,15 @@ const getProductById = async (req, res) => {
             return res.status(404).json({ message: "Produit non trouvé" });
         }
 
-        res.json(results[0]);
+
+        const product = results[0]
+
+        res.json({
+            name: product.name?.value,
+            price: product.price?.value,
+            image: product.image?.value,
+            categoryId: product.categoryId.value || null
+        });
     } catch (error) {
         console.error(error);
         res.status(500).json({ message: "Erreur lors de la récupération du produit" });
@@ -59,10 +67,12 @@ const getRecommendedProducts = async (req, res) => {
 
 
 const getRecommendedProductsScorePondere = async (req, res) => {
-    const { userId } = req.params;
 
-    console.log(req.userId);
-    
+
+    const userId = req.userId;
+
+    console.log(userId);
+
 
     try {
         const hybridResults = await recommenderService.getHybridRecommendations(userId);

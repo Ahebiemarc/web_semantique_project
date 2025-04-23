@@ -12,7 +12,7 @@ interface AuthContextType extends AuthState {
 export const AuthContext = createContext<AuthContextType>({
   user: null,
   isAuthenticated: false,
-  loading: false,
+  loading: true,
   error: null,
   login: async () => {},
   logout: async () => {},
@@ -26,7 +26,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const [authState, setAuthState] = useState<AuthState>({
     user: null,
     isAuthenticated: false,
-    loading: true,
+    loading: false,
     error: null,
   });
 
@@ -34,9 +34,11 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     const checkAuthStatus = async () => {
       try {
         const user = await getCurrentUser();
+        
+        
         setAuthState({
-          user: user,
-          isAuthenticated: true,
+          user,
+          isAuthenticated: !!user,
           loading: false,
           error: null,
         });
@@ -50,15 +52,15 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
       }
     };
 
-    checkAuthStatus();
-  }, []);
+    //checkAuthStatus();
+  }, [authState.isAuthenticated]);
 
   const login = async (credentials: LoginCredentials) => {
     setAuthState({ ...authState, loading: true, error: null });
     try {
       const response = await loginService(credentials);
       setAuthState({
-        user: response.user,
+        user: response,
         isAuthenticated: true,
         loading: false,
         error: null,

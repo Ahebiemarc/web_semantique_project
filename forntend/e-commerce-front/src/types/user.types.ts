@@ -4,7 +4,6 @@
     id: string;
     username: string;
     email: string;
-    preferences: UserPreferences;
   }
   
   export interface UserPreferences {

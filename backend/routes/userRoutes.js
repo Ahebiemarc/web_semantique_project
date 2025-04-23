@@ -6,6 +6,6 @@ const { showProfile } = require('../controllers/userController');
 
 const router = express.Router();
 
-router.get('/:id', authMiddleware, showProfile);
+router.get('/me', authMiddleware, showProfile);
 
 module.exports = router;

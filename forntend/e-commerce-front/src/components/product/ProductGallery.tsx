@@ -21,14 +21,14 @@ const ProductGallery: React.FC<ProductGalleryProps> = ({ product }) => {
     <div className="p-4">
       <div className="relative pb-[75%] mb-4 overflow-hidden rounded-lg bg-gray-100">
         <img
-          src={mainImage}
+          src={"https://m.media-amazon.com/images/I/61aYXeVRjZL._AC_UF1000,1000_QL80_.jpg"}
           alt={product.name}
           className="absolute inset-0 w-full h-full object-contain"
         />
       </div>
       
       <div className="grid grid-cols-4 gap-2">
-        {images.map((image, index) => (
+        {/*images.map((image, index) => (
           <button
             key={index}
             onClick={() => setMainImage(image)}
@@ -42,8 +42,22 @@ const ProductGallery: React.FC<ProductGalleryProps> = ({ product }) => {
               className="absolute inset-0 w-full h-full object-cover"
             />
           </button>
-        ))}
+        ))*/}
+        <button
+            key={product.categoryId}
+            onClick={() => setMainImage(product.image)}
+            className={`relative pb-[75%] overflow-hidden rounded border-2 ${
+              mainImage === product.image ? 'border-indigo-500' : 'border-transparent'
+            }`}
+          >
+            <img
+              src={"https://m.media-amazon.com/images/I/61aYXeVRjZL._AC_UF1000,1000_QL80_.jpg"}
+              alt={`${product.name} - View ${parseInt(product.categoryId) + 1}`}
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          </button>
       </div>
+
     </div>
   );
 };

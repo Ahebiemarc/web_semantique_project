@@ -9,9 +9,13 @@ import ProductReviews from '../components/product/ProductReviews';
 import RecommendedProducts from '../components/product/RecommendedProducts';
 import Loader from '../components/common/Loader';
 import Button from '../components/common/Button';
+import RecommendedProductsH from '../components/home/RecommendedProducts';
 
 const Product: React.FC = () => {
   const { id } = useParams<{ id: string }>();
+
+  console.log(id);
+  
   const navigate = useNavigate();
   const [product, setProduct] = useState<ProductType | null>(null);
   const [recommendedProducts, setRecommendedProducts] = useState<ProductType[]>([]);
@@ -26,9 +30,11 @@ const Product: React.FC = () => {
       try {
         const productData = await getProductById(id);
         setProduct(productData);
+        console.log(product);
+        
         
         // Fetch recommended products
-        const recommendations = await getRecommendedProducts(id);
+        const recommendations = await getRecommendedProducts();
         setRecommendedProducts(recommendations);
         
         setError(null);
@@ -98,12 +104,12 @@ const Product: React.FC = () => {
       </div>
       
       <div className="mt-12">
-        <ProductReviews reviews={product.reviews} />
+        {/*<ProductReviews reviews={product.reviews} />*/}
       </div>
       
       <div className="mt-16">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">Recommended for you</h2>
-        <RecommendedProducts products={recommendedProducts} />
+        {/*<h2 className="text-2xl font-bold text-gray-900 mb-6">Recommended for you</h2>
+        <RecommendedProductsH  />*/}
       </div>
     </div>
   );

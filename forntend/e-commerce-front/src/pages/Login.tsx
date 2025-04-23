@@ -20,6 +20,8 @@ const Login: React.FC = () => {
     e.preventDefault();
     
     try {
+      console.log(username, password);
+      
       await login({ username, password });
       navigate(from, { replace: true });
     } catch (err) {
@@ -63,14 +65,14 @@ const Login: React.FC = () => {
             
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                Email address
+                Username
               </label>
               <div className="mt-1">
                 <input
                   id="username"
                   name="username"
                   type="text"
-                  autoComplete="username"
+                  //autoComplete="username"
                   required
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}

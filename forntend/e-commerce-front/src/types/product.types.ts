@@ -2,12 +2,9 @@
 export interface Product {
     id: string;
     name: string;
-    price: number;
+    price: string;
     image: string;
-    categoryID: string;
-    rating: number;
-    stock: number;
-    reviews: Review[];
+    categoryId: string;
   }
   
   export interface Review {

@@ -4,8 +4,8 @@ const sparqlService = require('../services/sparqlService');
 
 
 const showProfile = async (req, res) => {
-    const { id } = req.params;
 
+    const id = req.userId
     try {
         const user = await sparqlService.getUserById(id);
 

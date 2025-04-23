@@ -11,12 +11,15 @@ const login = async (req, res) => {
 
     try {
         const query = `
-        SELECT ?id ?password WHERE {
+            SELECT ?id ?username ?password ?email  WHERE {
             ?id a ex:User ;
                 ex:username "${username}" ;
-                ex:password ?password .
-        }
-        `;
+                ex:password ?password ;
+                ex:email ?email ;
+                ex:username ?username .
+            }
+            `;
+
 
         const results = await sparqlService.selectQuery(query);
 
@@ -44,7 +47,13 @@ const login = async (req, res) => {
             maxAge: age
         });
 
-        res.json({ token, userId });
+        // ✅ Renvoi des données utilisateur
+        res.json({
+            id: userId,
+            username: user.username.value,
+            email: user.email.value,
+            token,
+        })
     } catch (error) {
         console.error(error);
         res.status(500).json({ message: "Erreur lors de l'authentification" });
@@ -87,4 +96,10 @@ const register = async (req, res) => {
     }
 };
 
-module.exports = { login, register };
+
+const logout = (req, res) =>{
+    // Code to log out a user goes here
+    res.clearCookie("token").status(200).json({message: "Logout successful"})
+}
+
+module.exports = { login, register, logout };

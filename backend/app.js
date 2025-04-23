@@ -12,11 +12,18 @@ const userRoutes = require('./routes/userRoutes');
 
 const app = express();
 
+
+const corsOptions = {
+    origin: 'http://localhost:5173', // Ton frontend
+    credentials: true,               // Permet les cookies
+};
+
 // Middleware
-app.use(cors());
+
+app.use(cors(corsOptions));
+  
 app.use(bodyParser.json());
 app.use(cookieParser());
-app.use(cors({credentials:true}));
 
 
 // Routes

@@ -6,10 +6,9 @@ import SearchBar from '../components/common/SearchBar';
 import ProductGrid from '../components/home/ProductGrid';
 import ProductFilters from '../components/home/ProductFilters';
 import Loader from '../components/common/Loader';
+import RecommendedProductsH from '../components/home/RecommendedProducts';
 
 const Home: React.FC = () => {
-
-    console.log('hom');
     
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
@@ -23,6 +22,9 @@ const Home: React.FC = () => {
       search(initialSearchQuery);
     }
   }, [initialSearchQuery]);
+
+ 
+  
   
   const handleSearch = (query: string) => {
     setSearchQuery(query);
@@ -75,6 +77,7 @@ const Home: React.FC = () => {
                   </p>
                 </div>
               )}
+              <RecommendedProductsH />
               <ProductGrid products={products} />
             </>
           )}

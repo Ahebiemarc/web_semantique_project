@@ -11,7 +11,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
   const [quantity, setQuantity] = useState(1);
   
   const increaseQuantity = () => {
-    if (quantity < product.stock) {
+    if (quantity < 10) {
       setQuantity(quantity + 1);
     }
   };
@@ -26,7 +26,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
     <div>
       <div className="mb-4">
         <span className="inline-block bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded-full">
-          {product.categoryID}
+          {product.categoryId}
         </span>
       </div>
       
@@ -38,7 +38,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
             <svg
               key={star}
               className={`w-5 h-5 ${
-                star <= Math.round(product.rating) ? 'text-yellow-400' : 'text-gray-300'
+                star <= Math.round(5) ? 'text-yellow-400' : 'text-gray-300'
               }`}
               fill="currentColor"
               viewBox="0 0 20 20"
@@ -48,10 +48,10 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
             </svg>
           ))}
         </div>
-        <span className="text-gray-600 ml-2">({product.reviews.length} reviews)</span>
+        <span className="text-gray-600 ml-2">({5} reviews)</span>
       </div>
       
-      <p className="text-3xl font-bold text-gray-900 mb-6">${product.price.toFixed(2)}</p>
+      <p className="text-3xl font-bold text-gray-900 mb-6">${parseFloat(product.price).toFixed(2)}</p>
       
       {/*<div className="mb-6">
         <p className="text-gray-700 leading-relaxed">{product.description}</p>
@@ -60,8 +60,8 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
       <div className="mb-6">
         <div className="flex items-center justify-between">
           <span className="text-sm font-medium text-gray-700">Availability:</span>
-          {product.stock > 0 ? (
-            <span className="text-sm text-green-600">In Stock ({product.stock} available)</span>
+          {10 > 0 ? (
+            <span className="text-sm text-green-600">In Stock ({10} available)</span>
           ) : (
             <span className="text-sm text-red-600">Out of Stock</span>
           )}
@@ -86,14 +86,14 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
             id="quantity"
             type="number"
             min="1"
-            max={product.stock}
+            max={10}
             value={quantity}
             onChange={(e) => setQuantity(parseInt(e.target.value, 10))}
             className="w-full text-center border-0 focus:ring-0"
           />
           <button
             onClick={increaseQuantity}
-            disabled={quantity >= product.stock}
+            disabled={quantity >= 10}
             className="px-3 py-2 text-gray-600 hover:text-gray-800 disabled:opacity-50"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -107,7 +107,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
         <Button
           variant="primary"
           className="flex-1 py-3"
-          disabled={product.stock <= 0}
+          disabled={10 <= 0}
         >
           Add to Cart
         </Button>

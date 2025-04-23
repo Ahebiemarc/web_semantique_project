@@ -14,7 +14,9 @@ export const useProducts = (initialFilters?: Record<string, any>) => {
       setLoading(true);
       try {
         const data = await getProducts(filters);
+        
         setProducts(data);
+        
         setError(null);
       } catch (error) {
         setError(error instanceof Error ? error.message : 'Failed to fetch products');
@@ -24,6 +26,7 @@ export const useProducts = (initialFilters?: Record<string, any>) => {
     };
 
     fetchProducts();
+
   }, [filters]);
 
   const search = async (query: string) => {
@@ -48,6 +51,7 @@ export const useProducts = (initialFilters?: Record<string, any>) => {
   const updateFilters = (newFilters: Record<string, any>) => {
     setFilters({ ...filters, ...newFilters });
   };
+
 
   return { products, loading, error, search, updateFilters };
 };
